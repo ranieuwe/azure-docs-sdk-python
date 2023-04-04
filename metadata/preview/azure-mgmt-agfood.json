@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-agfood",
-  "Version": "1.0.0a20230403001",
-  "DevVersion": "1.0.0a20230403001",
+  "Version": "1.0.0a20230404001",
+  "DevVersion": "1.0.0a20230404001",
   "DirectoryPath": "sdk/agfood/azure-mgmt-agfood",
   "ServiceDirectory": "agfood",
   "ReadMePath": "sdk/agfood/azure-mgmt-agfood/README.md",
