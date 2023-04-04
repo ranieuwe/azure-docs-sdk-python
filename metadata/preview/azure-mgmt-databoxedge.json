@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-databoxedge",
-  "Version": "2.0.0a20230403001",
-  "DevVersion": "2.0.0a20230403001",
+  "Version": "2.0.0a20230404001",
+  "DevVersion": "2.0.0a20230404001",
   "DirectoryPath": "sdk/databoxedge/azure-mgmt-databoxedge",
   "ServiceDirectory": "databoxedge",
   "ReadMePath": "sdk/databoxedge/azure-mgmt-databoxedge/README.md",
