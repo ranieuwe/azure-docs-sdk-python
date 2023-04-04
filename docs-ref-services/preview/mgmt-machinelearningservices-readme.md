@@ -3,7 +3,7 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-machinelearningservices, machinelearning
 author: lmazuel
 ms.author: lmazuel
-ms.date: 11/21/2022
+ms.date: 04/04/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: machinelearning
