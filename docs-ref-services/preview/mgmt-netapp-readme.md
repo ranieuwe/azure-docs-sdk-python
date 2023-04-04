@@ -3,10 +3,10 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-netapp, netapp
 author: lmazuel
 ms.author: lmazuel
-ms.date: 02/16/2023
+ms.date: 04/04/2023
 ms.topic: reference
 ms.devlang: python
-ms.service: azure-netapp-files
+ms.service: netapp
 ---
 # Microsoft Azure SDK for Python
 
