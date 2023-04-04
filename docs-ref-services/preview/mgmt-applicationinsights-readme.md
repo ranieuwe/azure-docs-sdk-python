@@ -1,12 +1,12 @@
 ---
 title: 
-keywords: Azure, python, SDK, API, azure-mgmt-applicationinsights, applicationinsights
+keywords: Azure, python, SDK, API, azure-mgmt-applicationinsights, azure-monitor
 author: lmazuel
 ms.author: lmazuel
-ms.date: 02/14/2023
+ms.date: 04/04/2023
 ms.topic: reference
 ms.devlang: python
-ms.service: application-insights
+ms.service: azure-monitor
 ---
 # Microsoft Azure SDK for Python
 
