@@ -3186,6 +3186,36 @@
         "sample*",
         "doc*"
       ]
+    },
+    {
+      "package_info": {
+        "name": "azure-search-nspkg",
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "version": "==1.0.0",
+        "extra_index_url": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple/"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "name": "azure-mgmt-loadtestservice",
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "version": "==1.0.0",
+        "extra_index_url": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple/"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
     }
   ],
   "required_packages": [
