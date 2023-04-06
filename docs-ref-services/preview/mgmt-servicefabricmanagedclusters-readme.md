@@ -1,9 +1,9 @@
 ---
 title: 
 keywords: Azure, python, SDK, API, azure-mgmt-servicefabricmanagedclusters, servicefabricmanagedclusters
-author: QingChenmsft
-ms.author: QingChenmsft
-ms.date: 12/28/2022
+author: lmazuel
+ms.author: lmazuel
+ms.date: 04/06/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: servicefabricmanagedclusters
