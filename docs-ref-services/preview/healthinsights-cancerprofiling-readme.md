@@ -3,12 +3,12 @@ title: Azure Cognitive Services Health Insights Cancer Profiling client library 
 keywords: Azure, python, SDK, API, azure-healthinsights-cancerprofiling, healthinsights
 author: lmazuel
 ms.author: lmazuel
-ms.date: 04/04/2023
+ms.date: 04/07/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: healthinsights
 ---
-# Azure Cognitive Services Health Insights Cancer Profiling client library for Python - version 1.0.0b1 
+# Azure Cognitive Services Health Insights Cancer Profiling client library for Python - version 1.0.0a20230406001 
 
 
 [Health Insights](https://review.learn.microsoft.com/azure/azure-health-insights/?branch=release-azure-health-insights) is an Azure Applied AI Service built with the Azure Cognitive Services Framework, that leverages multiple Cognitive Services, Healthcare API services and other Azure resources.
@@ -307,9 +307,9 @@ additional questions or comments.
 [azure_cli]: https://learn.microsoft.com/cli/azure/
 [cancer_profiling_docs]: https://review.learn.microsoft.com/azure/cognitive-services/health-decision-support/oncophenotype/overview?branch=main
 [cancer_profiling_api_documentation]: https://review.learn.microsoft.com/rest/api/cognitiveservices/healthinsights/onco-phenotype?branch=healthin202303
-<!-- [hi_pypi]: https://pypi.org/project/azure-healthinsights-cancerprofiling/ -->
+[hi_pypi]: https://pypi.org/project/azure-healthinsights-cancerprofiling/
 [hi_pypi]: https://pypi.org/
 [product_docs]:https://review.learn.microsoft.com/azure/cognitive-services/health-decision-support/oncophenotype/?branch=main
-[hi_samples]: https://github.com/Azure/azure-sdk-for-python/blob/azure-healthinsights-cancerprofiling_1.0.0b1/sdk/healthinsights/azure-healthinsights-cancerprofiling/samples
-[hi_source_code]: https://github.com/Azure/azure-sdk-for-python/blob/azure-healthinsights-cancerprofiling_1.0.0b1/sdk/healthinsights/azure-healthinsights-cancerprofiling/azure/healthinsights/cancerprofiling
+[hi_samples]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/healthinsights/azure-healthinsights-cancerprofiling/samples
+[hi_source_code]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/healthinsights/azure-healthinsights-cancerprofiling/azure/healthinsights/cancerprofiling
 
