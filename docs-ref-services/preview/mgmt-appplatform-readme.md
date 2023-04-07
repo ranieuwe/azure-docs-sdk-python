@@ -3,10 +3,10 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-appplatform, appplatform
 author: lmazuel
 ms.author: lmazuel
-ms.date: 02/14/2023
+ms.date: 04/07/2023
 ms.topic: reference
 ms.devlang: python
-ms.service: azure-python
+ms.service: appplatform
 ---
 # Microsoft Azure SDK for Python
 
