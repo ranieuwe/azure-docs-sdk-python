@@ -3,7 +3,7 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-eventhub, eventhub
 author: annatisch
 ms.author: antisch
-ms.date: 02/14/2023
+ms.date: 04/07/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: eventhub
