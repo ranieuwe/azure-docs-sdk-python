@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-appplatform",
-  "Version": "8.0.0b1",
-  "DevVersion": null,
+  "Version": "8.0.0a20230410001",
+  "DevVersion": "8.0.0a20230410001",
   "DirectoryPath": "sdk/appplatform/azure-mgmt-appplatform",
   "ServiceDirectory": "appplatform",
   "ReadMePath": "sdk/appplatform/azure-mgmt-appplatform/README.md",
