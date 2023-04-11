@@ -3,7 +3,7 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-devcenter, devcenter
 author: lmazuel
 ms.author: lmazuel
-ms.date: 11/24/2022
+ms.date: 04/11/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: devcenter
