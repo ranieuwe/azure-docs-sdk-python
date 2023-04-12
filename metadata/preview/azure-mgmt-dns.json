@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-dns",
-  "Version": "8.1.0b1",
-  "DevVersion": null,
+  "Version": "8.1.0a20230412001",
+  "DevVersion": "8.1.0a20230412001",
   "DirectoryPath": "sdk/network/azure-mgmt-dns",
   "ServiceDirectory": "network",
   "ReadMePath": "sdk/network/azure-mgmt-dns/README.md",
