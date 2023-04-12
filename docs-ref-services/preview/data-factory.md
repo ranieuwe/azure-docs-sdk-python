@@ -7,9 +7,9 @@ ms.data: 04/12/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: datafactory
-manager: angerobe
 ms.technology: azure
 ms.date: 05/10/2018
+manager: angerobe
 ---
 # Azure Data Factory libraries for Python
 

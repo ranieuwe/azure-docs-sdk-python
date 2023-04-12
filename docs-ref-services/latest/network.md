@@ -7,10 +7,10 @@ ms.data: 04/12/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: network
-keywords: Azure, python, SDK, API, Network
-manager: douge
 ms.technology: azure
 ms.date: 07/10/2017
+keywords: Azure, python, SDK, API, Network
+manager: douge
 ---
 # Azure Network libraries for python
 
