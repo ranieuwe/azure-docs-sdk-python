@@ -3,10 +3,10 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-dns, network
 author: lmazuel
 ms.author: lmazuel
-ms.date: 02/13/2023
+ms.date: 04/13/2023
 ms.topic: reference
 ms.devlang: python
-ms.service: dns
+ms.service: network
 ---
 # Microsoft Azure SDK for Python
 
