@@ -856,8 +856,8 @@ methods:
 
 
     The blob need not already exist.'
-  signature: 'get_blob_client(blob: BlobProperties | str, snapshot: str = None) ->
-    BlobClient'
+  signature: 'get_blob_client(blob: BlobProperties | str, snapshot: str | None = None)
+    -> BlobClient'
   parameters:
   - name: blob
     description: The blob with which to interact.

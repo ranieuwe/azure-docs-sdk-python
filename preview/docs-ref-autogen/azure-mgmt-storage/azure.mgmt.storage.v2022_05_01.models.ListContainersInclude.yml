@@ -5,8 +5,7 @@ fullName: azure.mgmt.storage.v2022_05_01.models.ListContainersInclude
 summary: ListContainersInclude.
 module: azure.mgmt.storage.v2022_05_01.models
 constructor:
-  syntax: ListContainersInclude(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ListContainersInclude(value)
 inheritances:
 - builtins.str
 - enum.Enum

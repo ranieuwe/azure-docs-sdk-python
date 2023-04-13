@@ -6,8 +6,7 @@ summary: Turning this on will apply the reservation discount to other VMs in the
   VM size group.
 module: azure.mgmt.billingbenefits.models
 constructor:
-  syntax: InstanceFlexibility(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: InstanceFlexibility(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -6,8 +6,7 @@ summary: Describes if the entity is the subject of the text or if it describes s
   else.
 module: azure.ai.textanalytics
 constructor:
-  syntax: EntityAssociation(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EntityAssociation(value)
 inheritances:
 - builtins.str
 - enum.Enum

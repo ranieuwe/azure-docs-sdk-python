@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicessiterecovery.models.MigrationItemOperation
 summary: MigrationItemOperation.
 module: azure.mgmt.recoveryservicessiterecovery.models
 constructor:
-  syntax: MigrationItemOperation(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MigrationItemOperation(value)
 inheritances:
 - builtins.str
 - enum.Enum

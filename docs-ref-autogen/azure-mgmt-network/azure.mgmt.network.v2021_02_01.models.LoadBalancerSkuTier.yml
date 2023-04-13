@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2021_02_01.models.LoadBalancerSkuTier
 summary: Tier of a load balancer SKU.
 module: azure.mgmt.network.v2021_02_01.models
 constructor:
-  syntax: LoadBalancerSkuTier(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LoadBalancerSkuTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

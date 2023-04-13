@@ -5,8 +5,7 @@ fullName: azure.mgmt.web.v2020_12_01.models.DomainStatus
 summary: Domain registration status.
 module: azure.mgmt.web.v2020_12_01.models
 constructor:
-  syntax: DomainStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DomainStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

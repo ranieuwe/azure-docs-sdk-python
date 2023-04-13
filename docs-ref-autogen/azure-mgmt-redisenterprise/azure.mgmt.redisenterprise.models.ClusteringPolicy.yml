@@ -5,8 +5,7 @@ fullName: azure.mgmt.redisenterprise.models.ClusteringPolicy
 summary: Clustering policy - default is OSSCluster. Specified at create time.
 module: azure.mgmt.redisenterprise.models
 constructor:
-  syntax: ClusteringPolicy(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ClusteringPolicy(value)
 inheritances:
 - builtins.str
 - enum.Enum

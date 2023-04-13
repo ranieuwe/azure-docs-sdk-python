@@ -5,8 +5,7 @@ fullName: azure.healthinsights.cancerprofiling.models.RepeatabilityResultType
 summary: Type of RepeatabilityResultType.
 module: azure.healthinsights.cancerprofiling.models
 constructor:
-  syntax: RepeatabilityResultType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RepeatabilityResultType(value)
 inheritances:
 - builtins.str
 - enum.Enum

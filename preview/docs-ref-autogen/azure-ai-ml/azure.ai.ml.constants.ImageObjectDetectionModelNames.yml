@@ -5,8 +5,7 @@ fullName: azure.ai.ml.constants.ImageObjectDetectionModelNames
 summary: Model names that are supported for Image Object Detection tasks.
 module: azure.ai.ml.constants
 constructor:
-  syntax: ImageObjectDetectionModelNames(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ImageObjectDetectionModelNames(value)
 inheritances:
 - enum.Enum
 fields:

@@ -8,8 +8,7 @@ summary: 'the types of identities associated with this resource; currently restr
   and UserAssigned''.'
 module: azure.mgmt.rdbms.postgresql_flexibleservers.models
 constructor:
-  syntax: IdentityType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: IdentityType(value)
 inheritances:
 - builtins.str
 - enum.Enum

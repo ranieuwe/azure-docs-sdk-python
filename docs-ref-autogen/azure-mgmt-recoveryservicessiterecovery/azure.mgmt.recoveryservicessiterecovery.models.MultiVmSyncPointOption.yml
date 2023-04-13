@@ -8,8 +8,7 @@ summary: 'A value indicating whether multi VM sync enabled VMs should use multi 
   failover.'
 module: azure.mgmt.recoveryservicessiterecovery.models
 constructor:
-  syntax: MultiVmSyncPointOption(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MultiVmSyncPointOption(value)
 inheritances:
 - builtins.str
 - enum.Enum

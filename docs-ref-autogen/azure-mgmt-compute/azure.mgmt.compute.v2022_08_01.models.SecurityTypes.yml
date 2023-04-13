@@ -10,8 +10,7 @@ summary: 'Specifies the SecurityType of the virtual machine. It has to be set to
   this property is set.'
 module: azure.mgmt.compute.v2022_08_01.models
 constructor:
-  syntax: SecurityTypes(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SecurityTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

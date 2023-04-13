@@ -5,8 +5,7 @@ fullName: azure.mgmt.healthcareapis.models.FhirServiceKind
 summary: The kind of the service.
 module: azure.mgmt.healthcareapis.models
 constructor:
-  syntax: FhirServiceKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: FhirServiceKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

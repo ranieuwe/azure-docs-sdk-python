@@ -94,7 +94,7 @@ methods:
 
     Description for Move an App Service Environment to a different VNET.'
   signature: 'async begin_change_vnet(resource_group_name: str, name: str, vnet_info:
-    VirtualNetworkProfile, **kwargs: Any) -> AsyncLROPoller[AsyncItemPaged[WebAppCollection]]'
+    VirtualNetworkProfile, **kwargs: Any) -> AsyncLROPoller[AsyncItemPaged[_models.WebAppCollection]]'
   parameters:
   - name: resource_group_name
     description: Name of the resource group to which the resource belongs.
@@ -413,7 +413,7 @@ methods:
 
     Description for Resume an App Service Environment.'
   signature: 'async begin_resume(resource_group_name: str, name: str, **kwargs: Any)
-    -> AsyncLROPoller[AsyncItemPaged[WebAppCollection]]'
+    -> AsyncLROPoller[AsyncItemPaged[_models.WebAppCollection]]'
   parameters:
   - name: resource_group_name
     description: Name of the resource group to which the resource belongs.
@@ -460,7 +460,7 @@ methods:
 
     Description for Suspend an App Service Environment.'
   signature: 'async begin_suspend(resource_group_name: str, name: str, **kwargs: Any)
-    -> AsyncLROPoller[AsyncItemPaged[WebAppCollection]]'
+    -> AsyncLROPoller[AsyncItemPaged[_models.WebAppCollection]]'
   parameters:
   - name: resource_group_name
     description: Name of the resource group to which the resource belongs.
@@ -1596,4 +1596,4 @@ methods:
 attributes:
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.AppServiceEnvironmentsOperations.models
   name: models
-  signature: models = <module 'azure.mgmt.web.v2021_01_01.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.11.2\\x64\\Lib\\site-packages\\azure\\mgmt\\web\\v2021_01_01\\models\\__init__.py'>
+  signature: models = <module 'azure.mgmt.web.v2021_01_01.models' from 'C:\\hostedtoolcache\\windows\\Python\\3.9.13\\x64\\lib\\site-packages\\azure\\mgmt\\web\\v2021_01_01\\models\\__init__.py'>

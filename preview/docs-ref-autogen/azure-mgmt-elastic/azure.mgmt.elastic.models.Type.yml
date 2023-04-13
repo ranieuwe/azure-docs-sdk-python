@@ -5,8 +5,7 @@ fullName: azure.mgmt.elastic.models.Type
 summary: Type of the elastic filter.
 module: azure.mgmt.elastic.models
 constructor:
-  syntax: Type(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Type(value)
 inheritances:
 - builtins.str
 - enum.Enum

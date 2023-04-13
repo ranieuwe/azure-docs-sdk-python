@@ -6,8 +6,7 @@ summary: Specifies whether data in the file system may be accessed publicly and 
   level of access.
 module: azure.storage.filedatalake
 constructor:
-  syntax: PublicAccess(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PublicAccess(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2022_05_01.models.ConfigurationType
 summary: Configuration Deployment Type.
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: ConfigurationType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConfigurationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -8,8 +8,7 @@ summary: 'the dimension operator. Only ''Equals'' and ''NotEquals'' are supporte
   any of the values. ''NotEquals'' being not equal to all of the values.'
 module: azure.mgmt.monitor.v2021_05_01_preview.models
 constructor:
-  syntax: ScaleRuleMetricDimensionOperationType(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: ScaleRuleMetricDimensionOperationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

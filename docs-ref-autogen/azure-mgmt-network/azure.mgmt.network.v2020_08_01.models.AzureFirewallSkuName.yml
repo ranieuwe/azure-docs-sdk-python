@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2020_08_01.models.AzureFirewallSkuName
 summary: Name of an Azure Firewall SKU.
 module: azure.mgmt.network.v2020_08_01.models
 constructor:
-  syntax: AzureFirewallSkuName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AzureFirewallSkuName(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -14,8 +14,7 @@ summary: 'Value may be JobStartTime, CustomTime, or LastOutputEventTime to indic
   time.'
 module: azure.mgmt.streamanalytics.models
 constructor:
-  syntax: OutputStartMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OutputStartMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

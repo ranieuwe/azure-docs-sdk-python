@@ -7,7 +7,7 @@ inheritances:
 - msrest.serialization.Model
 summary: JsonChild.
 constructor:
-  syntax: 'JsonChild(*, name: str = None, instance_of: str = None, children=None,
+  syntax: 'JsonChild(*, name: str | None = None, instance_of: str | None = None, children=None,
     features=None, **kwargs)'
   parameters:
   - name: name

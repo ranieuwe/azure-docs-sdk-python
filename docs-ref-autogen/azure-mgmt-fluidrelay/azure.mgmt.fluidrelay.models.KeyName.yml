@@ -5,8 +5,7 @@ fullName: azure.mgmt.fluidrelay.models.KeyName
 summary: The key to regenerate.
 module: azure.mgmt.fluidrelay.models
 constructor:
-  syntax: KeyName(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: KeyName(value)
 inheritances:
 - builtins.str
 - enum.Enum

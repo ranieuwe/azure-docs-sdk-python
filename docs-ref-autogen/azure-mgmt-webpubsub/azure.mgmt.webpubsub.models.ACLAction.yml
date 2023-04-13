@@ -5,8 +5,7 @@ fullName: azure.mgmt.webpubsub.models.ACLAction
 summary: Azure Networking ACL Action.
 module: azure.mgmt.webpubsub.models
 constructor:
-  syntax: ACLAction(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: ACLAction(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2022_05_01.models.FirewallPolicyIDPSQuerySortOrder
 summary: Describes if results should be in ascending/descending order.
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: FirewallPolicyIDPSQuerySortOrder(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: FirewallPolicyIDPSQuerySortOrder(value)
 inheritances:
 - builtins.str
 - enum.Enum

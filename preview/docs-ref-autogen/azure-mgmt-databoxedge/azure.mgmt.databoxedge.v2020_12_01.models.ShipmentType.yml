@@ -5,8 +5,7 @@ fullName: azure.mgmt.databoxedge.v2020_12_01.models.ShipmentType
 summary: ShipmentType.
 module: azure.mgmt.databoxedge.v2020_12_01.models
 constructor:
-  syntax: ShipmentType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ShipmentType(value)
 inheritances:
 - builtins.str
 - enum.Enum

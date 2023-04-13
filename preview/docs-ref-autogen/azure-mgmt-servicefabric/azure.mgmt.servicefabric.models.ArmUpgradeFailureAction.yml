@@ -5,8 +5,7 @@ fullName: azure.mgmt.servicefabric.models.ArmUpgradeFailureAction
 summary: The activation Mode of the service package.
 module: azure.mgmt.servicefabric.models
 constructor:
-  syntax: ArmUpgradeFailureAction(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ArmUpgradeFailureAction(value)
 inheritances:
 - builtins.str
 - enum.Enum

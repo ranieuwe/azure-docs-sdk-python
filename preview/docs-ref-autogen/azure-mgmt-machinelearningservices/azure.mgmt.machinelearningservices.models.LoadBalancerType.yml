@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.LoadBalancerType
 summary: Load Balancer Type.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: LoadBalancerType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LoadBalancerType(value)
 inheritances:
 - builtins.str
 - enum.Enum

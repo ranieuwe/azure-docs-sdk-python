@@ -13,8 +13,9 @@ summary: 'A pipeline implementation.
 
   of the HTTP sender.'
 constructor:
-  syntax: 'AsyncPipeline(policies: List[AsyncHTTPPolicy | SansIOHTTPPolicy] = None,
-    sender: AsyncHTTPSender[HTTPRequestType, AsyncHTTPResponseType] | None = None)'
+  syntax: 'AsyncPipeline(policies: List[AsyncHTTPPolicy | SansIOHTTPPolicy] | None
+    = None, sender: AsyncHTTPSender[HTTPRequestType, AsyncHTTPResponseType] | None
+    = None)'
   parameters:
   - name: policies
     defaultValue: None

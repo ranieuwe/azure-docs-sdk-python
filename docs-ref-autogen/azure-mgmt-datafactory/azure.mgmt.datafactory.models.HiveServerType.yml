@@ -5,8 +5,7 @@ fullName: azure.mgmt.datafactory.models.HiveServerType
 summary: The type of Hive server.
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: HiveServerType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: HiveServerType(value)
 inheritances:
 - builtins.str
 - enum.Enum

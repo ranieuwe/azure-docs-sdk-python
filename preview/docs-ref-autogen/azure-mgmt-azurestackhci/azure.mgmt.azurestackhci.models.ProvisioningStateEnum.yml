@@ -5,8 +5,7 @@ fullName: azure.mgmt.azurestackhci.models.ProvisioningStateEnum
 summary: Provisioning state of the gallery image.
 module: azure.mgmt.azurestackhci.models
 constructor:
-  syntax: ProvisioningStateEnum(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ProvisioningStateEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

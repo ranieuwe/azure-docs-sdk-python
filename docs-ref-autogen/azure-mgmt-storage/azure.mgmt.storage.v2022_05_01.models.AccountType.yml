@@ -5,8 +5,7 @@ fullName: azure.mgmt.storage.v2022_05_01.models.AccountType
 summary: Specifies the Active Directory account type for Azure Storage.
 module: azure.mgmt.storage.v2022_05_01.models
 constructor:
-  syntax: AccountType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AccountType(value)
 inheritances:
 - builtins.str
 - enum.Enum

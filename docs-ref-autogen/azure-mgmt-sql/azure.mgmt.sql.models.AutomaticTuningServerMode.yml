@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.AutomaticTuningServerMode
 summary: Automatic tuning desired state.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: AutomaticTuningServerMode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AutomaticTuningServerMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

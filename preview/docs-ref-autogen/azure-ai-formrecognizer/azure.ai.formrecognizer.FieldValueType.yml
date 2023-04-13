@@ -8,8 +8,7 @@ summary: 'Semantic data type of the field value.
   New in version v2.1: The *selectionMark* and *countryRegion* values'
 module: azure.ai.formrecognizer
 constructor:
-  syntax: FieldValueType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: FieldValueType(value)
 inheritances:
 - builtins.str
 - enum.Enum

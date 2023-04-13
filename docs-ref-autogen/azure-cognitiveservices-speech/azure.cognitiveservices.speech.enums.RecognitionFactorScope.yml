@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.enums.RecognitionFactorScope
 summary: Defines the scope that a Recognition Factor is applied to.
 module: azure.cognitiveservices.speech.enums
 constructor:
-  syntax: RecognitionFactorScope(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RecognitionFactorScope(value)
 inheritances:
 - enum.Enum
 fields:

@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.DeliveryRuleActionEnum
 summary: The name of the action for the delivery rule.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: DeliveryRuleActionEnum(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DeliveryRuleActionEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

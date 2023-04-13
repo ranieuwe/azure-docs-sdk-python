@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.BaselineName
 summary: BaselineName.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: BaselineName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: BaselineName(value)
 inheritances:
 - builtins.str
 - enum.Enum

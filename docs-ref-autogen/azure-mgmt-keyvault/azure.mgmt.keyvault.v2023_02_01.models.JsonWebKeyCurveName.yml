@@ -5,8 +5,7 @@ fullName: azure.mgmt.keyvault.v2023_02_01.models.JsonWebKeyCurveName
 summary: The elliptic curve name. For valid values, see JsonWebKeyCurveName.
 module: azure.mgmt.keyvault.v2023_02_01.models
 constructor:
-  syntax: JsonWebKeyCurveName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JsonWebKeyCurveName(value)
 inheritances:
 - builtins.str
 - enum.Enum

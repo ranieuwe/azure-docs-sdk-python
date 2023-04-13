@@ -115,8 +115,9 @@ methods:
   name: get_status_by
   summary: Get the status of all orchestration instances that match the specified
     conditions.
-  signature: 'async get_status_by(created_time_from: datetime = None, created_time_to:
-    datetime = None, runtime_status: List[OrchestrationRuntimeStatus] = None) -> List[DurableOrchestrationStatus]'
+  signature: 'async get_status_by(created_time_from: datetime | None = None, created_time_to:
+    datetime | None = None, runtime_status: List[OrchestrationRuntimeStatus] | None
+    = None) -> List[DurableOrchestrationStatus]'
   parameters:
   - name: created_time_from
     description: Return orchestration instances which were created after this Date.
@@ -193,7 +194,8 @@ methods:
 
     waiting for an event named *eventName* using waitForExternalEvent API.'
   signature: 'async raise_event(instance_id: str, event_name: str, event_data: Any
-    = None, task_hub_name: str = None, connection_name: str = None) -> None'
+    | None = None, task_hub_name: str | None = None, connection_name: str | None =
+    None) -> None'
   parameters:
   - name: instance_id
     description: The ID of the orchestration instance that will handle the event.

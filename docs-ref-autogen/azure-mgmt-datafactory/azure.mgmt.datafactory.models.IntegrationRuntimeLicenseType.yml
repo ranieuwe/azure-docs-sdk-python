@@ -5,8 +5,7 @@ fullName: azure.mgmt.datafactory.models.IntegrationRuntimeLicenseType
 summary: License type for bringing your own license scenario.
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: IntegrationRuntimeLicenseType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: IntegrationRuntimeLicenseType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -7,7 +7,7 @@ inheritances:
 - azure.ai.ml.entities._mixins.RestTranslatableMixin
 summary: Limit settings for a AutoML Table Verticals.
 constructor:
-  syntax: 'TabularLimitSettings(*, enable_early_termination: bool = None, exit_score:
-    float = None, max_concurrent_trials: int = None, max_cores_per_trial: int = None,
-    max_trials: int = None, timeout_minutes: int = None, trial_timeout_minutes: int
-    = None)'
+  syntax: 'TabularLimitSettings(*, enable_early_termination: bool | None = None, exit_score:
+    float | None = None, max_concurrent_trials: int | None = None, max_cores_per_trial:
+    int | None = None, max_trials: int | None = None, timeout_minutes: int | None
+    = None, trial_timeout_minutes: int | None = None)'

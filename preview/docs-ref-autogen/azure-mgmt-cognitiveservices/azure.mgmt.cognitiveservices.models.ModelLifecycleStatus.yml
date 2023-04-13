@@ -5,8 +5,7 @@ fullName: azure.mgmt.cognitiveservices.models.ModelLifecycleStatus
 summary: Model lifecycle status.
 module: azure.mgmt.cognitiveservices.models
 constructor:
-  syntax: ModelLifecycleStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ModelLifecycleStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

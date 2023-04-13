@@ -10,8 +10,7 @@ summary: 'The size of the server used for the rendering session. The size impact
   sizes for details.'
 module: azure.mixedreality.remoterendering
 constructor:
-  syntax: RenderingSessionSize(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RenderingSessionSize(value)
 inheritances:
 - builtins.str
 - enum.Enum

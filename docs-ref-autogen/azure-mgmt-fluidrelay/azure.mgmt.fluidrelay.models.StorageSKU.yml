@@ -5,8 +5,7 @@ fullName: azure.mgmt.fluidrelay.models.StorageSKU
 summary: Sku of the storage associated with the resource
 module: azure.mgmt.fluidrelay.models
 constructor:
-  syntax: StorageSKU(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: StorageSKU(value)
 inheritances:
 - builtins.str
 - enum.Enum

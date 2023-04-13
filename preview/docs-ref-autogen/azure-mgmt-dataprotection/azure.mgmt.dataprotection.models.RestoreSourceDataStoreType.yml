@@ -5,8 +5,7 @@ fullName: azure.mgmt.dataprotection.models.RestoreSourceDataStoreType
 summary: Gets or sets the type of the source data store.
 module: azure.mgmt.dataprotection.models
 constructor:
-  syntax: RestoreSourceDataStoreType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RestoreSourceDataStoreType(value)
 inheritances:
 - builtins.str
 - enum.Enum

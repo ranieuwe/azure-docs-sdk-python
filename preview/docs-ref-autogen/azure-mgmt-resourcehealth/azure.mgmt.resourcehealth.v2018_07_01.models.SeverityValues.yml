@@ -5,8 +5,7 @@ fullName: azure.mgmt.resourcehealth.v2018_07_01.models.SeverityValues
 summary: The severity level of this active event.
 module: azure.mgmt.resourcehealth.v2018_07_01.models
 constructor:
-  syntax: SeverityValues(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SeverityValues(value)
 inheritances:
 - builtins.str
 - enum.Enum

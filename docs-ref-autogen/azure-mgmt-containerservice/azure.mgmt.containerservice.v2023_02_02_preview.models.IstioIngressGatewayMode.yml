@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerservice.v2023_02_02_preview.models.IstioIngressGat
 summary: Mode of an ingress gateway.
 module: azure.mgmt.containerservice.v2023_02_02_preview.models
 constructor:
-  syntax: IstioIngressGatewayMode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: IstioIngressGatewayMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

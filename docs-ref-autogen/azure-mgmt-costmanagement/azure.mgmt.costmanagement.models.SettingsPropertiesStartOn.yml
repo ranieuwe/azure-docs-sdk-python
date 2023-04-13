@@ -8,8 +8,7 @@ summary: 'Indicates what scope Cost Management in the Azure portal should defaul
   LastUsed.'
 module: azure.mgmt.costmanagement.models
 constructor:
-  syntax: SettingsPropertiesStartOn(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SettingsPropertiesStartOn(value)
 inheritances:
 - builtins.str
 - enum.Enum

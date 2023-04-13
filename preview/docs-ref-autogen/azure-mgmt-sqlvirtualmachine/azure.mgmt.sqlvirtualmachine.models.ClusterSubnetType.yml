@@ -5,8 +5,7 @@ fullName: azure.mgmt.sqlvirtualmachine.models.ClusterSubnetType
 summary: Cluster subnet type.
 module: azure.mgmt.sqlvirtualmachine.models
 constructor:
-  syntax: ClusterSubnetType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ClusterSubnetType(value)
 inheritances:
 - builtins.str
 - enum.Enum

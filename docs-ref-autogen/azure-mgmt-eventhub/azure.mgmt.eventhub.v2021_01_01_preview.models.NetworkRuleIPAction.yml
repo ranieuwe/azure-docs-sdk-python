@@ -5,8 +5,7 @@ fullName: azure.mgmt.eventhub.v2021_01_01_preview.models.NetworkRuleIPAction
 summary: The IP Filter Action
 module: azure.mgmt.eventhub.v2021_01_01_preview.models
 constructor:
-  syntax: NetworkRuleIPAction(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: NetworkRuleIPAction(value)
 inheritances:
 - builtins.str
 - enum.Enum

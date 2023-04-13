@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.AzureFileShareTyp
 summary: File Share type XSync or XSMB.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: AzureFileShareType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AzureFileShareType(value)
 inheritances:
 - builtins.str
 - enum.Enum

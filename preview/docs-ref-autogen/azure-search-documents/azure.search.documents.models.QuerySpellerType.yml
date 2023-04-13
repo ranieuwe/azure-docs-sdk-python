@@ -5,8 +5,7 @@ fullName: azure.search.documents.models.QuerySpellerType
 summary: Improve search recall by spell-correcting individual search query terms.
 module: azure.search.documents.models
 constructor:
-  syntax: QuerySpellerType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: QuerySpellerType(value)
 inheritances:
 - builtins.str
 - enum.Enum

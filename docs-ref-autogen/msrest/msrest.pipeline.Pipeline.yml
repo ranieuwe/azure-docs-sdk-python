@@ -13,8 +13,8 @@ summary: 'A pipeline implementation.
 
   of the HTTP sender.'
 constructor:
-  syntax: 'Pipeline(policies: List[HTTPPolicy | SansIOHTTPPolicy] = None, sender:
-    HTTPSender = None)'
+  syntax: 'Pipeline(policies: List[HTTPPolicy | SansIOHTTPPolicy] | None = None, sender:
+    HTTPSender | None = None)'
   parameters:
   - name: policies
     defaultValue: None

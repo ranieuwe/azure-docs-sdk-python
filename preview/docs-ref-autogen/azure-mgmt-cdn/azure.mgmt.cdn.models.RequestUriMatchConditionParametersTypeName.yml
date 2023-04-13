@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.RequestUriMatchConditionParametersTypeName
 summary: RequestUriMatchConditionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: RequestUriMatchConditionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: RequestUriMatchConditionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -9,15 +9,17 @@ functions:
   summary: 'Create a Command object which can be used inside dsl.pipeline as a
 
     function and can also be created as a standalone command job.'
-  signature: 'command(*, name: str = None, description: str = None, tags: Dict = None,
-    properties: Dict = None, display_name: str = None, command: str = None, experiment_name:
-    str = None, environment: str | Environment = None, environment_variables: Dict
-    = None, distribution: Dict | MpiDistribution | TensorFlowDistribution | PyTorchDistribution
-    = None, compute: str = None, inputs: Dict = None, outputs: Dict = None, instance_count:
-    int = None, instance_type: str = None, docker_args: str = None, shm_size: str
-    = None, timeout: int = None, code: str | PathLike = None, identity: ManagedIdentity
-    | AmlToken | UserIdentity = None, is_deterministic: bool = True, services: dict
-    = None, **kwargs) -> Command'
+  signature: 'command(*, name: str | None = None, description: str | None = None,
+    tags: Dict | None = None, properties: Dict | None = None, display_name: str |
+    None = None, command: str | None = None, experiment_name: str | None = None, environment:
+    str | Environment | None = None, environment_variables: Dict | None = None, distribution:
+    Dict | MpiDistribution | TensorFlowDistribution | PyTorchDistribution | None =
+    None, compute: str | None = None, inputs: Dict | None = None, outputs: Dict |
+    None = None, instance_count: int | None = None, instance_type: str | None = None,
+    docker_args: str | None = None, shm_size: str | None = None, timeout: int | None
+    = None, code: PathLike | str | None = None, identity: ManagedIdentity | AmlToken
+    | UserIdentity | None = None, is_deterministic: bool = True, services: dict |
+    None = None, **kwargs) -> Command'
   parameters:
   - name: name
     description: Name of the command job or component created
@@ -154,7 +156,7 @@ functions:
   name: load_batch_deployment
   summary: Construct a batch deployment object from yaml file.
   signature: 'load_batch_deployment(source: str | PathLike | IO, *, relative_origin:
-    str = None, **kwargs) -> BatchDeployment'
+    str | None = None, **kwargs) -> BatchDeployment'
   parameters:
   - name: source
     description: 'The local yaml source of a batch deployment object. Must be either
@@ -198,7 +200,7 @@ functions:
   name: load_batch_endpoint
   summary: Construct a batch endpoint object from yaml file.
   signature: 'load_batch_endpoint(source: str | PathLike | IO, relative_origin: str
-    = None, **kwargs) -> BatchEndpoint'
+    | None = None, **kwargs) -> BatchEndpoint'
   parameters:
   - name: source
     description: 'The local yaml source of a batch endpoint object. Must be either
@@ -249,8 +251,8 @@ functions:
     \ function.\n   component_func = load_component(client=ml_client, name=\"my_component\"\
     , version=1)\n\n   # Consuming the component func\n   component = component_func(param1=xxx,\
     \ param2=xxx)\n   ````"
-  signature: 'load_component(source: str | PathLike | IO = None, *, relative_origin:
-    str = None, **kwargs) -> CommandComponent | ParallelComponent | PipelineComponent'
+  signature: 'load_component(source: str | PathLike | IO | None = None, *, relative_origin:
+    str | None = None, **kwargs) -> CommandComponent | ParallelComponent | PipelineComponent'
   parameters:
   - name: source
     description: 'The local yaml source of a component. Must be either a
@@ -313,8 +315,8 @@ functions:
 - uid: azure.ai.ml.load_compute
   name: load_compute
   summary: Construct a compute object from a yaml file.
-  signature: 'load_compute(source: str | PathLike | IO, *, relative_origin: str =
-    None, **kwargs) -> Compute'
+  signature: 'load_compute(source: str | PathLike | IO, *, relative_origin: str |
+    None = None, **kwargs) -> Compute'
   parameters:
   - name: source
     description: 'The local yaml source of a compute. Must be either a
@@ -356,8 +358,8 @@ functions:
 - uid: azure.ai.ml.load_data
   name: load_data
   summary: Construct a data object from yaml file.
-  signature: 'load_data(source: str | PathLike | IO, *, relative_origin: str = None,
-    **kwargs) -> Data'
+  signature: 'load_data(source: str | PathLike | IO, *, relative_origin: str | None
+    = None, **kwargs) -> Data'
   parameters:
   - name: source
     description: 'The local yaml source of a data object. Must be either a
@@ -405,7 +407,7 @@ functions:
   name: load_datastore
   summary: Construct a datastore object from a yaml file.
   signature: 'load_datastore(source: str | PathLike | IO, *, relative_origin: str
-    = None, **kwargs) -> Datastore'
+    | None = None, **kwargs) -> Datastore'
   parameters:
   - name: source
     description: 'The local yaml source of a datastore. Must be either a
@@ -453,7 +455,7 @@ functions:
   name: load_environment
   summary: Construct a environment object from yaml file.
   signature: 'load_environment(source: str | PathLike | IO, *, relative_origin: str
-    = None, **kwargs) -> Environment'
+    | None = None, **kwargs) -> Environment'
   parameters:
   - name: source
     description: 'The local yaml source of an environment. Must be either a
@@ -500,8 +502,8 @@ functions:
 - uid: azure.ai.ml.load_job
   name: load_job
   summary: Construct a job object from a yaml file.
-  signature: 'load_job(source: str | PathLike | IO, *, relative_origin: str = None,
-    **kwargs) -> Job'
+  signature: 'load_job(source: str | PathLike | IO, *, relative_origin: str | None
+    = None, **kwargs) -> Job'
   parameters:
   - name: source
     description: 'The local yaml source of a job. Must be either a
@@ -548,8 +550,8 @@ functions:
 - uid: azure.ai.ml.load_model
   name: load_model
   summary: Construct a model object from yaml file.
-  signature: 'load_model(source: str | PathLike | IO, *, relative_origin: str = None,
-    **kwargs) -> Model'
+  signature: 'load_model(source: str | PathLike | IO, *, relative_origin: str | None
+    = None, **kwargs) -> Model'
   parameters:
   - name: source
     description: 'The local yaml source of a model. Must be either a
@@ -597,7 +599,7 @@ functions:
   name: load_online_deployment
   summary: Construct a online deployment object from yaml file.
   signature: 'load_online_deployment(source: str | PathLike | IO, *, relative_origin:
-    str = None, **kwargs) -> OnlineDeployment'
+    str | None = None, **kwargs) -> OnlineDeployment'
   parameters:
   - name: source
     description: 'The local yaml source of an online deployment object. Must be either
@@ -646,7 +648,7 @@ functions:
   name: load_online_endpoint
   summary: Construct a online endpoint object from yaml file.
   signature: 'load_online_endpoint(source: str | PathLike | IO, *, relative_origin:
-    str = None, **kwargs) -> OnlineEndpoint'
+    str | None = None, **kwargs) -> OnlineEndpoint'
   parameters:
   - name: source
     description: 'The local yaml source of an online endpoint object. Must be either
@@ -694,8 +696,8 @@ functions:
 - uid: azure.ai.ml.load_registry
   name: load_registry
   summary: Load a registry object from a yaml file.
-  signature: 'load_registry(source: str | PathLike | IO, *, relative_origin: str =
-    None, **kwargs) -> Registry'
+  signature: 'load_registry(source: str | PathLike | IO, *, relative_origin: str |
+    None = None, **kwargs) -> Registry'
   parameters:
   - name: source
     description: 'The local yaml source of a registry. Must be either a
@@ -738,7 +740,7 @@ functions:
   name: load_workspace
   summary: Load a workspace object from a yaml file.
   signature: 'load_workspace(source: str | PathLike | IO, *, relative_origin: str
-    = None, **kwargs) -> Workspace'
+    | None = None, **kwargs) -> Workspace'
   parameters:
   - name: source
     description: 'The local yaml source of a workspace. Must be either a
@@ -781,7 +783,7 @@ functions:
   name: load_workspace_connection
   summary: Construct a workspace connection object from yaml file.
   signature: 'load_workspace_connection(source: str | PathLike | IO, *, relative_origin:
-    str = None, **kwargs) -> WorkspaceConnection'
+    str | None = None, **kwargs) -> WorkspaceConnection'
   parameters:
   - name: source
     description: 'The local yaml source of a workspace connection object. Must be
@@ -827,18 +829,20 @@ functions:
     and
 
     can also be created as a standalone spark job.'
-  signature: 'spark(*, experiment_name: str = None, name: str = None, display_name:
-    str = None, description: str = None, tags: Dict = None, code: str | PathLike =
-    None, entry: Dict[str, str] | SparkJobEntry | None = None, py_files: List[str]
-    | None = None, jars: List[str] | None = None, files: List[str] | None = None,
-    archives: List[str] | None = None, identity: Dict[str, str] | ManagedIdentity
-    | AmlToken | UserIdentity = None, driver_cores: int = None, driver_memory: str
-    = None, executor_cores: int = None, executor_memory: str = None, executor_instances:
-    int = None, dynamic_allocation_enabled: bool = None, dynamic_allocation_min_executors:
-    int = None, dynamic_allocation_max_executors: int = None, conf: Dict[str, str]
-    | None = None, environment: str | Environment = None, inputs: Dict = None, outputs:
-    Dict = None, args: str = None, compute: str = None, resources: Dict | SparkResourceConfiguration
-    = None, **kwargs) -> Spark'
+  signature: 'spark(*, experiment_name: str | None = None, name: str | None = None,
+    display_name: str | None = None, description: str | None = None, tags: Dict |
+    None = None, code: PathLike | str | None = None, entry: Dict[str, str] | SparkJobEntry
+    | None = None, py_files: List[str] | None = None, jars: List[str] | None = None,
+    files: List[str] | None = None, archives: List[str] | None = None, identity: Dict[str,
+    str] | ManagedIdentity | AmlToken | UserIdentity | None = None, driver_cores:
+    int | None = None, driver_memory: str | None = None, executor_cores: int | None
+    = None, executor_memory: str | None = None, executor_instances: int | None = None,
+    dynamic_allocation_enabled: bool | None = None, dynamic_allocation_min_executors:
+    int | None = None, dynamic_allocation_max_executors: int | None = None, conf:
+    Dict[str, str] | None = None, environment: str | Environment | None = None, inputs:
+    Dict | None = None, outputs: Dict | None = None, args: str | None = None, compute:
+    str | None = None, resources: Dict | SparkResourceConfiguration | None = None,
+    **kwargs) -> Spark'
   parameters:
   - name: experiment_name
     description: Name of the experiment the job will be created under.

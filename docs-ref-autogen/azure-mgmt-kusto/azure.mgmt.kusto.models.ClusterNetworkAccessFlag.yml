@@ -8,8 +8,7 @@ summary: 'Whether or not to restrict outbound network access.  Value is optional
   be ''Enabled'' or ''Disabled''.'
 module: azure.mgmt.kusto.models
 constructor:
-  syntax: ClusterNetworkAccessFlag(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ClusterNetworkAccessFlag(value)
 inheritances:
 - builtins.str
 - enum.Enum

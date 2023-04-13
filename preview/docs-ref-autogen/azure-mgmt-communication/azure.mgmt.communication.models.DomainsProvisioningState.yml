@@ -5,8 +5,7 @@ fullName: azure.mgmt.communication.models.DomainsProvisioningState
 summary: Provisioning state of the resource.
 module: azure.mgmt.communication.models
 constructor:
-  syntax: DomainsProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DomainsProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

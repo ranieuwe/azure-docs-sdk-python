@@ -5,8 +5,7 @@ fullName: azure.synapse.artifacts.models.ParameterType
 summary: Parameter type.
 module: azure.synapse.artifacts.models
 constructor:
-  syntax: ParameterType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ParameterType(value)
 inheritances:
 - builtins.str
 - enum.Enum

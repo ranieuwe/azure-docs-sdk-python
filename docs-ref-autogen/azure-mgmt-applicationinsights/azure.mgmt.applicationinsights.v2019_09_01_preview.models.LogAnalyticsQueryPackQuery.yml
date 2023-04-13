@@ -16,7 +16,7 @@ summary: 'A Log Analytics QueryPack-Query definition.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'LogAnalyticsQueryPackQuery(*, display_name: str, body: str, description:
-    str = None, linked_resource_id: str = None, categories=None, resource_types=None,
+    str | None = None, linked_resource_id: str | None = None, categories=None, resource_types=None,
     labels=None, **kwargs)'
   parameters:
   - name: display_name

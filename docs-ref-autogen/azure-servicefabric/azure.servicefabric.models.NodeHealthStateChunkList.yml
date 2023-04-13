@@ -11,7 +11,8 @@ summary: 'The list of node health state chunks in the cluster that respect the i
 
   query.'
 constructor:
-  syntax: 'NodeHealthStateChunkList(*, total_count: int = None, items=None, **kwargs)'
+  syntax: 'NodeHealthStateChunkList(*, total_count: int | None = None, items=None,
+    **kwargs)'
   parameters:
   - name: total_count
     description: 'Total number of entity health state objects that match

@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.OperationTrigger
 summary: Trigger of operation.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: OperationTrigger(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OperationTrigger(value)
 inheritances:
 - builtins.str
 - enum.Enum

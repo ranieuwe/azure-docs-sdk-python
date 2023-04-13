@@ -5,8 +5,7 @@ fullName: azure.mgmt.scheduler.models.JobHistoryActionName
 summary: Gets the job history action name.
 module: azure.mgmt.scheduler.models
 constructor:
-  syntax: JobHistoryActionName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JobHistoryActionName(value)
 inheritances:
 - builtins.str
 - enum.Enum

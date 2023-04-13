@@ -7,9 +7,10 @@ inheritances:
 - msrest.serialization.Model
 summary: Information about application deployed on the node.
 constructor:
-  syntax: 'DeployedApplicationInfo(*, id: str = None, name: str = None, type_name:
-    str = None, type_version: str = None, status=None, work_directory: str = None,
-    log_directory: str = None, temp_directory: str = None, health_state=None, **kwargs)'
+  syntax: 'DeployedApplicationInfo(*, id: str | None = None, name: str | None = None,
+    type_name: str | None = None, type_version: str | None = None, status=None, work_directory:
+    str | None = None, log_directory: str | None = None, temp_directory: str | None
+    = None, health_state=None, **kwargs)'
   parameters:
   - name: id
     description: 'The identity of the application. This is an encoded

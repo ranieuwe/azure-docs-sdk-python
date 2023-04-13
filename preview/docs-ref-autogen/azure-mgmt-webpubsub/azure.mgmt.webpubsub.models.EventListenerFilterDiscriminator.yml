@@ -5,8 +5,7 @@ fullName: azure.mgmt.webpubsub.models.EventListenerFilterDiscriminator
 summary: EventListenerFilterDiscriminator.
 module: azure.mgmt.webpubsub.models
 constructor:
-  syntax: EventListenerFilterDiscriminator(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: EventListenerFilterDiscriminator(value)
 inheritances:
 - builtins.str
 - enum.Enum

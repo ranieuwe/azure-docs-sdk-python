@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.JobLimitsType
 summary: JobLimitsType.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: JobLimitsType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JobLimitsType(value)
 inheritances:
 - builtins.str
 - enum.Enum

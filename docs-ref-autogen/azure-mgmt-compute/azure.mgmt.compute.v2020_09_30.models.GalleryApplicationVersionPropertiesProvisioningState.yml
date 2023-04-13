@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2020_09_30.models.GalleryApplicationVersionPropert
 summary: The provisioning state, which only appears in the response.
 module: azure.mgmt.compute.v2020_09_30.models
 constructor:
-  syntax: GalleryApplicationVersionPropertiesProvisioningState(value, names=None,
-    *, module=None, qualname=None, type=None, start=1, boundary=None)
+  syntax: GalleryApplicationVersionPropertiesProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

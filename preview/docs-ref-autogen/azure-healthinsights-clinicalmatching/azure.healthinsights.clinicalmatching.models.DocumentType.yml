@@ -8,8 +8,7 @@ summary: 'The type of the patient document, such as ''note'' (text document) or 
   document).'
 module: azure.healthinsights.clinicalmatching.models
 constructor:
-  syntax: DocumentType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DocumentType(value)
 inheritances:
 - builtins.str
 - enum.Enum

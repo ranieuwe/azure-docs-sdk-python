@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.ServerTrustGroupPropertiesTrustScopesItem
 summary: ServerTrustGroupPropertiesTrustScopesItem.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: ServerTrustGroupPropertiesTrustScopesItem(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: ServerTrustGroupPropertiesTrustScopesItem(value)
 inheritances:
 - builtins.str
 - enum.Enum

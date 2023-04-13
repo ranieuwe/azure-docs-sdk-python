@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.AvailabilityZoneType
 summary: Specifies the availability zone the database is pinned to.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: AvailabilityZoneType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AvailabilityZoneType(value)
 inheritances:
 - builtins.str
 - enum.Enum

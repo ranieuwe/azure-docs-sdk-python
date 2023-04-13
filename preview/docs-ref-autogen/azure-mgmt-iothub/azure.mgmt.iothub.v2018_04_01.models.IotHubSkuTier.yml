@@ -5,8 +5,7 @@ fullName: azure.mgmt.iothub.v2018_04_01.models.IotHubSkuTier
 summary: The billing tier for the IoT hub.
 module: azure.mgmt.iothub.v2018_04_01.models
 constructor:
-  syntax: IotHubSkuTier(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: IotHubSkuTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

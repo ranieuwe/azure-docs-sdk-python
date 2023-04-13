@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.EndpointProvisioningState
 summary: State of endpoint provisioning.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: EndpointProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: EndpointProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

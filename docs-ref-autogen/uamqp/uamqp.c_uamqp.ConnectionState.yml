@@ -2,10 +2,10 @@
 uid: uamqp.c_uamqp.ConnectionState
 name: ConnectionState
 fullName: uamqp.c_uamqp.ConnectionState
+summary: An enumeration.
 module: uamqp.c_uamqp
 constructor:
-  syntax: ConnectionState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConnectionState(value)
 inheritances:
 - enum.Enum
 fields:

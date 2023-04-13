@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2021_07_01.models.PatchAssessmentState
 summary: Describes the availability of a given patch.
 module: azure.mgmt.compute.v2021_07_01.models
 constructor:
-  syntax: PatchAssessmentState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PatchAssessmentState(value)
 inheritances:
 - builtins.str
 - enum.Enum

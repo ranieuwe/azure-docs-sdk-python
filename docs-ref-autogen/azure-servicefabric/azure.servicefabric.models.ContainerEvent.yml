@@ -7,9 +7,9 @@ inheritances:
 - msrest.serialization.Model
 summary: A container event.
 constructor:
-  syntax: 'ContainerEvent(*, name: str = None, count: int = None, first_timestamp:
-    str = None, last_timestamp: str = None, message: str = None, type: str = None,
-    **kwargs)'
+  syntax: 'ContainerEvent(*, name: str | None = None, count: int | None = None, first_timestamp:
+    str | None = None, last_timestamp: str | None = None, message: str | None = None,
+    type: str | None = None, **kwargs)'
   parameters:
   - name: name
     description: The name of the container event.

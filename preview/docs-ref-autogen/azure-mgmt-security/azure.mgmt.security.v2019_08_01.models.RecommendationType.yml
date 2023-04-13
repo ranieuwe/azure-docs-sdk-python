@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2019_08_01.models.RecommendationType
 summary: The type of IoT Security recommendation.
 module: azure.mgmt.security.v2019_08_01.models
 constructor:
-  syntax: RecommendationType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecommendationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

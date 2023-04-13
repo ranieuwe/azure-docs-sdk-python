@@ -5,8 +5,7 @@ fullName: azure.mgmt.automation.models.AutomationKeyName
 summary: Automation key name.
 module: azure.mgmt.automation.models
 constructor:
-  syntax: AutomationKeyName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AutomationKeyName(value)
 inheritances:
 - builtins.str
 - enum.Enum

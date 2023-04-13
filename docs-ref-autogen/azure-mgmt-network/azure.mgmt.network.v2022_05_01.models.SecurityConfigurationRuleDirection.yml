@@ -8,8 +8,7 @@ summary: 'The direction of the rule. The direction specifies if the rule will be
   outgoing traffic.'
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: SecurityConfigurationRuleDirection(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SecurityConfigurationRuleDirection(value)
 inheritances:
 - builtins.str
 - enum.Enum

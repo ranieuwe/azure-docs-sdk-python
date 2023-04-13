@@ -16,7 +16,7 @@ summary: 'WorkspaceConnectionsOperations.
 constructor:
   syntax: 'WorkspaceConnectionsOperations(operation_scope: OperationScope, operation_config:
     OperationConfig, service_client: AzureMachineLearningWorkspaces, all_operations:
-    OperationsContainer, credentials: TokenCredential = None, **kwargs: Dict)'
+    OperationsContainer, credentials: TokenCredential | None = None, **kwargs: Dict)'
   parameters:
   - name: operation_scope
   - name: operation_config

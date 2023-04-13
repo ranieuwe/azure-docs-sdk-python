@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.SecurityAlertPolicyName
 summary: SecurityAlertPolicyName.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: SecurityAlertPolicyName(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SecurityAlertPolicyName(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.newrelicobservability.models.AccountCreationSource
 summary: Source of Account creation.
 module: azure.mgmt.newrelicobservability.models
 constructor:
-  syntax: AccountCreationSource(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AccountCreationSource(value)
 inheritances:
 - builtins.str
 - enum.Enum

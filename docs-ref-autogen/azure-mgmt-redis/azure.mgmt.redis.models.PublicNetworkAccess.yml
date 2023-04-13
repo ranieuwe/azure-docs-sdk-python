@@ -11,8 +11,7 @@ summary: 'Whether or not public endpoint access is allowed for this cache.  Valu
   access method. Default value is ''Enabled''.'
 module: azure.mgmt.redis.models
 constructor:
-  syntax: PublicNetworkAccess(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PublicNetworkAccess(value)
 inheritances:
 - builtins.str
 - enum.Enum

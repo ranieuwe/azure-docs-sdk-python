@@ -8,8 +8,7 @@ summary: 'Indicates whether the Arc agents on the provisioned clusters be upgrad
   latest version. Defaults to Enabled.'
 module: azure.mgmt.hybridcontainerservice.models
 constructor:
-  syntax: AutoUpgradeOptions(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AutoUpgradeOptions(value)
 inheritances:
 - builtins.str
 - enum.Enum

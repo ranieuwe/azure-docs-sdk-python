@@ -5,8 +5,7 @@ fullName: azure.mgmt.imagebuilder.models.ProvisioningErrorCode
 summary: Error code of the provisioning failure.
 module: azure.mgmt.imagebuilder.models
 constructor:
-  syntax: ProvisioningErrorCode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ProvisioningErrorCode(value)
 inheritances:
 - builtins.str
 - enum.Enum

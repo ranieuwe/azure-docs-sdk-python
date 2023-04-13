@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.ValidationMetricType
 summary: Metric computation method to use for validation metrics in image tasks.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: ValidationMetricType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ValidationMetricType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.datafactory.models.OrcCompressionCodec
 summary: OrcCompressionCodec.
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: OrcCompressionCodec(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OrcCompressionCodec(value)
 inheritances:
 - builtins.str
 - enum.Enum

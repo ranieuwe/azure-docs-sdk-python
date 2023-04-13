@@ -5,8 +5,7 @@ fullName: azure.mgmt.automation.models.SkuNameEnum
 summary: Gets or sets the SKU name of the account.
 module: azure.mgmt.automation.models
 constructor:
-  syntax: SkuNameEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SkuNameEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

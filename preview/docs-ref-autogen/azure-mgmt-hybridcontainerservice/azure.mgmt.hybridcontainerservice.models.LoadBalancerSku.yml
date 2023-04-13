@@ -11,8 +11,7 @@ summary: 'LoadBalancerSku - The load balancer sku for the provisioned cluster. P
   ''unmanaged''.'
 module: azure.mgmt.hybridcontainerservice.models
 constructor:
-  syntax: LoadBalancerSku(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LoadBalancerSku(value)
 inheritances:
 - builtins.str
 - enum.Enum

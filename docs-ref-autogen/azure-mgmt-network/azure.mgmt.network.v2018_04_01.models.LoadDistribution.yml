@@ -8,8 +8,7 @@ summary: 'The load distribution policy for this rule. Possible values are ''Defa
   ''SourceIPProtocol''.'
 module: azure.mgmt.network.v2018_04_01.models
 constructor:
-  syntax: LoadDistribution(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LoadDistribution(value)
 inheritances:
 - builtins.str
 - enum.Enum

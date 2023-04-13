@@ -5,8 +5,7 @@ fullName: azure.mgmt.dynatrace.models.LiftrResourceCategories
 summary: Liftr resource category.
 module: azure.mgmt.dynatrace.models
 constructor:
-  syntax: LiftrResourceCategories(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: LiftrResourceCategories(value)
 inheritances:
 - builtins.str
 - enum.Enum

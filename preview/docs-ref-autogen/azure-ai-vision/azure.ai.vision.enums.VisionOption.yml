@@ -5,7 +5,6 @@ fullName: azure.ai.vision.enums.VisionOption
 summary: Defines the vision options base class. Not Implemented.
 module: azure.ai.vision.enums
 constructor:
-  syntax: VisionOption(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VisionOption(value)
 inheritances:
 - enum.Enum

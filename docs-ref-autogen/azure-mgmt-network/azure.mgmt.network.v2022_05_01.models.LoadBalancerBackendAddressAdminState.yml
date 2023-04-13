@@ -11,8 +11,7 @@ summary: 'A list of administrative states which once set can override health pro
   connections.'
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: LoadBalancerBackendAddressAdminState(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: LoadBalancerBackendAddressAdminState(value)
 inheritances:
 - builtins.str
 - enum.Enum

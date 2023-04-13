@@ -5,8 +5,7 @@ fullName: azure.mgmt.servicefabricmanagedclusters.models.ServiceKind
 summary: The kind of service (Stateless or Stateful).
 module: azure.mgmt.servicefabricmanagedclusters.models
 constructor:
-  syntax: ServiceKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ServiceKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

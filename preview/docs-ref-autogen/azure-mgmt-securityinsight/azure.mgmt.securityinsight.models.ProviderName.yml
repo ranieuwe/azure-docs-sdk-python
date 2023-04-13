@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.ProviderName
 summary: Provider name.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: ProviderName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ProviderName(value)
 inheritances:
 - builtins.str
 - enum.Enum

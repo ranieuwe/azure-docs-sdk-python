@@ -5,8 +5,7 @@ fullName: azure.mgmt.connectedvmware.models.DiskMode
 summary: Defines the different types of disk modes.
 module: azure.mgmt.connectedvmware.models
 constructor:
-  syntax: DiskMode(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: DiskMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

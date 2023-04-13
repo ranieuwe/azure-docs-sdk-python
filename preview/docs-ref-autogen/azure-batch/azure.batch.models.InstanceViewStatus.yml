@@ -7,8 +7,8 @@ inheritances:
 - msrest.serialization.Model
 summary: The instance view status.
 constructor:
-  syntax: 'InstanceViewStatus(*, code: str = None, display_status: str = None, level=None,
-    message: str = None, time: str = None, **kwargs)'
+  syntax: 'InstanceViewStatus(*, code: str | None = None, display_status: str | None
+    = None, level=None, message: str | None = None, time: str | None = None, **kwargs)'
   parameters:
   - name: code
     isRequired: true

@@ -5,8 +5,7 @@ fullName: azure.mgmt.storagecache.models.StorageTargetType
 summary: Type of the Storage Target.
 module: azure.mgmt.storagecache.models
 constructor:
-  syntax: StorageTargetType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: StorageTargetType(value)
 inheritances:
 - builtins.str
 - enum.Enum

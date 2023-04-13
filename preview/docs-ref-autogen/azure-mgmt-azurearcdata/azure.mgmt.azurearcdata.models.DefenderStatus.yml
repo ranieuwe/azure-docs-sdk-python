@@ -5,8 +5,7 @@ fullName: azure.mgmt.azurearcdata.models.DefenderStatus
 summary: Status of Azure Defender.
 module: azure.mgmt.azurearcdata.models
 constructor:
-  syntax: DefenderStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DefenderStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

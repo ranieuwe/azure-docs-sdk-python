@@ -29,8 +29,9 @@ summary: "A client class to interact with Azure ML services.\n\nUse this client 
   \n   # Get a list of workspaces in a resource group\n   for ws in ml_client.workspaces.list():\n\
   \       print(ws.name, \":\", ws.location, \":\", ws.description)\n   ````"
 constructor:
-  syntax: 'MLClient(credential: TokenCredential, subscription_id: str = None, resource_group_name:
-    str = None, workspace_name: str = None, registry_name: str = None, **kwargs: Any)'
+  syntax: 'MLClient(credential: TokenCredential, subscription_id: str | None = None,
+    resource_group_name: str | None = None, workspace_name: str | None = None, registry_name:
+    str | None = None, **kwargs: Any)'
   parameters:
   - name: credential
     description: Credential to use for authentication.
@@ -129,8 +130,8 @@ methods:
     projects without
 
     retyping the workspace ARM properties.'
-  signature: 'from_config(credential: TokenCredential, *, path: PathLike | str = None,
-    file_name=None, **kwargs) -> MLClient'
+  signature: 'from_config(credential: TokenCredential, *, path: PathLike | str | None
+    = None, file_name=None, **kwargs) -> MLClient'
   parameters:
   - name: credential
     description: The credential object for the workspace.

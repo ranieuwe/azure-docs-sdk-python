@@ -5,8 +5,7 @@ fullName: azure.mgmt.appcontainers.models.Category
 summary: Used to map workload profile types to billing meter.
 module: azure.mgmt.appcontainers.models
 constructor:
-  syntax: Category(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Category(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -7,8 +7,7 @@ summary: 'Gets the consistency mode for the restore point. Please refer to [http
   for more details.'
 module: azure.mgmt.compute.v2021_03_01.models
 constructor:
-  syntax: ConsistencyModeTypes(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConsistencyModeTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

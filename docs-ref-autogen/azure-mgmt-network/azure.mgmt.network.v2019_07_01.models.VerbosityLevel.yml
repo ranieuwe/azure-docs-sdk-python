@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2019_07_01.models.VerbosityLevel
 summary: Verbosity level.
 module: azure.mgmt.network.v2019_07_01.models
 constructor:
-  syntax: VerbosityLevel(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VerbosityLevel(value)
 inheritances:
 - builtins.str
 - enum.Enum

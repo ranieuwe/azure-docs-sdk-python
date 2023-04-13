@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2019_08_01.models.LoadBalancerOutboundRuleProtocol
 summary: The protocol for the outbound rule in load balancer.
 module: azure.mgmt.network.v2019_08_01.models
 constructor:
-  syntax: LoadBalancerOutboundRuleProtocol(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: LoadBalancerOutboundRuleProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

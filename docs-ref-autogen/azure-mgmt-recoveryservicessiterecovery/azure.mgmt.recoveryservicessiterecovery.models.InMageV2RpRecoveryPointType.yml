@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicessiterecovery.models.InMageV2RpRecoveryPoint
 summary: The recovery point type.
 module: azure.mgmt.recoveryservicessiterecovery.models
 constructor:
-  syntax: InMageV2RpRecoveryPointType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: InMageV2RpRecoveryPointType(value)
 inheritances:
 - builtins.str
 - enum.Enum

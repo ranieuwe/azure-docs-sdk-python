@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2022_05_01.models.NetworkIntentPolicyBasedService
 summary: Network intent policy based services.
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: NetworkIntentPolicyBasedService(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: NetworkIntentPolicyBasedService(value)
 inheritances:
 - builtins.str
 - enum.Enum

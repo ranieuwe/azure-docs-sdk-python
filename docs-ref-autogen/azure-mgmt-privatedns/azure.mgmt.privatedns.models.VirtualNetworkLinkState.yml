@@ -11,8 +11,7 @@ summary: 'The status of the virtual network link to the Private DNS zone. Possib
   ignored.'
 module: azure.mgmt.privatedns.models
 constructor:
-  syntax: VirtualNetworkLinkState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: VirtualNetworkLinkState(value)
 inheritances:
 - builtins.str
 - enum.Enum

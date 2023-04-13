@@ -5,8 +5,7 @@ fullName: azure.mgmt.loganalytics.models.ColumnDataTypeHintEnum
 summary: Column data type logical hint.
 module: azure.mgmt.loganalytics.models
 constructor:
-  syntax: ColumnDataTypeHintEnum(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ColumnDataTypeHintEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

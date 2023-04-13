@@ -8,8 +8,7 @@ summary: 'specifies the Microsoft.Network API version used when creating network
   Network Interface Configurations.'
 module: azure.mgmt.compute.v2021_11_01.models
 constructor:
-  syntax: NetworkApiVersion(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: NetworkApiVersion(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2020_04_01.models.FirewallPolicyRuleConditionNetwo
 summary: The Network protocol of a Rule condition.
 module: azure.mgmt.network.v2020_04_01.models
 constructor:
-  syntax: FirewallPolicyRuleConditionNetworkProtocol(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: FirewallPolicyRuleConditionNetworkProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

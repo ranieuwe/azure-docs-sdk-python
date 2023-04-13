@@ -10,7 +10,7 @@ summary: 'The error object.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'PersonalizerError(*, code, message: str, target: str = None, details=None,
+  syntax: 'PersonalizerError(*, code, message: str, target: str | None = None, details=None,
     inner_error=None, **kwargs)'
   parameters:
   - name: code

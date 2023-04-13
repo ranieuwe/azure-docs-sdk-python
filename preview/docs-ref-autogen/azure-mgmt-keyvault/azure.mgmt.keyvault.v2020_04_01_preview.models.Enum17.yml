@@ -5,8 +5,7 @@ fullName: azure.mgmt.keyvault.v2020_04_01_preview.models.Enum17
 summary: Enum17.
 module: azure.mgmt.keyvault.v2020_04_01_preview.models
 constructor:
-  syntax: Enum17(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Enum17(value)
 inheritances:
 - builtins.str
 - enum.Enum

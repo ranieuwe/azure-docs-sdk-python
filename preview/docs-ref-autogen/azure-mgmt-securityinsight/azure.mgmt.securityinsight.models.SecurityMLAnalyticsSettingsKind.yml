@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.SecurityMLAnalyticsSettingsKind
 summary: The kind of security ML analytics settings.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: SecurityMLAnalyticsSettingsKind(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SecurityMLAnalyticsSettingsKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

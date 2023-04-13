@@ -7,8 +7,9 @@ inheritances:
 - msrest.serialization.Model
 summary: UserBase.
 constructor:
-  syntax: 'UserBase(*, additional_properties=None, immutable_id: str = None, usage_location:
-    str = None, given_name: str = None, surname: str = None, user_type=None, **kwargs)'
+  syntax: 'UserBase(*, additional_properties=None, immutable_id: str | None = None,
+    usage_location: str | None = None, given_name: str | None = None, surname: str
+    | None = None, user_type=None, **kwargs)'
   parameters:
   - name: additional_properties
     description: 'Unmatched properties from the message are

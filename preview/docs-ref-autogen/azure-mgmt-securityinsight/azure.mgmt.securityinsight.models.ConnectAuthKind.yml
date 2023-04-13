@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.ConnectAuthKind
 summary: The authentication kind used to poll the data.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: ConnectAuthKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConnectAuthKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

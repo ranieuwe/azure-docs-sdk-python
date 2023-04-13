@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.DataMoveLevel
 summary: DataMove Level.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: DataMoveLevel(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DataMoveLevel(value)
 inheritances:
 - builtins.str
 - enum.Enum

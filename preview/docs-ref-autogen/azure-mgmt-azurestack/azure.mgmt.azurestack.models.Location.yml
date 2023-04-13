@@ -5,8 +5,7 @@ fullName: azure.mgmt.azurestack.models.Location
 summary: Location of the resource.
 module: azure.mgmt.azurestack.models
 constructor:
-  syntax: Location(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Location(value)
 inheritances:
 - builtins.str
 - enum.Enum

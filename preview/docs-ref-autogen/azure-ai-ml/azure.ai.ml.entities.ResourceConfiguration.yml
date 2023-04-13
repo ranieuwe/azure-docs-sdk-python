@@ -7,5 +7,5 @@ inheritances:
 - azure.ai.ml.entities._mixins.RestTranslatableMixin
 - azure.ai.ml.entities._mixins.DictMixin
 constructor:
-  syntax: 'ResourceConfiguration(*, instance_count: int = None, instance_type: str
-    = None, properties: Dict[str, Any] = None, **kwargs)'
+  syntax: 'ResourceConfiguration(*, instance_count: int | None = None, instance_type:
+    str | None = None, properties: Dict[str, Any] | None = None, **kwargs)'

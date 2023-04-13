@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.ProtectedItemStat
 summary: Backup state of the backed up item.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: ProtectedItemState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ProtectedItemState(value)
 inheritances:
 - builtins.str
 - enum.Enum

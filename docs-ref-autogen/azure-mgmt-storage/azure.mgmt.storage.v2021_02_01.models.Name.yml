@@ -6,8 +6,7 @@ summary: Name of the policy. The valid value is AccessTimeTracking. This field i
   currently read only.
 module: azure.mgmt.storage.v2021_02_01.models
 constructor:
-  syntax: Name(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Name(value)
 inheritances:
 - builtins.str
 - enum.Enum

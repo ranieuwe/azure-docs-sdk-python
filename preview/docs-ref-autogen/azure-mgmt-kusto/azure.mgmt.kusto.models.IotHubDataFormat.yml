@@ -6,8 +6,7 @@ summary: The data format of the message. Optionally the data format can be added
   each message.
 module: azure.mgmt.kusto.models
 constructor:
-  syntax: IotHubDataFormat(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: IotHubDataFormat(value)
 inheritances:
 - builtins.str
 - enum.Enum

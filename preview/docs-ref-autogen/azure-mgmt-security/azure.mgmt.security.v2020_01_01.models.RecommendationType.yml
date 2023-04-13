@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2020_01_01.models.RecommendationType
 summary: The type of the rule to be allowed.
 module: azure.mgmt.security.v2020_01_01.models
 constructor:
-  syntax: RecommendationType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecommendationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

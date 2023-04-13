@@ -5,8 +5,7 @@ fullName: azure.mgmt.deploymentmanager.models.RestAuthType
 summary: The authentication type.
 module: azure.mgmt.deploymentmanager.models
 constructor:
-  syntax: RestAuthType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RestAuthType(value)
 inheritances:
 - builtins.str
 - enum.Enum

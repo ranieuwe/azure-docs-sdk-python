@@ -6,8 +6,7 @@ summary: 'Type of relation. Examples include: ''DosageOfMedication'' or ''Freque
   etc.'
 module: azure.ai.textanalytics
 constructor:
-  syntax: HealthcareEntityRelation(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: HealthcareEntityRelation(value)
 inheritances:
 - builtins.str
 - enum.Enum

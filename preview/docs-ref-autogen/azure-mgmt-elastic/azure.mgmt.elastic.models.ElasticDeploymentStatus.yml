@@ -5,8 +5,7 @@ fullName: azure.mgmt.elastic.models.ElasticDeploymentStatus
 summary: Flag specifying if the Elastic deployment status is healthy or not.
 module: azure.mgmt.elastic.models
 constructor:
-  syntax: ElasticDeploymentStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ElasticDeploymentStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

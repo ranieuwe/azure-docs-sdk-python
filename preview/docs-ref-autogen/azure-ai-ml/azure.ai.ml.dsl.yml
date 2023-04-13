@@ -26,9 +26,9 @@ functions:
     \   pipeline_job = sample_pipeline_func(\n       pipeline_input=Input(type='uri_folder',\
     \ path='./local-data'),\n       pipeline_str_param='literal'\n   )\n   ml_client.jobs.create_or_update(pipeline_job,\
     \ experiment_name=\"pipeline_samples\")\n   ````"
-  signature: 'pipeline(func=None, *, name: str = None, version: str = None, display_name:
-    str = None, description: str = None, experiment_name: str = None, tags: Dict[str,
-    str] = None, **kwargs)'
+  signature: 'pipeline(func=None, *, name: str | None = None, version: str | None
+    = None, display_name: str | None = None, description: str | None = None, experiment_name:
+    str | None = None, tags: Dict[str, str] | None = None, **kwargs)'
   parameters:
   - name: func
     description: The user pipeline function to be decorated.

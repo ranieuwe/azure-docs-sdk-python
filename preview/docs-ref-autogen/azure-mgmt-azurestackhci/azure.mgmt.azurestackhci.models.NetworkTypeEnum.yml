@@ -5,8 +5,7 @@ fullName: azure.mgmt.azurestackhci.models.NetworkTypeEnum
 summary: Type of the network.
 module: azure.mgmt.azurestackhci.models
 constructor:
-  syntax: NetworkTypeEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: NetworkTypeEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

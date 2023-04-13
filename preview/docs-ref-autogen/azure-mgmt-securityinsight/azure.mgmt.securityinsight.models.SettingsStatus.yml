@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.SettingsStatus
 summary: The anomaly SecurityMLAnalyticsSettings status.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: SettingsStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SettingsStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

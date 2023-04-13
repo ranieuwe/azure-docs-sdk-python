@@ -5,8 +5,7 @@ fullName: azure.mgmt.costmanagement.models.CostDetailsDataFormat
 summary: The data format of the report.
 module: azure.mgmt.costmanagement.models
 constructor:
-  syntax: CostDetailsDataFormat(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CostDetailsDataFormat(value)
 inheritances:
 - builtins.str
 - enum.Enum

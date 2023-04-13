@@ -11,7 +11,7 @@ constructor:
     | None = None, ssh_public_access_enabled: bool | None = None, create_on_behalf_of:
     AssignedUserConfiguration | None = None, network_settings: NetworkSettings | None
     = None, ssh_settings: ComputeInstanceSshSettings | None = None, schedules: ComputeSchedules
-    | None = None, identity: IdentityConfiguration = None, idle_time_before_shutdown:
+    | None = None, identity: IdentityConfiguration | None = None, idle_time_before_shutdown:
     str | None = None, setup_scripts: SetupScripts | None = None, **kwargs)'
   parameters:
   - name: name

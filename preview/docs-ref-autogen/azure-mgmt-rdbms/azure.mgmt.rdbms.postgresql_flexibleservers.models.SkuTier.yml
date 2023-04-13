@@ -5,8 +5,7 @@ fullName: azure.mgmt.rdbms.postgresql_flexibleservers.models.SkuTier
 summary: The tier of the particular SKU, e.g. Burstable.
 module: azure.mgmt.rdbms.postgresql_flexibleservers.models
 constructor:
-  syntax: SkuTier(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SkuTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

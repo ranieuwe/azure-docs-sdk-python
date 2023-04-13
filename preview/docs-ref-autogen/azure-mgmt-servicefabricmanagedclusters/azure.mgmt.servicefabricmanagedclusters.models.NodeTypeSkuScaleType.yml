@@ -5,8 +5,7 @@ fullName: azure.mgmt.servicefabricmanagedclusters.models.NodeTypeSkuScaleType
 summary: Node type capacity scale type.
 module: azure.mgmt.servicefabricmanagedclusters.models
 constructor:
-  syntax: NodeTypeSkuScaleType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: NodeTypeSkuScaleType(value)
 inheritances:
 - builtins.str
 - enum.Enum

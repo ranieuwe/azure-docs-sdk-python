@@ -5,8 +5,7 @@ fullName: azure.mgmt.sqlvirtualmachine.models.ScaleType
 summary: Scale type.
 module: azure.mgmt.sqlvirtualmachine.models
 constructor:
-  syntax: ScaleType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: ScaleType(value)
 inheritances:
 - builtins.str
 - enum.Enum

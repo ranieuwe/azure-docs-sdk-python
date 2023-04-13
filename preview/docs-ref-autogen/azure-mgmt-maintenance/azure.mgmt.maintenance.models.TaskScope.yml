@@ -6,8 +6,7 @@ summary: Global Task execute once when schedule trigger. Resource task execute f
   each VM.
 module: azure.mgmt.maintenance.models
 constructor:
-  syntax: TaskScope(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: TaskScope(value)
 inheritances:
 - builtins.str
 - enum.Enum

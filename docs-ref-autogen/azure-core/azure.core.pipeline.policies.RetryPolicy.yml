@@ -145,3 +145,9 @@ methods:
     defaultValue: None
     types:
     - <xref:azure.core.pipeline.PipelineResponse>
+attributes:
+- uid: azure.core.pipeline.policies.RetryPolicy.next
+  name: next
+  summary: Pointer to the next policy or a transport (wrapped as a policy). Will be
+    set at pipeline creation.
+  signature: 'next: HTTPPolicy[HTTPRequestTypeVar, HTTPResponseTypeVar]'

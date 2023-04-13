@@ -6,8 +6,7 @@ summary: 'The network protocol this rule applies to. Possible values are: ''Tcp'
   ''Udp'', and ''All''.'
 module: azure.mgmt.network.v2018_02_01.models
 constructor:
-  syntax: EffectiveSecurityRuleProtocol(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: EffectiveSecurityRuleProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

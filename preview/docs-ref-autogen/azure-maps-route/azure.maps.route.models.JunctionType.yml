@@ -8,8 +8,7 @@ summary: 'The type of the junction where the maneuver takes place. For larger ro
   instructions are generated for entering and leaving the roundabout.'
 module: azure.maps.route.models
 constructor:
-  syntax: JunctionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JunctionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

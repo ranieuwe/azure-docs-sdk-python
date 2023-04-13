@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.ContainerType
 summary: Type of container for filter.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: ContainerType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ContainerType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.datab.models.UpdateOperation
 summary: The current update operation.
 module: azure.mgmt.datab.models
 constructor:
-  syntax: UpdateOperation(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: UpdateOperation(value)
 inheritances:
 - builtins.str
 - enum.Enum

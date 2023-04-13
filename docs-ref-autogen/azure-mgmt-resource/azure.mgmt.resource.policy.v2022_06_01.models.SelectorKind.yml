@@ -5,8 +5,7 @@ fullName: azure.mgmt.resource.policy.v2022_06_01.models.SelectorKind
 summary: The selector kind.
 module: azure.mgmt.resource.policy.v2022_06_01.models
 constructor:
-  syntax: SelectorKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SelectorKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

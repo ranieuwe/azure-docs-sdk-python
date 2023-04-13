@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.SyncMemberState
 summary: Sync state of the sync member.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: SyncMemberState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SyncMemberState(value)
 inheritances:
 - builtins.str
 - enum.Enum

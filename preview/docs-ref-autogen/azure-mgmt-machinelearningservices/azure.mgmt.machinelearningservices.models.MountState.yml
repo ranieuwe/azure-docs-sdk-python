@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.MountState
 summary: Mount state.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: MountState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MountState(value)
 inheritances:
 - builtins.str
 - enum.Enum

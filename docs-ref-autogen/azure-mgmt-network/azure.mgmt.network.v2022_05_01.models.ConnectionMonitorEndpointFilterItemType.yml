@@ -6,8 +6,7 @@ summary: The type of item included in the filter. Currently only 'AgentAddress' 
   supported.
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: ConnectionMonitorEndpointFilterItemType(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: ConnectionMonitorEndpointFilterItemType(value)
 inheritances:
 - builtins.str
 - enum.Enum

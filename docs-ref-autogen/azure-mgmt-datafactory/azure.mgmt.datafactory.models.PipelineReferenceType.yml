@@ -5,8 +5,7 @@ fullName: azure.mgmt.datafactory.models.PipelineReferenceType
 summary: Pipeline reference type.
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: PipelineReferenceType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: PipelineReferenceType(value)
 inheritances:
 - builtins.str
 - enum.Enum

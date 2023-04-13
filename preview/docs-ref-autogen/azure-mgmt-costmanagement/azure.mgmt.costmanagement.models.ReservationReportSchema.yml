@@ -8,8 +8,7 @@ summary: 'The CSV file from the reportUrl blob link consists of reservation usag
   schema at daily granularity.'
 module: azure.mgmt.costmanagement.models
 constructor:
-  syntax: ReservationReportSchema(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ReservationReportSchema(value)
 inheritances:
 - builtins.str
 - enum.Enum

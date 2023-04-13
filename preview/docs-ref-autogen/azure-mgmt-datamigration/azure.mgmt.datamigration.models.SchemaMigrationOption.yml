@@ -5,8 +5,7 @@ fullName: azure.mgmt.datamigration.models.SchemaMigrationOption
 summary: Option for how schema is extracted and applied to target.
 module: azure.mgmt.datamigration.models
 constructor:
-  syntax: SchemaMigrationOption(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SchemaMigrationOption(value)
 inheritances:
 - builtins.str
 - enum.Enum

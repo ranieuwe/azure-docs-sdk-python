@@ -7,9 +7,9 @@ inheritances:
 - azure.cognitiveservices.language.luis.authoring.models._models_py3.FeatureInfoObject
 summary: Phraselist Feature.
 constructor:
-  syntax: 'PhraseListFeatureInfo(*, id: int = None, name: str = None, is_active: bool
-    = None, enabled_for_all_models: bool = None, phrases: str = None, is_exchangeable:
-    bool = None, **kwargs)'
+  syntax: 'PhraseListFeatureInfo(*, id: int | None = None, name: str | None = None,
+    is_active: bool | None = None, enabled_for_all_models: bool | None = None, phrases:
+    str | None = None, is_exchangeable: bool | None = None, **kwargs)'
   parameters:
   - name: id
     description: A six-digit ID used for Features.

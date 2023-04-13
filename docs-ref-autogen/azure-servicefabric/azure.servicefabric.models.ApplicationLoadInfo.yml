@@ -7,8 +7,8 @@ inheritances:
 - msrest.serialization.Model
 summary: Load Information about a Service Fabric application.
 constructor:
-  syntax: 'ApplicationLoadInfo(*, id: str = None, minimum_nodes: int = None, maximum_nodes:
-    int = None, node_count: int = None, application_load_metric_information=None,
+  syntax: 'ApplicationLoadInfo(*, id: str | None = None, minimum_nodes: int | None
+    = None, maximum_nodes: int | None = None, node_count: int | None = None, application_load_metric_information=None,
     **kwargs)'
   parameters:
   - name: id

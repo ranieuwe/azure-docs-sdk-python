@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.SupportTier
 summary: Type of support for content item.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: SupportTier(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SupportTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.automation.models.SyncType
 summary: The sync type.
 module: azure.mgmt.automation.models
 constructor:
-  syntax: SyncType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SyncType(value)
 inheritances:
 - builtins.str
 - enum.Enum

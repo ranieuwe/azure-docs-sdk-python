@@ -8,8 +8,8 @@ inheritances:
 - azure.ai.ml.entities._mixins.RestTranslatableMixin
 summary: Compute resource.
 constructor:
-  syntax: 'Compute(name: str, location: str | None = None, description: str = None,
-    resource_id: str = None, **kwargs)'
+  syntax: 'Compute(name: str, location: str | None = None, description: str | None
+    = None, resource_id: str | None = None, **kwargs)'
   parameters:
   - name: type
     description: 'The type of the compute, possible values are

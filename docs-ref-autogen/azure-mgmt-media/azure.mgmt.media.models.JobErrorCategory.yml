@@ -5,8 +5,7 @@ fullName: azure.mgmt.media.models.JobErrorCategory
 summary: Helps with categorization of errors.
 module: azure.mgmt.media.models
 constructor:
-  syntax: JobErrorCategory(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JobErrorCategory(value)
 inheritances:
 - builtins.str
 - enum.Enum

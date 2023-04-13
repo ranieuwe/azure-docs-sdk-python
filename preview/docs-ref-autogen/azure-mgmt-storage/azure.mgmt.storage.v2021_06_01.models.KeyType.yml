@@ -11,8 +11,7 @@ summary: 'Encryption key type to be used for the encryption service. ''Account''
   key is used.'
 module: azure.mgmt.storage.v2021_06_01.models
 constructor:
-  syntax: KeyType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: KeyType(value)
 inheritances:
 - builtins.str
 - enum.Enum

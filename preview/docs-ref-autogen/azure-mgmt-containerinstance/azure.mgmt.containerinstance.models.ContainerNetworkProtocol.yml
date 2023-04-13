@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerinstance.models.ContainerNetworkProtocol
 summary: The protocol associated with the port.
 module: azure.mgmt.containerinstance.models
 constructor:
-  syntax: ContainerNetworkProtocol(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ContainerNetworkProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2022_02_01_preview.models.KnownDataCollectionEndpo
 summary: The kind of the resource.
 module: azure.mgmt.monitor.v2022_02_01_preview.models
 constructor:
-  syntax: KnownDataCollectionEndpointResourceKind(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: KnownDataCollectionEndpointResourceKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

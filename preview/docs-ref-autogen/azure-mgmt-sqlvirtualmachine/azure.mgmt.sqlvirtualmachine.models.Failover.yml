@@ -5,8 +5,7 @@ fullName: azure.mgmt.sqlvirtualmachine.models.Failover
 summary: Replica failover mode in availability group.
 module: azure.mgmt.sqlvirtualmachine.models
 constructor:
-  syntax: Failover(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Failover(value)
 inheritances:
 - builtins.str
 - enum.Enum

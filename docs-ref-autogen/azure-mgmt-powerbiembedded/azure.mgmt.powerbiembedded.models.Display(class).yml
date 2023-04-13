@@ -7,8 +7,9 @@ inheritances:
 - msrest.serialization.Model
 summary: Display.
 constructor:
-  syntax: 'Display(*, provider: str = None, resource: str = None, operation: str =
-    None, description: str = None, origin: str = None, **kwargs)'
+  syntax: 'Display(*, provider: str | None = None, resource: str | None = None, operation:
+    str | None = None, description: str | None = None, origin: str | None = None,
+    **kwargs)'
   parameters:
   - name: provider
     description: 'The localized friendly form of the resource provider

@@ -5,8 +5,7 @@ fullName: azure.mgmt.datamigration.models.MigrationState
 summary: Current state of migration.
 module: azure.mgmt.datamigration.models
 constructor:
-  syntax: MigrationState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MigrationState(value)
 inheritances:
 - builtins.str
 - enum.Enum

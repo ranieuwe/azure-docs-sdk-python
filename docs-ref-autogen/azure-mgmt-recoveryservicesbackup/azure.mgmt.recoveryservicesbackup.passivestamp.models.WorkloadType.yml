@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.passivestamp.models.WorkloadType
 summary: Workload type of backup item.
 module: azure.mgmt.recoveryservicesbackup.passivestamp.models
 constructor:
-  syntax: WorkloadType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: WorkloadType(value)
 inheritances:
 - builtins.str
 - enum.Enum

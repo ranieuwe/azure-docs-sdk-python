@@ -8,8 +8,7 @@ summary: 'Gets whether the error could be ignored and recommended action could b
   values are: Yes/No'
 module: azure.mgmt.sql.models
 constructor:
-  syntax: IsRetryable(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: IsRetryable(value)
 inheritances:
 - builtins.str
 - enum.Enum

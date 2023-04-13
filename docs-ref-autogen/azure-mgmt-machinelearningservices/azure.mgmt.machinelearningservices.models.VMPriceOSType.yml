@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.VMPriceOSType
 summary: Operating system type used by the VM.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: VMPriceOSType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VMPriceOSType(value)
 inheritances:
 - builtins.str
 - enum.Enum

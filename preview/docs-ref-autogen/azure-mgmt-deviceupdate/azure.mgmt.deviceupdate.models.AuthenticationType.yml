@@ -5,8 +5,7 @@ fullName: azure.mgmt.deviceupdate.models.AuthenticationType
 summary: Authentication Type.
 module: azure.mgmt.deviceupdate.models
 constructor:
-  syntax: AuthenticationType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AuthenticationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.ForwardingProtocol
 summary: Protocol this rule will use when forwarding traffic to backends.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: ForwardingProtocol(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ForwardingProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

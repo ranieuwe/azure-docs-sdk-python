@@ -5,8 +5,7 @@ fullName: azure.mgmt.iothubprovisioningservices.models.IotDpsSku
 summary: Sku name.
 module: azure.mgmt.iothubprovisioningservices.models
 constructor:
-  syntax: IotDpsSku(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: IotDpsSku(value)
 inheritances:
 - builtins.str
 - enum.Enum

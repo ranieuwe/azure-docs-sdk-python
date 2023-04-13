@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.RehydrationPriori
 summary: Rehydration Priority.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: RehydrationPriority(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RehydrationPriority(value)
 inheritances:
 - builtins.str
 - enum.Enum

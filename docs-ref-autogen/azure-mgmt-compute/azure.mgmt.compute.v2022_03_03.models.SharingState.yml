@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2022_03_03.models.SharingState
 summary: The sharing state of the gallery, which only appears in the response.
 module: azure.mgmt.compute.v2022_03_03.models
 constructor:
-  syntax: SharingState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SharingState(value)
 inheritances:
 - builtins.str
 - enum.Enum

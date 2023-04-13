@@ -5,8 +5,7 @@ fullName: azure.mgmt.databox.v2021_12_01.models.AccessProtocol
 summary: AccessProtocol.
 module: azure.mgmt.databox.v2021_12_01.models
 constructor:
-  syntax: AccessProtocol(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AccessProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

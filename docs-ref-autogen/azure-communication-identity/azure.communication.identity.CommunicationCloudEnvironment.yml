@@ -5,8 +5,7 @@ fullName: azure.communication.identity.CommunicationCloudEnvironment
 summary: The cloud environment that the identifier belongs to
 module: azure.communication.identity
 constructor:
-  syntax: CommunicationCloudEnvironment(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CommunicationCloudEnvironment(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -11,8 +11,7 @@ summary: 'Indicates whether content compression is enabled. If compression is en
   AzureFrontDoor when requested content is smaller than 1 byte or larger than 1 MB.'
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: RuleIsCompressionEnabled(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RuleIsCompressionEnabled(value)
 inheritances:
 - builtins.str
 - enum.Enum

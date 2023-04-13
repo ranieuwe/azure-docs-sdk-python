@@ -11,8 +11,7 @@ summary: 'Enumerations used to identify Image Analysis options when setting prop
   the ImageAnalysisOptions class (e.g. ImageAnalysisOptions.features).'
 module: azure.ai.vision.enums
 constructor:
-  syntax: ImageAnalysisOption(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ImageAnalysisOption(value)
 inheritances:
 - azure.ai.vision.enums.VisionOption
 fields:

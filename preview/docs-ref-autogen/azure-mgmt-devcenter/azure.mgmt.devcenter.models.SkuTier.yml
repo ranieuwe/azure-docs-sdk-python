@@ -8,8 +8,7 @@ summary: 'This field is required to be implemented by the Resource Provider if t
   one tier, but is not required on a PUT.'
 module: azure.mgmt.devcenter.models
 constructor:
-  syntax: SkuTier(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SkuTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

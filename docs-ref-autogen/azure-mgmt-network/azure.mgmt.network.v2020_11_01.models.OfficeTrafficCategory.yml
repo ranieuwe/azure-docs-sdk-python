@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2020_11_01.models.OfficeTrafficCategory
 summary: The office traffic category.
 module: azure.mgmt.network.v2020_11_01.models
 constructor:
-  syntax: OfficeTrafficCategory(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: OfficeTrafficCategory(value)
 inheritances:
 - builtins.str
 - enum.Enum

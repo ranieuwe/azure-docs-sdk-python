@@ -5,8 +5,7 @@ fullName: azure.mgmt.azurestackhci.models.VmSizeEnum
 summary: VmSizeEnum.
 module: azure.mgmt.azurestackhci.models
 constructor:
-  syntax: VmSizeEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VmSizeEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

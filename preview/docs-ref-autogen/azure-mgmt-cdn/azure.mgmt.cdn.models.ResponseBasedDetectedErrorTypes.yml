@@ -6,8 +6,7 @@ summary: Type of response errors for real user requests for which origin will be
   unhealthy.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: ResponseBasedDetectedErrorTypes(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ResponseBasedDetectedErrorTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

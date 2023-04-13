@@ -6,8 +6,7 @@ summary: SKU name to specify whether the key vault is a standard vault or a prem
   vault.
 module: azure.mgmt.keyvault.v2020_04_01_preview.models
 constructor:
-  syntax: SkuName(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SkuName(value)
 inheritances:
 - builtins.str
 - enum.Enum

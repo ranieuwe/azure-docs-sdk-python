@@ -20,7 +20,7 @@ summary: "An interface to interact with a specific database.\n\nThis class shoul
   \ users resource."
 constructor:
   syntax: 'DatabaseProxy(client_connection: CosmosClientConnection, id: str, properties:
-    Dict[str, Any] = None)'
+    Dict[str, Any] | None = None)'
   parameters:
   - name: client_connection
     description: Client from which this database was retrieved.

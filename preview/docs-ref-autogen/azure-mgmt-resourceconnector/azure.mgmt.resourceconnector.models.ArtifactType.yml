@@ -5,8 +5,7 @@ fullName: azure.mgmt.resourceconnector.models.ArtifactType
 summary: Appliance ArtifactType definition.
 module: azure.mgmt.resourceconnector.models
 constructor:
-  syntax: ArtifactType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ArtifactType(value)
 inheritances:
 - builtins.str
 - enum.Enum

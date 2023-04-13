@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.OriginGroupOverrideActionParametersTypeName
 summary: OriginGroupOverrideActionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: OriginGroupOverrideActionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: OriginGroupOverrideActionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

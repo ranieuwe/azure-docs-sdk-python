@@ -5,8 +5,7 @@ fullName: azure.mgmt.datamigration.models.CreatedByType
 summary: CreatedByType.
 module: azure.mgmt.datamigration.models
 constructor:
-  syntax: CreatedByType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: CreatedByType(value)
 inheritances:
 - builtins.str
 - enum.Enum

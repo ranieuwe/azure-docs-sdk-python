@@ -5,8 +5,7 @@ fullName: azure.mgmt.sqlvirtualmachine.models.SqlWorkloadType
 summary: SQL Server workload type.
 module: azure.mgmt.sqlvirtualmachine.models
 constructor:
-  syntax: SqlWorkloadType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SqlWorkloadType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -15,7 +15,7 @@ summary: 'Credentials for an administrator user account to SSH into the compute
 
   [summary]'
 constructor:
-  syntax: 'ComputeInstanceSshSettings(*, ssh_key_value: str = None, **kwargs)'
+  syntax: 'ComputeInstanceSshSettings(*, ssh_key_value: str | None = None, **kwargs)'
   parameters:
   - name: ssh_key_value
     description: The SSH public key of the administrator user account.

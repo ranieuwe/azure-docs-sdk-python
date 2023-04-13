@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerservice.v2020_12_01.models.Expander
 summary: Expander.
 module: azure.mgmt.containerservice.v2020_12_01.models
 constructor:
-  syntax: Expander(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Expander(value)
 inheritances:
 - builtins.str
 - enum.Enum

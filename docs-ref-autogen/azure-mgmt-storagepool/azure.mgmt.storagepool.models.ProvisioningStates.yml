@@ -5,8 +5,7 @@ fullName: azure.mgmt.storagepool.models.ProvisioningStates
 summary: Provisioning state of the iSCSI Target.
 module: azure.mgmt.storagepool.models
 constructor:
-  syntax: ProvisioningStates(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ProvisioningStates(value)
 inheritances:
 - builtins.str
 - enum.Enum

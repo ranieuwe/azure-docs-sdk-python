@@ -5,8 +5,7 @@ fullName: azure.mgmt.storage.v2021_01_01.models.ListSharesExpand
 summary: ListSharesExpand.
 module: azure.mgmt.storage.v2021_01_01.models
 constructor:
-  syntax: ListSharesExpand(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ListSharesExpand(value)
 inheritances:
 - builtins.str
 - enum.Enum

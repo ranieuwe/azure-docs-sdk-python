@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.passivestamp.models.OperationStatusV
 summary: Operation status.
 module: azure.mgmt.recoveryservicesbackup.passivestamp.models
 constructor:
-  syntax: OperationStatusValues(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: OperationStatusValues(value)
 inheritances:
 - builtins.str
 - enum.Enum

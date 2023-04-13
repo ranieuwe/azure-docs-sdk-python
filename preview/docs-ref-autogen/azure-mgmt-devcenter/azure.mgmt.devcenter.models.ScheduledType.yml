@@ -5,8 +5,7 @@ fullName: azure.mgmt.devcenter.models.ScheduledType
 summary: The supported types for a scheduled task.
 module: azure.mgmt.devcenter.models
 constructor:
-  syntax: ScheduledType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ScheduledType(value)
 inheritances:
 - builtins.str
 - enum.Enum

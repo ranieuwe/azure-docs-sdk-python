@@ -24,7 +24,7 @@ summary: 'An interface to interact with a specific DB Container.
   documents, each of which is represented as an Item.'
 constructor:
   syntax: 'ContainerProxy(client_connection: CosmosClientConnection, database_link:
-    str, id: str, properties: Dict[str, Any] = None)'
+    str, id: str, properties: Dict[str, Any] | None = None)'
   parameters:
   - name: client_connection
   - name: database_link

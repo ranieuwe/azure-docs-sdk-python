@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2022_02_01_preview.models.KnownWindowsEventLogData
 summary: KnownWindowsEventLogDataSourceStreams.
 module: azure.mgmt.monitor.v2022_02_01_preview.models
 constructor:
-  syntax: KnownWindowsEventLogDataSourceStreams(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: KnownWindowsEventLogDataSourceStreams(value)
 inheritances:
 - builtins.str
 - enum.Enum

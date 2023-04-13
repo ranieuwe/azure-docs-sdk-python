@@ -5,8 +5,7 @@ fullName: azure.keyvault.administration.KeyVaultSettingType
 summary: The type specifier of the setting value.
 module: azure.keyvault.administration
 constructor:
-  syntax: KeyVaultSettingType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: KeyVaultSettingType(value)
 inheritances:
 - builtins.str
 - enum.Enum

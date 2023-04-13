@@ -17,7 +17,7 @@ summary: 'Defines matching criteria to determine whether a service should be inc
 
   properties.'
 constructor:
-  syntax: 'ServiceHealthStateFilter(*, service_name_filter: str = None, health_state_filter:
+  syntax: 'ServiceHealthStateFilter(*, service_name_filter: str | None = None, health_state_filter:
     int = 0, partition_filters=None, **kwargs)'
   parameters:
   - name: service_name_filter

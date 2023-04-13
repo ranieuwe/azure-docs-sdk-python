@@ -5,8 +5,7 @@ fullName: azure.mgmt.maps.models.SigningKey
 summary: The Map account key to use for signing.
 module: azure.mgmt.maps.models
 constructor:
-  syntax: SigningKey(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SigningKey(value)
 inheritances:
 - builtins.str
 - enum.Enum

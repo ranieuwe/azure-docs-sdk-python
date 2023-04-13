@@ -17,7 +17,7 @@ constructor:
     Dict[str, str | Output] | None = None, limits: CommandJobLimits | None = None,
     identity: ManagedIdentityConfiguration | AmlTokenConfiguration | UserIdentityConfiguration
     | None = None, distribution: Dict | MpiDistribution | TensorFlowDistribution |
-    PyTorchDistribution | None = None, environment: Environment | str | None = None,
+    PyTorchDistribution | None = None, environment: str | Environment | None = None,
     environment_variables: Dict | None = None, resources: JobResourceConfiguration
     | None = None, services: Dict[str, JobService | JupyterLabJobService | SshJobService
     | TensorBoardJobService | VsCodeJobService] | None = None, queue_settings: QueueSettings

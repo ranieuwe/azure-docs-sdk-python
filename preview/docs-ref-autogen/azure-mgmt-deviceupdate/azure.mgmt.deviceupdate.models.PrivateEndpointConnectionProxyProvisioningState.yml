@@ -5,8 +5,7 @@ fullName: azure.mgmt.deviceupdate.models.PrivateEndpointConnectionProxyProvision
 summary: The current provisioning state.
 module: azure.mgmt.deviceupdate.models
 constructor:
-  syntax: PrivateEndpointConnectionProxyProvisioningState(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: PrivateEndpointConnectionProxyProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

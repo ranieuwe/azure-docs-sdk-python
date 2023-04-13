@@ -5,8 +5,7 @@ fullName: azure.mgmt.hybridkubernetes.models.ConnectivityStatus
 summary: Represents the connectivity status of the connected cluster.
 module: azure.mgmt.hybridkubernetes.models
 constructor:
-  syntax: ConnectivityStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConnectivityStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

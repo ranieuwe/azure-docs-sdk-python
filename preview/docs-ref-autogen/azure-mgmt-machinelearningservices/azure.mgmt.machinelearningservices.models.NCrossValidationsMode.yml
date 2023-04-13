@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.NCrossValidationsMode
 summary: Determines how N-Cross validations value is determined.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: NCrossValidationsMode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: NCrossValidationsMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

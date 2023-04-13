@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2022_05_01.models.GatewayLoadBalancerTunnelInterfa
 summary: Traffic type of gateway load balancer tunnel interface.
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: GatewayLoadBalancerTunnelInterfaceType(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: GatewayLoadBalancerTunnelInterfaceType(value)
 inheritances:
 - builtins.str
 - enum.Enum

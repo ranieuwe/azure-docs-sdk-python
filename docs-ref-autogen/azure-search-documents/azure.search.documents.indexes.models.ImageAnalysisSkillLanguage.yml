@@ -5,8 +5,7 @@ fullName: azure.search.documents.indexes.models.ImageAnalysisSkillLanguage
 summary: The language codes supported for input by ImageAnalysisSkill.
 module: azure.search.documents.indexes.models
 constructor:
-  syntax: ImageAnalysisSkillLanguage(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ImageAnalysisSkillLanguage(value)
 inheritances:
 - builtins.str
 - enum.Enum

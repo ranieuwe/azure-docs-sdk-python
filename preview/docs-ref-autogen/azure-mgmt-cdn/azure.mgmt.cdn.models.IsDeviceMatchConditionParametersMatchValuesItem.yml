@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.IsDeviceMatchConditionParametersMatchValuesItem
 summary: IsDeviceMatchConditionParametersMatchValuesItem.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: IsDeviceMatchConditionParametersMatchValuesItem(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: IsDeviceMatchConditionParametersMatchValuesItem(value)
 inheritances:
 - builtins.str
 - enum.Enum

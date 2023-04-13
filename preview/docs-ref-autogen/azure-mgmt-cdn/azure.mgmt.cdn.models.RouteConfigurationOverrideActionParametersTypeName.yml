@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.RouteConfigurationOverrideActionParametersTypeNa
 summary: RouteConfigurationOverrideActionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: RouteConfigurationOverrideActionParametersTypeName(value, names=None, *,
-    module=None, qualname=None, type=None, start=1, boundary=None)
+  syntax: RouteConfigurationOverrideActionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

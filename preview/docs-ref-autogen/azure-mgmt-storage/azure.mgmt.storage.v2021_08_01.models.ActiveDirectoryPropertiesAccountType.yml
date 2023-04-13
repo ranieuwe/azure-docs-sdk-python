@@ -5,8 +5,7 @@ fullName: azure.mgmt.storage.v2021_08_01.models.ActiveDirectoryPropertiesAccount
 summary: Specifies the Active Directory account type for Azure Storage.
 module: azure.mgmt.storage.v2021_08_01.models
 constructor:
-  syntax: ActiveDirectoryPropertiesAccountType(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: ActiveDirectoryPropertiesAccountType(value)
 inheritances:
 - builtins.str
 - enum.Enum

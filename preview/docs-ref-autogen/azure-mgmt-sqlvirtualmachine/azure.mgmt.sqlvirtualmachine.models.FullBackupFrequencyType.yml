@@ -8,8 +8,7 @@ summary: 'Frequency of full backups. In both cases, full backups begin during th
   window.'
 module: azure.mgmt.sqlvirtualmachine.models
 constructor:
-  syntax: FullBackupFrequencyType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: FullBackupFrequencyType(value)
 inheritances:
 - builtins.str
 - enum.Enum

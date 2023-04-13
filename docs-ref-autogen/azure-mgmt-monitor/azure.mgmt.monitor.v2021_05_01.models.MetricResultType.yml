@@ -8,8 +8,7 @@ summary: 'Reduces the set of data collected. The syntax allowed depends on the o
   operation''s description for details.'
 module: azure.mgmt.monitor.v2021_05_01.models
 constructor:
-  syntax: MetricResultType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MetricResultType(value)
 inheritances:
 - builtins.str
 - enum.Enum

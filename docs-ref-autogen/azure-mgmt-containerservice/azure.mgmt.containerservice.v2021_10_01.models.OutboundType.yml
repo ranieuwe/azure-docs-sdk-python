@@ -8,8 +8,7 @@ summary: 'This can only be set at cluster creation time and cannot be changed la
   see [egress outbound type](https://docs.microsoft.com/azure/aks/egress-outboundtype).'
 module: azure.mgmt.containerservice.v2021_10_01.models
 constructor:
-  syntax: OutboundType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OutboundType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.VirtualMachineRestrictMovementState
 summary: Whether VM DRS-driven movement is restricted (enabled) or not (disabled).
 module: azure.mgmt.avs.models
 constructor:
-  syntax: VirtualMachineRestrictMovementState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: VirtualMachineRestrictMovementState(value)
 inheritances:
 - builtins.str
 - enum.Enum

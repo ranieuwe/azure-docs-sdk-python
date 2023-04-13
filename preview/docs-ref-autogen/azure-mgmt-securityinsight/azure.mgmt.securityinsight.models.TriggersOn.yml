@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.TriggersOn
 summary: TriggersOn.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: TriggersOn(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: TriggersOn(value)
 inheritances:
 - builtins.str
 - enum.Enum

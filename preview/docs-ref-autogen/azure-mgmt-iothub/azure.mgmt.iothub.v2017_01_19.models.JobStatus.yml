@@ -5,8 +5,7 @@ fullName: azure.mgmt.iothub.v2017_01_19.models.JobStatus
 summary: The status of the job.
 module: azure.mgmt.iothub.v2017_01_19.models
 constructor:
-  syntax: JobStatus(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: JobStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

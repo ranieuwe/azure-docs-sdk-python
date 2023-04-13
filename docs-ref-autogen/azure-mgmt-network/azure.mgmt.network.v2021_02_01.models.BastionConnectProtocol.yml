@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2021_02_01.models.BastionConnectProtocol
 summary: The protocol used to connect to the target.
 module: azure.mgmt.network.v2021_02_01.models
 constructor:
-  syntax: BastionConnectProtocol(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: BastionConnectProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

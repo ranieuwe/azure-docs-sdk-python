@@ -7,8 +7,9 @@ inheritances:
 - msrest.serialization.Model
 summary: The device registry operation error details.
 constructor:
-  syntax: 'DeviceRegistryOperationError(*, device_id: str = None, error_code=None,
-    error_status: str = None, module_id: str = None, operation: str = None, **kwargs)'
+  syntax: 'DeviceRegistryOperationError(*, device_id: str | None = None, error_code=None,
+    error_status: str | None = None, module_id: str | None = None, operation: str
+    | None = None, **kwargs)'
   parameters:
   - name: device_id
     description: The unique identifier of the device.

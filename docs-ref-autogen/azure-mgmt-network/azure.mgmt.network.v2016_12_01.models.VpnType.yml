@@ -6,8 +6,7 @@ summary: 'The type of this virtual network gateway. Possible values are: ''Polic
   and ''RouteBased''.'
 module: azure.mgmt.network.v2016_12_01.models
 constructor:
-  syntax: VpnType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: VpnType(value)
 inheritances:
 - builtins.str
 - enum.Enum

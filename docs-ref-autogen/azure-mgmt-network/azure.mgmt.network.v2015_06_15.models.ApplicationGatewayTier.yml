@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2015_06_15.models.ApplicationGatewayTier
 summary: Tier of an application gateway.
 module: azure.mgmt.network.v2015_06_15.models
 constructor:
-  syntax: ApplicationGatewayTier(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ApplicationGatewayTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

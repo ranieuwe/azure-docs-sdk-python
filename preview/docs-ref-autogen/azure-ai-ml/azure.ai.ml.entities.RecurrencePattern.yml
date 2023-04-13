@@ -8,7 +8,8 @@ inheritances:
 summary: Recurrence pattern
 constructor:
   syntax: 'RecurrencePattern(*, hours: int | List[int], minutes: int | List[int],
-    week_days: str | List[str] = None, month_days: int | List[int] = None)'
+    week_days: str | List[str] | None = None, month_days: int | List[int] | None =
+    None)'
   parameters:
   - name: hours
     description: List of hours for recurrence schedule pattern.

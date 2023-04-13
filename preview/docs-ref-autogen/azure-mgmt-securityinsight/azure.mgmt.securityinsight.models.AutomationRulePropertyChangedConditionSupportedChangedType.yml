@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.AutomationRulePropertyChangedConditi
 summary: AutomationRulePropertyChangedConditionSupportedChangedType.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: AutomationRulePropertyChangedConditionSupportedChangedType(value, names=None,
-    *, module=None, qualname=None, type=None, start=1, boundary=None)
+  syntax: AutomationRulePropertyChangedConditionSupportedChangedType(value)
 inheritances:
 - builtins.str
 - enum.Enum

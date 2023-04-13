@@ -8,8 +8,7 @@ summary: 'The reason code explaining why the name is unavailable. Will be undefi
   available.'
 module: azure.mgmt.sql.models
 constructor:
-  syntax: CheckNameAvailabilityReason(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CheckNameAvailabilityReason(value)
 inheritances:
 - builtins.str
 - enum.Enum

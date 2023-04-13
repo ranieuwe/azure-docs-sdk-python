@@ -6,8 +6,7 @@ summary: A value indicating compliance status of the machine for the assigned gu
   configuration.
 module: azure.mgmt.guestconfig.models
 constructor:
-  syntax: ComplianceStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ComplianceStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

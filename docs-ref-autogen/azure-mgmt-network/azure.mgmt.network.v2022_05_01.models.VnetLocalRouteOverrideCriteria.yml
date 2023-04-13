@@ -8,8 +8,7 @@ summary: 'Parameter determining whether NVA in spoke vnet is bypassed for traffi
   spoke vnet.'
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: VnetLocalRouteOverrideCriteria(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: VnetLocalRouteOverrideCriteria(value)
 inheritances:
 - builtins.str
 - enum.Enum

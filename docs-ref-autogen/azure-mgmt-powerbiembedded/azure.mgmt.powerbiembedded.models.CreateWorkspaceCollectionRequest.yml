@@ -12,7 +12,8 @@ summary: 'CreateWorkspaceCollectionRequest.
 
   sending a request.'
 constructor:
-  syntax: 'CreateWorkspaceCollectionRequest(*, location: str = None, tags=None, **kwargs)'
+  syntax: 'CreateWorkspaceCollectionRequest(*, location: str | None = None, tags=None,
+    **kwargs)'
   parameters:
   - name: location
     description: Azure location

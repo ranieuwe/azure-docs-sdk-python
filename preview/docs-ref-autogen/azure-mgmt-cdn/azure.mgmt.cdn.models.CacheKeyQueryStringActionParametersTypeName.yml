@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.CacheKeyQueryStringActionParametersTypeName
 summary: CacheKeyQueryStringActionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: CacheKeyQueryStringActionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: CacheKeyQueryStringActionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

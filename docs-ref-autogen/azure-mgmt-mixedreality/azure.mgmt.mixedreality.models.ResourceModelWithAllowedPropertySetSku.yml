@@ -11,7 +11,7 @@ summary: 'ResourceModelWithAllowedPropertySetSku.
   All required parameters must be populated in order to send to Azure.'
 constructor:
   syntax: 'ResourceModelWithAllowedPropertySetSku(*, name: str, tier=None, size: str
-    = None, family: str = None, capacity: int = None, **kwargs)'
+    | None = None, family: str | None = None, capacity: int | None = None, **kwargs)'
   parameters:
   - name: name
     description: 'Required. The name of the SKU. Ex - P3. It is typically a

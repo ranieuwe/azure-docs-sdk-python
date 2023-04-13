@@ -5,8 +5,7 @@ fullName: azure.mgmt.authorization.v2018_05_01_preview.models.AccessReviewReview
 summary: 'The identity type : user/servicePrincipal.'
 module: azure.mgmt.authorization.v2018_05_01_preview.models
 constructor:
-  syntax: AccessReviewReviewerType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AccessReviewReviewerType(value)
 inheritances:
 - builtins.str
 - enum.Enum

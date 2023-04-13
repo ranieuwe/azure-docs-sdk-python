@@ -9,10 +9,10 @@ summary: 'Pipeline component, currently used to store components in a
 
   azure.ai.ml.dsl.pipeline.'
 constructor:
-  syntax: 'PipelineComponent(*, name: str = None, version: str = None, description:
-    str = None, tags: Dict = None, display_name: str = None, inputs: Dict = None,
-    outputs: Dict = None, jobs: Dict[str, BaseNode] = None, is_deterministic: bool
-    = None, **kwargs)'
+  syntax: 'PipelineComponent(*, name: str | None = None, version: str | None = None,
+    description: str | None = None, tags: Dict | None = None, display_name: str |
+    None = None, inputs: Dict | None = None, outputs: Dict | None = None, jobs: Dict[str,
+    BaseNode] | None = None, is_deterministic: bool | None = None, **kwargs)'
   parameters:
   - name: name
     description: Name of the component.

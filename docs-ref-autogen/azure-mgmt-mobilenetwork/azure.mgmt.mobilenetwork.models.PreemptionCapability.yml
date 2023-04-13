@@ -5,8 +5,7 @@ fullName: azure.mgmt.mobilenetwork.models.PreemptionCapability
 summary: Preemption capability.
 module: azure.mgmt.mobilenetwork.models
 constructor:
-  syntax: PreemptionCapability(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PreemptionCapability(value)
 inheritances:
 - builtins.str
 - enum.Enum

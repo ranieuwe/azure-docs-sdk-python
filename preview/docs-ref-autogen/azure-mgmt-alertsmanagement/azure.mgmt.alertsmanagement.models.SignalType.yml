@@ -6,8 +6,7 @@ summary: The type of signal the alert is based on, which could be metrics, logs 
   activity logs.
 module: azure.mgmt.alertsmanagement.models
 constructor:
-  syntax: SignalType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SignalType(value)
 inheritances:
 - builtins.str
 - enum.Enum

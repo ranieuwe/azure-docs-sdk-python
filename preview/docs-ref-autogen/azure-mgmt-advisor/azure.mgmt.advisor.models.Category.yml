@@ -5,8 +5,7 @@ fullName: azure.mgmt.advisor.models.Category
 summary: Category.
 module: azure.mgmt.advisor.models
 constructor:
-  syntax: Category(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Category(value)
 inheritances:
 - builtins.str
 - enum.Enum

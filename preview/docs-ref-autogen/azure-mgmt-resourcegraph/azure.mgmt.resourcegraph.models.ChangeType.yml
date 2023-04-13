@@ -6,8 +6,7 @@ summary: The change type for snapshot. PropertyChanges will be provided in case 
   Update change type.
 module: azure.mgmt.resourcegraph.models
 constructor:
-  syntax: ChangeType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ChangeType(value)
 inheritances:
 - builtins.str
 - enum.Enum

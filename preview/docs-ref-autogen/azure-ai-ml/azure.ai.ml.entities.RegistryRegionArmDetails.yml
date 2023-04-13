@@ -8,8 +8,8 @@ inheritances:
 summary: Details for each region a registry is in.
 constructor:
   syntax: 'RegistryRegionArmDetails(*, acr_config: List[str | SystemCreatedAcrAccount]
-    = None, location: str = None, storage_config: List[str | SystemCreatedStorageAccount]
-    = None)'
+    | None = None, location: str | None = None, storage_config: List[str | SystemCreatedStorageAccount]
+    | None = None)'
   parameters:
   - name: acr_details
     description: 'List of ACR details. Each value can either be a

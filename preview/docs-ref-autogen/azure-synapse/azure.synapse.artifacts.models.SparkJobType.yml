@@ -5,8 +5,7 @@ fullName: azure.synapse.artifacts.models.SparkJobType
 summary: The job type.
 module: azure.synapse.artifacts.models
 constructor:
-  syntax: SparkJobType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SparkJobType(value)
 inheritances:
 - builtins.str
 - enum.Enum

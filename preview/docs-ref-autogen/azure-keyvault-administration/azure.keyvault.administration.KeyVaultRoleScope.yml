@@ -5,8 +5,7 @@ fullName: azure.keyvault.administration.KeyVaultRoleScope
 summary: Collection of well known role scopes. This list is not exhaustive.
 module: azure.keyvault.administration
 constructor:
-  syntax: KeyVaultRoleScope(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: KeyVaultRoleScope(value)
 inheritances:
 - builtins.str
 - enum.Enum

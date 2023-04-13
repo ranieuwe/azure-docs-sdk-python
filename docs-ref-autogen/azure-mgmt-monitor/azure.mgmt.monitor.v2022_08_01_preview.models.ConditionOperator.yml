@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2022_08_01_preview.models.ConditionOperator
 summary: The criteria operator. Relevant and required only for rules of the kind LogAlert.
 module: azure.mgmt.monitor.v2022_08_01_preview.models
 constructor:
-  syntax: ConditionOperator(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConditionOperator(value)
 inheritances:
 - builtins.str
 - enum.Enum

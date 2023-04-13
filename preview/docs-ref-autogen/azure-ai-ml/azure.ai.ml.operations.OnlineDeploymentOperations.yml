@@ -17,7 +17,7 @@ constructor:
   syntax: 'OnlineDeploymentOperations(operation_scope: OperationScope, operation_config:
     OperationConfig, service_client_02_2022_preview: AzureMachineLearningWorkspaces,
     all_operations: OperationsContainer, local_deployment_helper: _LocalDeploymentHelper,
-    credentials: TokenCredential = None, **kwargs: Dict)'
+    credentials: TokenCredential | None = None, **kwargs: Dict)'
   parameters:
   - name: operation_scope
   - name: operation_config

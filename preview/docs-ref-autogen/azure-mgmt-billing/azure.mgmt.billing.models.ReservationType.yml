@@ -5,8 +5,7 @@ fullName: azure.mgmt.billing.models.ReservationType
 summary: The type of transaction.
 module: azure.mgmt.billing.models
 constructor:
-  syntax: ReservationType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ReservationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -7,7 +7,7 @@ inheritances:
 - builtins.object
 constructor:
   syntax: 'SystemCreatedStorageAccount(*, storage_account_hns: bool, storage_account_type:
-    StorageAccountType, arm_resource_id: str = None)'
+    StorageAccountType, arm_resource_id: str | None = None)'
   parameters:
   - name: arm_resource_id
     description: Resource ID of the storage account.

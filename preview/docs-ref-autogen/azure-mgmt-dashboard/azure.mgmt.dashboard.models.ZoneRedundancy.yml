@@ -5,8 +5,7 @@ fullName: azure.mgmt.dashboard.models.ZoneRedundancy
 summary: ZoneRedundancy.
 module: azure.mgmt.dashboard.models
 constructor:
-  syntax: ZoneRedundancy(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ZoneRedundancy(value)
 inheritances:
 - builtins.str
 - enum.Enum

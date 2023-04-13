@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2020_06_30.models.SnapshotStorageAccountTypes
 summary: The sku name.
 module: azure.mgmt.compute.v2020_06_30.models
 constructor:
-  syntax: SnapshotStorageAccountTypes(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SnapshotStorageAccountTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

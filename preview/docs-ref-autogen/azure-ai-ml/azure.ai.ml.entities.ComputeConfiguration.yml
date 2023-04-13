@@ -7,9 +7,10 @@ inheritances:
 - azure.ai.ml.entities._mixins.RestTranslatableMixin
 - azure.ai.ml.entities._mixins.DictMixin
 constructor:
-  syntax: 'ComputeConfiguration(target: str = None, instance_count: int = None, is_local:
-    bool = None, instance_type: str = None, location: str = None, properties: Dict[str,
-    Any] = None, deserialize_properties: bool = False)'
+  syntax: 'ComputeConfiguration(target: str | None = None, instance_count: int | None
+    = None, is_local: bool | None = None, instance_type: str | None = None, location:
+    str | None = None, properties: Dict[str, Any] | None = None, deserialize_properties:
+    bool = False)'
   parameters:
   - name: target
     defaultValue: None

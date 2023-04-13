@@ -28,8 +28,8 @@ summary: 'An HTTP request.
 constructor:
   syntax: 'HttpRequest(method: str, url: str, *, params: Mapping[str, str | int |
     float | bool | None | Sequence[str | int | float | bool | None]] | None = None,
-    headers: MutableMapping[str, str] | None = None, json: Any = None, content: str
-    | bytes | Iterable[bytes] | AsyncIterable[bytes] | None = None, data: Dict[str,
+    headers: MutableMapping[str, str] | None = None, json: Any | None = None, content:
+    str | bytes | Iterable[bytes] | AsyncIterable[bytes] | None = None, data: Dict[str,
     Any] | None = None, files: Mapping[str, Tuple[str | None, str | bytes | IO[str]
     | IO[bytes]]] | Sequence[Tuple[str, Tuple[str | None, str | bytes | IO[str] |
     IO[bytes]]]] | None = None, **kwargs)'

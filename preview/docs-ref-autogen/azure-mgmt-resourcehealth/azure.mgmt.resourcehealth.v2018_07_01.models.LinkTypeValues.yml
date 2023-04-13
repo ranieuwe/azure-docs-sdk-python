@@ -5,8 +5,7 @@ fullName: azure.mgmt.resourcehealth.v2018_07_01.models.LinkTypeValues
 summary: Type of link.
 module: azure.mgmt.resourcehealth.v2018_07_01.models
 constructor:
-  syntax: LinkTypeValues(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LinkTypeValues(value)
 inheritances:
 - builtins.str
 - enum.Enum

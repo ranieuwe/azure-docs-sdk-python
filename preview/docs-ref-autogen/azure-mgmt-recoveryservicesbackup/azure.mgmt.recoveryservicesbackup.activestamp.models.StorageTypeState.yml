@@ -8,8 +8,7 @@ summary: 'Locked or Unlocked. Once a machine is registered against a resource, t
   always Locked.'
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: StorageTypeState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: StorageTypeState(value)
 inheritances:
 - builtins.str
 - enum.Enum

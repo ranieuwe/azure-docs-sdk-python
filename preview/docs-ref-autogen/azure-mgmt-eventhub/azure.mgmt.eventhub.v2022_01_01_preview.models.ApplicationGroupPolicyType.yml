@@ -5,8 +5,7 @@ fullName: azure.mgmt.eventhub.v2022_01_01_preview.models.ApplicationGroupPolicyT
 summary: Application Group Policy types.
 module: azure.mgmt.eventhub.v2022_01_01_preview.models
 constructor:
-  syntax: ApplicationGroupPolicyType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ApplicationGroupPolicyType(value)
 inheritances:
 - builtins.str
 - enum.Enum

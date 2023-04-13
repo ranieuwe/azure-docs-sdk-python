@@ -16,7 +16,7 @@ constructor:
     int | None = None, executor_memory: str | None = None, executor_instances: int
     | None = None, dynamic_allocation_enabled: bool | None = None, dynamic_allocation_min_executors:
     int | None = None, dynamic_allocation_max_executors: int | None = None, conf:
-    Dict[str, str] | None = None, environment: Environment | str | None = None, inputs:
+    Dict[str, str] | None = None, environment: str | Environment | None = None, inputs:
     Dict | None = None, outputs: Dict | None = None, args: str | None = None, **kwargs)'
   parameters:
   - name: code

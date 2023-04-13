@@ -5,8 +5,7 @@ fullName: azure.maps.render.models.StaticMapLayer
 summary: StaticMapLayer.
 module: azure.maps.render.models
 constructor:
-  syntax: StaticMapLayer(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: StaticMapLayer(value)
 inheritances:
 - builtins.str
 - enum.Enum

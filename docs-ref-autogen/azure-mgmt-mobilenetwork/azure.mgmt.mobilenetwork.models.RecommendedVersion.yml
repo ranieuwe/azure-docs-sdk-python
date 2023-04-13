@@ -8,8 +8,7 @@ summary: 'Indicates whether this is the recommended version to use for new packe
   deployments.'
 module: azure.mgmt.mobilenetwork.models
 constructor:
-  syntax: RecommendedVersion(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecommendedVersion(value)
 inheritances:
 - builtins.str
 - enum.Enum

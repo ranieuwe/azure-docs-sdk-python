@@ -5,8 +5,7 @@ fullName: azure.mgmt.hybridnetwork.models.OperationalState
 summary: The operational state of the role instance.
 module: azure.mgmt.hybridnetwork.models
 constructor:
-  syntax: OperationalState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OperationalState(value)
 inheritances:
 - builtins.str
 - enum.Enum

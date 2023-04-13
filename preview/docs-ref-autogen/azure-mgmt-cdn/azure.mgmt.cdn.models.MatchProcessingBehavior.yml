@@ -8,8 +8,7 @@ summary: 'If this rule is a match should the rules engine continue running the r
   If not present, defaults to Continue.'
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: MatchProcessingBehavior(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MatchProcessingBehavior(value)
 inheritances:
 - builtins.str
 - enum.Enum

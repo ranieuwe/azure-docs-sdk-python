@@ -8,7 +8,7 @@ inheritances:
 summary: Kubernetes Compute resource.
 constructor:
   syntax: 'KubernetesCompute(*, namespace: str | None = ''default'', properties: Dict[str,
-    Any] | None = None, identity: IdentityConfiguration = None, **kwargs)'
+    Any] | None = None, identity: IdentityConfiguration | None = None, **kwargs)'
   parameters:
   - name: name
     description: Name of the compute

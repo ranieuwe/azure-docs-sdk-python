@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2015_04_01.models.ConditionOperator
 summary: Operators allowed in the rule condition.
 module: azure.mgmt.monitor.v2015_04_01.models
 constructor:
-  syntax: ConditionOperator(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConditionOperator(value)
 inheritances:
 - builtins.str
 - enum.Enum

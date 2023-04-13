@@ -8,8 +8,7 @@ summary: 'Defines the aggregation function used to combine the results of all th
   scoring profile.'
 module: azure.search.documents.indexes.models
 constructor:
-  syntax: ScoringFunctionAggregation(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ScoringFunctionAggregation(value)
 inheritances:
 - builtins.str
 - enum.Enum

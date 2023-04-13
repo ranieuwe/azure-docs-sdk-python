@@ -5,8 +5,7 @@ fullName: azure.mgmt.managementgroups.models.Permissions
 summary: The users specific permissions to this item.
 module: azure.mgmt.managementgroups.models
 constructor:
-  syntax: Permissions(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: Permissions(value)
 inheritances:
 - builtins.str
 - enum.Enum

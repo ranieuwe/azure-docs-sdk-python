@@ -5,8 +5,7 @@ fullName: azure.mgmt.databox.v2019_09_01.models.SkuDisabledReason
 summary: Reason why the Sku is disabled.
 module: azure.mgmt.databox.v2019_09_01.models
 constructor:
-  syntax: SkuDisabledReason(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SkuDisabledReason(value)
 inheritances:
 - builtins.str
 - enum.Enum

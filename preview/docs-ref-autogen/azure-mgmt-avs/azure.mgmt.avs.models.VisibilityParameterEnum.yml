@@ -6,8 +6,7 @@ summary: Should this parameter be visible to arm and passed in the parameters ar
   when executing.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: VisibilityParameterEnum(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: VisibilityParameterEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

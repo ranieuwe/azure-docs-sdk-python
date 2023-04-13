@@ -8,8 +8,7 @@ summary: 'Sql always encrypted AKV authentication type. Type: string (or Express
   string).'
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: SqlAlwaysEncryptedAkvAuthType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SqlAlwaysEncryptedAkvAuthType(value)
 inheritances:
 - builtins.str
 - enum.Enum

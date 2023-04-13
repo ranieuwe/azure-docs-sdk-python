@@ -45,8 +45,8 @@ methods:
     \ \"content\" is bytes and \"content_type\" is string. \n\nContent must follow\
     \ format of associated Avro RecordSchema:\n[https://avro.apache.org/docs/1.10.0/gettingstartedpython.html#Defining+a+schema](https://avro.apache.org/docs/1.10.0/gettingstartedpython.html#Defining+a+schema)"
   signature: 'decode(message: MessageContent | MessageType, *, readers_schema: str
-    | None = None, request_options: Dict[str, Any] = None, **kwargs: Any) -> Dict[str,
-    Any]'
+    | None = None, request_options: Dict[str, Any] | None = None, **kwargs: Any) ->
+    Dict[str, Any]'
   parameters:
   - name: message
     description: 'The message object which holds the content to be decoded and content

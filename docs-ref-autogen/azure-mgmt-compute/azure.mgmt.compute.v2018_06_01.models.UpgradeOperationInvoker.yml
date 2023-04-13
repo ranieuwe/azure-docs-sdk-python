@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2018_06_01.models.UpgradeOperationInvoker
 summary: Invoker of the Upgrade Operation.
 module: azure.mgmt.compute.v2018_06_01.models
 constructor:
-  syntax: UpgradeOperationInvoker(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: UpgradeOperationInvoker(value)
 inheritances:
 - builtins.str
 - enum.Enum

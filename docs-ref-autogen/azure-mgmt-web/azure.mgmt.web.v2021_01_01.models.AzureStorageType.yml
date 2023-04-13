@@ -5,8 +5,7 @@ fullName: azure.mgmt.web.v2021_01_01.models.AzureStorageType
 summary: Type of storage.
 module: azure.mgmt.web.v2021_01_01.models
 constructor:
-  syntax: AzureStorageType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AzureStorageType(value)
 inheritances:
 - builtins.str
 - enum.Enum

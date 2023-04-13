@@ -5,8 +5,7 @@ fullName: azure.synapse.artifacts.models.VariableType
 summary: Variable type.
 module: azure.synapse.artifacts.models
 constructor:
-  syntax: VariableType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VariableType(value)
 inheritances:
 - builtins.str
 - enum.Enum

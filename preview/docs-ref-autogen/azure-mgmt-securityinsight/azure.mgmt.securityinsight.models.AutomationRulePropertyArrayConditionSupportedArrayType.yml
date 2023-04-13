@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.AutomationRulePropertyArrayCondition
 summary: AutomationRulePropertyArrayConditionSupportedArrayType.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: AutomationRulePropertyArrayConditionSupportedArrayType(value, names=None,
-    *, module=None, qualname=None, type=None, start=1, boundary=None)
+  syntax: AutomationRulePropertyArrayConditionSupportedArrayType(value)
 inheritances:
 - builtins.str
 - enum.Enum

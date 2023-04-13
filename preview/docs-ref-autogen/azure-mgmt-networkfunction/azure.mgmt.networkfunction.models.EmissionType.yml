@@ -5,8 +5,7 @@ fullName: azure.mgmt.networkfunction.models.EmissionType
 summary: Emission format type.
 module: azure.mgmt.networkfunction.models
 constructor:
-  syntax: EmissionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EmissionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.kubernetesconfiguration.v2021_11_01_preview.models.Enum1
 summary: Enum1.
 module: azure.mgmt.kubernetesconfiguration.v2021_11_01_preview.models
 constructor:
-  syntax: Enum1(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Enum1(value)
 inheritances:
 - builtins.str
 - enum.Enum

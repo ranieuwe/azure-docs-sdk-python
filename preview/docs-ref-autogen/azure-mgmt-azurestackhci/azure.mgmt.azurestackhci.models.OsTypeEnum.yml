@@ -5,8 +5,7 @@ fullName: azure.mgmt.azurestackhci.models.OsTypeEnum
 summary: OsType - string specifying whether the OS is Linux or Windows.
 module: azure.mgmt.azurestackhci.models
 constructor:
-  syntax: OsTypeEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OsTypeEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -7,7 +7,8 @@ inheritances:
 - builtins.object
 summary: Represents coordinate latitude and longitude
 constructor:
-  syntax: 'CountryRegionResult(ip_address: str = None, iso_code: str = None)'
+  syntax: 'CountryRegionResult(ip_address: str | None = None, iso_code: str | None
+    = None)'
   parameters:
   - name: ip_address
     description: The IP Address of the request.

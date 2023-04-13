@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.EntityProviders
 summary: The entity provider that is synced.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: EntityProviders(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EntityProviders(value)
 inheritances:
 - builtins.str
 - enum.Enum

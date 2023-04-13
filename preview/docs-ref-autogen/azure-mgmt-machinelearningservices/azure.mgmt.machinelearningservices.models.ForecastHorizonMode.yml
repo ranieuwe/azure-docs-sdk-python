@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.ForecastHorizonMode
 summary: Enum to determine forecast horizon selection mode.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: ForecastHorizonMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ForecastHorizonMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

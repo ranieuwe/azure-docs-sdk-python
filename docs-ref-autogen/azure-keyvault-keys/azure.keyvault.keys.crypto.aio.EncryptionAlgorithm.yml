@@ -5,8 +5,7 @@ fullName: azure.keyvault.keys.crypto.aio.EncryptionAlgorithm
 summary: Encryption algorithms
 module: azure.keyvault.keys.crypto.aio
 constructor:
-  syntax: EncryptionAlgorithm(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EncryptionAlgorithm(value)
 inheritances:
 - builtins.str
 - enum.Enum

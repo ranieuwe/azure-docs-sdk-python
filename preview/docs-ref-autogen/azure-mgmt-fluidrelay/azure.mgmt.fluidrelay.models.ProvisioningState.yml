@@ -5,8 +5,7 @@ fullName: azure.mgmt.fluidrelay.models.ProvisioningState
 summary: Provision states for FluidRelay RP.
 module: azure.mgmt.fluidrelay.models
 constructor:
-  syntax: ProvisioningState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

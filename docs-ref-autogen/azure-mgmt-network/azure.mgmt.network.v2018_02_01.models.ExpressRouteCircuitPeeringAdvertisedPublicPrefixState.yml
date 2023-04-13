@@ -8,8 +8,7 @@ summary: 'AdvertisedPublicPrefixState of the Peering resource. Possible values a
   ''Configuring'', ''Configured'', and ''ValidationNeeded''.'
 module: azure.mgmt.network.v2018_02_01.models
 constructor:
-  syntax: ExpressRouteCircuitPeeringAdvertisedPublicPrefixState(value, names=None,
-    *, module=None, qualname=None, type=None, start=1, boundary=None)
+  syntax: ExpressRouteCircuitPeeringAdvertisedPublicPrefixState(value)
 inheritances:
 - builtins.str
 - enum.Enum

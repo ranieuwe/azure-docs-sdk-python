@@ -5,8 +5,7 @@ fullName: azure.mgmt.databoxedge.v2021_02_01_preview.models.DataBoxEdgeDeviceSta
 summary: The status of the Data Box Edge/Gateway device.
 module: azure.mgmt.databoxedge.v2021_02_01_preview.models
 constructor:
-  syntax: DataBoxEdgeDeviceStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DataBoxEdgeDeviceStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.edgeorder.v2022_05_01_preview.models.AddressValidationStatu
 summary: Status of address validation.
 module: azure.mgmt.edgeorder.v2022_05_01_preview.models
 constructor:
-  syntax: AddressValidationStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AddressValidationStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

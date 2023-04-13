@@ -13,7 +13,7 @@ summary: 'An interface to interact with a specific user.
   <xref:DatabaseProxy.get_user_client> method.'
 constructor:
   syntax: 'UserProxy(client_connection: CosmosClientConnection, id: str, database_link:
-    str, properties: Dict[str, Any] = None)'
+    str, properties: Dict[str, Any] | None = None)'
   parameters:
   - name: client_connection
   - name: id

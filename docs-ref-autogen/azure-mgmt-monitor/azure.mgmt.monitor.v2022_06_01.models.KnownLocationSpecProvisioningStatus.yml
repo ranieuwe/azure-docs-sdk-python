@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2022_06_01.models.KnownLocationSpecProvisioningSta
 summary: The resource provisioning state in this location.
 module: azure.mgmt.monitor.v2022_06_01.models
 constructor:
-  syntax: KnownLocationSpecProvisioningStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: KnownLocationSpecProvisioningStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

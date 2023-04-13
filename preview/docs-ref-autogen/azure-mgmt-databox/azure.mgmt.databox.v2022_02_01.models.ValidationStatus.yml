@@ -5,8 +5,7 @@ fullName: azure.mgmt.databox.v2022_02_01.models.ValidationStatus
 summary: Create order limit validation status.
 module: azure.mgmt.databox.v2022_02_01.models
 constructor:
-  syntax: ValidationStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ValidationStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

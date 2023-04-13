@@ -8,8 +8,8 @@ inheritances:
 summary: Azure file share that is linked to an Azure ML workspace.
 constructor:
   syntax: 'AzureFileDatastore(*, name: str, account_name: str, file_share_name: str,
-    description: str = None, tags: Dict = None, endpoint: str = ''core.windows.net'',
-    protocol: str = ''https'', properties: Dict = None, credentials: AccountKeyCredentials
+    description: str | None = None, tags: Dict | None = None, endpoint: str = ''core.windows.net'',
+    protocol: str = ''https'', properties: Dict | None = None, credentials: AccountKeyCredentials
     | SasTokenCredentials, **kwargs)'
   parameters:
   - name: name

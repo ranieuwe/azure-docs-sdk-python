@@ -7,8 +7,7 @@ summary: 'The encryption keySource (provider). Possible values (case-insensitive
   Microsoft.Keyvault.'
 module: azure.mgmt.storage.v2018_02_01.models
 constructor:
-  syntax: KeySource(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: KeySource(value)
 inheritances:
 - builtins.str
 - enum.Enum

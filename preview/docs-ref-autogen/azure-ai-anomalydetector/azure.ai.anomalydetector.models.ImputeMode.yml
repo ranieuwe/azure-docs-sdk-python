@@ -5,8 +5,7 @@ fullName: azure.ai.anomalydetector.models.ImputeMode
 summary: ImputeMode.
 module: azure.ai.anomalydetector.models
 constructor:
-  syntax: ImputeMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ImputeMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

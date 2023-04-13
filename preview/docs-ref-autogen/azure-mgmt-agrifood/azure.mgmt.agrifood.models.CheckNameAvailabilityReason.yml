@@ -5,8 +5,7 @@ fullName: azure.mgmt.agrifood.models.CheckNameAvailabilityReason
 summary: The reason why the given name is not available.
 module: azure.mgmt.agrifood.models
 constructor:
-  syntax: CheckNameAvailabilityReason(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CheckNameAvailabilityReason(value)
 inheritances:
 - builtins.str
 - enum.Enum

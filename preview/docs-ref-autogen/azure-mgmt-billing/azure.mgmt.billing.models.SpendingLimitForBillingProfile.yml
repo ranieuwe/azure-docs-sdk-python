@@ -5,8 +5,7 @@ fullName: azure.mgmt.billing.models.SpendingLimitForBillingProfile
 summary: The billing profile spending limit.
 module: azure.mgmt.billing.models
 constructor:
-  syntax: SpendingLimitForBillingProfile(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SpendingLimitForBillingProfile(value)
 inheritances:
 - builtins.str
 - enum.Enum

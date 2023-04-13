@@ -5,8 +5,7 @@ fullName: azure.mgmt.newrelicobservability.models.OrgCreationSource
 summary: Source of Org creation.
 module: azure.mgmt.newrelicobservability.models
 constructor:
-  syntax: OrgCreationSource(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OrgCreationSource(value)
 inheritances:
 - builtins.str
 - enum.Enum

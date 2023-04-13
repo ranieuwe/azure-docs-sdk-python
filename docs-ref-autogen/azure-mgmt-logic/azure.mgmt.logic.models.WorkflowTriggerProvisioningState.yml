@@ -5,8 +5,7 @@ fullName: azure.mgmt.logic.models.WorkflowTriggerProvisioningState
 summary: The workflow trigger provisioning state.
 module: azure.mgmt.logic.models
 constructor:
-  syntax: WorkflowTriggerProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: WorkflowTriggerProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

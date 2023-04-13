@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.PropertyId
 summary: Defines speech property ids.
 module: azure.cognitiveservices.speech
 constructor:
-  syntax: PropertyId(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PropertyId(value)
 inheritances:
 - enum.Enum
 fields:

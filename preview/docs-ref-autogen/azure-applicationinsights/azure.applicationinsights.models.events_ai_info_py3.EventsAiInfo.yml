@@ -7,8 +7,8 @@ inheritances:
 - msrest.serialization.Model
 summary: AI related application info for an event result.
 constructor:
-  syntax: 'EventsAiInfo(*, i_key: str = None, app_name: str = None, app_id: str =
-    None, sdk_version: str = None, **kwargs)'
+  syntax: 'EventsAiInfo(*, i_key: str | None = None, app_name: str | None = None,
+    app_id: str | None = None, sdk_version: str | None = None, **kwargs)'
   parameters:
   - name: i_key
     description: iKey of the app

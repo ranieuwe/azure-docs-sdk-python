@@ -14,8 +14,7 @@ summary: 'The compensating action to perform when a Monitored upgrade encounters
   switch to UnmonitoredManual upgrade mode.'
 module: azure.mgmt.servicefabricmanagedclusters.models
 constructor:
-  syntax: FailureAction(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: FailureAction(value)
 inheritances:
 - builtins.str
 - enum.Enum

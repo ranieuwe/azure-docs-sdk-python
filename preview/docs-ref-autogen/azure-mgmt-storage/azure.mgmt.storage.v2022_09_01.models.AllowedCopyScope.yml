@@ -8,8 +8,7 @@ summary: 'Restrict copy to and from Storage Accounts within an AAD tenant or wit
   same VNet.'
 module: azure.mgmt.storage.v2022_09_01.models
 constructor:
-  syntax: AllowedCopyScope(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AllowedCopyScope(value)
 inheritances:
 - builtins.str
 - enum.Enum

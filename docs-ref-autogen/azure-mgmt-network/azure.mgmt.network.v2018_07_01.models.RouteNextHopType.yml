@@ -8,8 +8,7 @@ summary: 'The type of Azure hop the packet should be sent to. Possible values ar
   ''None''.'
 module: azure.mgmt.network.v2018_07_01.models
 constructor:
-  syntax: RouteNextHopType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RouteNextHopType(value)
 inheritances:
 - builtins.str
 - enum.Enum

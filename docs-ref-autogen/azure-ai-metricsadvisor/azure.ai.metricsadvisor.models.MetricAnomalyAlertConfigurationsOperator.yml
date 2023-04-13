@@ -5,8 +5,7 @@ fullName: azure.ai.metricsadvisor.models.MetricAnomalyAlertConfigurationsOperato
 summary: Cross metrics operator
 module: azure.ai.metricsadvisor.models
 constructor:
-  syntax: MetricAnomalyAlertConfigurationsOperator(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: MetricAnomalyAlertConfigurationsOperator(value)
 inheritances:
 - builtins.str
 - enum.Enum

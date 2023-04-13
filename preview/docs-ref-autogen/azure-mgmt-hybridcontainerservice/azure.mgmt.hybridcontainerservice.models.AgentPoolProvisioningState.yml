@@ -5,8 +5,7 @@ fullName: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningState
 summary: AgentPoolProvisioningState.
 module: azure.mgmt.hybridcontainerservice.models
 constructor:
-  syntax: AgentPoolProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AgentPoolProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

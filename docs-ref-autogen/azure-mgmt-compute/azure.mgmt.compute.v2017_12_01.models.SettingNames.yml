@@ -8,8 +8,7 @@ summary: 'Specifies the name of the setting to which the content applies. Possib
   FirstLogonCommands and AutoLogon.'
 module: azure.mgmt.compute.v2017_12_01.models
 constructor:
-  syntax: SettingNames(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SettingNames(value)
 inheritances:
 - builtins.str
 - enum.Enum

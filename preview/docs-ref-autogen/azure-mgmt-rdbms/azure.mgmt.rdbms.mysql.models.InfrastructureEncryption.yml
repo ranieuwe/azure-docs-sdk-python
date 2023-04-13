@@ -11,8 +11,7 @@ summary: 'Add a second layer of encryption for your data using new encryption al
   ''Enabled''.'
 module: azure.mgmt.rdbms.mysql.models
 constructor:
-  syntax: InfrastructureEncryption(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: InfrastructureEncryption(value)
 inheritances:
 - builtins.str
 - enum.Enum

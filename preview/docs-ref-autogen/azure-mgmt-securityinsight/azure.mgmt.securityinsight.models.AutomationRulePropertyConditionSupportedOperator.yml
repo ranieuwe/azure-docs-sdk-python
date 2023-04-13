@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.AutomationRulePropertyConditionSuppo
 summary: AutomationRulePropertyConditionSupportedOperator.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: AutomationRulePropertyConditionSupportedOperator(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: AutomationRulePropertyConditionSupportedOperator(value)
 inheritances:
 - builtins.str
 - enum.Enum

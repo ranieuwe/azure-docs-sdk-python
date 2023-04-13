@@ -18,8 +18,9 @@ summary: 'A reference to an Azure Virtual Machines Marketplace Image or a Shared
 
   sending a request.'
 constructor:
-  syntax: 'ImageReference(*, publisher: str = None, offer: str = None, sku: str =
-    None, version: str = None, virtual_machine_image_id: str = None, **kwargs)'
+  syntax: 'ImageReference(*, publisher: str | None = None, offer: str | None = None,
+    sku: str | None = None, version: str | None = None, virtual_machine_image_id:
+    str | None = None, **kwargs)'
   parameters:
   - name: publisher
     description: For example, Canonical or MicrosoftWindowsServer.

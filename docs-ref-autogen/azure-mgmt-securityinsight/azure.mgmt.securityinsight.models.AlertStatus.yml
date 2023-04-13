@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.AlertStatus
 summary: The lifecycle status of the alert.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: AlertStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AlertStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

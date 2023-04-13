@@ -5,8 +5,7 @@ fullName: azure.mgmt.authorization.v2021_03_01_preview.models.AccessReviewInstan
 summary: This read-only field specifies the status of an access review instance.
 module: azure.mgmt.authorization.v2021_03_01_preview.models
 constructor:
-  syntax: AccessReviewInstanceStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AccessReviewInstanceStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

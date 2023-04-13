@@ -5,8 +5,7 @@ fullName: azure.mgmt.frontdoor.models.HeaderActionType
 summary: Which type of manipulation to apply to the header.
 module: azure.mgmt.frontdoor.models
 constructor:
-  syntax: HeaderActionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: HeaderActionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

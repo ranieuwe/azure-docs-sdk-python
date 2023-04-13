@@ -7,8 +7,8 @@ inheritances:
 - msrest.serialization.Model
 summary: Coordinates to the found face.
 constructor:
-  syntax: 'Face(*, bottom: int = None, left: int = None, right: int = None, top: int
-    = None, **kwargs)'
+  syntax: 'Face(*, bottom: int | None = None, left: int | None = None, right: int
+    | None = None, top: int | None = None, **kwargs)'
   parameters:
   - name: bottom
     description: The bottom coordinate.

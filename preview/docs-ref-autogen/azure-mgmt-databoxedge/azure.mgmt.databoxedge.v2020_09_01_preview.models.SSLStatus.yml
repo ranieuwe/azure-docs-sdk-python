@@ -5,8 +5,7 @@ fullName: azure.mgmt.databoxedge.v2020_09_01_preview.models.SSLStatus
 summary: Signifies whether SSL needs to be enabled or not.
 module: azure.mgmt.databoxedge.v2020_09_01_preview.models
 constructor:
-  syntax: SSLStatus(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SSLStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

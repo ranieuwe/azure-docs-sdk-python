@@ -13,7 +13,7 @@ summary: 'Context of the durable orchestration execution.
   function-based activities.'
 constructor:
   syntax: 'DurableOrchestrationContext(history: List[Dict[Any, Any]], instanceId:
-    str, isReplaying: bool, parentInstanceId: str, input: Any = None, **kwargs)'
+    str, isReplaying: bool, parentInstanceId: str, input: Any | None = None, **kwargs)'
   parameters:
   - name: history
   - name: instanceId
@@ -78,7 +78,7 @@ methods:
   name: call_http
   summary: Schedule a durable HTTP call to the specified endpoint.
   signature: 'call_http(method: str, uri: str, content: str | None = None, headers:
-    Dict[str, str] | None = None, token_source: TokenSource = None) -> Task'
+    Dict[str, str] | None = None, token_source: TokenSource | None = None) -> Task'
   parameters:
   - name: method
     description: The HTTP request method.

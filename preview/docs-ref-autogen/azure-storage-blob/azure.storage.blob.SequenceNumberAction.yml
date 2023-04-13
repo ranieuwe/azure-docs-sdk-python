@@ -5,8 +5,7 @@ fullName: azure.storage.blob.SequenceNumberAction
 summary: Sequence number actions.
 module: azure.storage.blob
 constructor:
-  syntax: SequenceNumberAction(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SequenceNumberAction(value)
 inheritances:
 - builtins.str
 - enum.Enum

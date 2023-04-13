@@ -5,8 +5,7 @@ fullName: azure.ai.textanalytics.RelativeTo
 summary: The reference point that the ordinal number denotes.
 module: azure.ai.textanalytics
 constructor:
-  syntax: RelativeTo(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RelativeTo(value)
 inheritances:
 - builtins.str
 - enum.Enum

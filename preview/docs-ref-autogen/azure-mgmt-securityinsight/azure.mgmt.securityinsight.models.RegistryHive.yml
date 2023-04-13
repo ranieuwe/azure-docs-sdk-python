@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.RegistryHive
 summary: the hive that holds the registry key.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: RegistryHive(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RegistryHive(value)
 inheritances:
 - builtins.str
 - enum.Enum

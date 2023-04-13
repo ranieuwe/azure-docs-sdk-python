@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.SslProtocol
 summary: The protocol of an established TLS connection.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: SslProtocol(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SslProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

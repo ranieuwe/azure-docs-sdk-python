@@ -8,8 +8,7 @@ summary: 'Gets the status indicating whether the primary location of the storage
   unavailable.'
 module: azure.mgmt.storage.v2021_02_01.models
 constructor:
-  syntax: AccountStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AccountStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

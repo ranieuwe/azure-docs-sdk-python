@@ -5,8 +5,7 @@ fullName: azure.mgmt.elasticsan.models.OperationalStatus
 summary: Operational status of the resource.
 module: azure.mgmt.elasticsan.models
 constructor:
-  syntax: OperationalStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OperationalStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

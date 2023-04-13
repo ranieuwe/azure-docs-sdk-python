@@ -9,7 +9,7 @@ summary: 'Defines a repetition rule and parameters of Chaos to be used with the 
 
   Schedule.'
 constructor:
-  syntax: 'ChaosScheduleJob(*, chaos_parameters: str = None, days=None, times=None,
+  syntax: 'ChaosScheduleJob(*, chaos_parameters: str | None = None, days=None, times=None,
     **kwargs)'
   parameters:
   - name: chaos_parameters

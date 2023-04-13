@@ -5,8 +5,7 @@ fullName: azure.mgmt.rdbms.mysql_flexibleservers.models.SkuTier
 summary: The tier of the particular SKU, e.g. GeneralPurpose.
 module: azure.mgmt.rdbms.mysql_flexibleservers.models
 constructor:
-  syntax: SkuTier(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SkuTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.healthinsights.clinicalmatching.models.ClinicalTrialStudyType
 summary: Possible study types of a clinical trial.
 module: azure.healthinsights.clinicalmatching.models
 constructor:
-  syntax: ClinicalTrialStudyType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ClinicalTrialStudyType(value)
 inheritances:
 - builtins.str
 - enum.Enum

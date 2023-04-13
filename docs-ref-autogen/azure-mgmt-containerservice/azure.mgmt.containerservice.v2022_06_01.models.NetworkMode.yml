@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerservice.v2022_06_01.models.NetworkMode
 summary: This cannot be specified if networkPlugin is anything other than 'azure'.
 module: azure.mgmt.containerservice.v2022_06_01.models
 constructor:
-  syntax: NetworkMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: NetworkMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

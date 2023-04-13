@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.Status
 summary: The validation status.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: Status(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Status(value)
 inheritances:
 - builtins.str
 - enum.Enum

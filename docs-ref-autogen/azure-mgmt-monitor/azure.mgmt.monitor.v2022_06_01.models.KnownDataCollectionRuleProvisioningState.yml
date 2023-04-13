@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2022_06_01.models.KnownDataCollectionRuleProvision
 summary: The resource provisioning state.
 module: azure.mgmt.monitor.v2022_06_01.models
 constructor:
-  syntax: KnownDataCollectionRuleProvisioningState(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: KnownDataCollectionRuleProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

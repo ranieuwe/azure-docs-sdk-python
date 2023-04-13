@@ -7,10 +7,10 @@ inheritances:
 - msrest.serialization.Model
 summary: Evaluate response object.
 constructor:
-  syntax: 'Evaluate(*, cache_id: str = None, result: bool = None, tracking_id: str
-    = None, adult_classification_score: float = None, is_image_adult_classified: bool
-    = None, racy_classification_score: float = None, is_image_racy_classified: bool
-    = None, advanced_info=None, status=None, **kwargs)'
+  syntax: 'Evaluate(*, cache_id: str | None = None, result: bool | None = None, tracking_id:
+    str | None = None, adult_classification_score: float | None = None, is_image_adult_classified:
+    bool | None = None, racy_classification_score: float | None = None, is_image_racy_classified:
+    bool | None = None, advanced_info=None, status=None, **kwargs)'
   parameters:
   - name: cache_id
     description: The cache id.

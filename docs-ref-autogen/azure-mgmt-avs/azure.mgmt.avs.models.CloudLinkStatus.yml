@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.CloudLinkStatus
 summary: The state of the cloud link.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: CloudLinkStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: CloudLinkStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

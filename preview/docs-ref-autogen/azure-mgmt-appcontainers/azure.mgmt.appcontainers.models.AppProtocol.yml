@@ -8,8 +8,7 @@ summary: 'Tells Dapr which protocol your application is using. Valid options are
   is http.'
 module: azure.mgmt.appcontainers.models
 constructor:
-  syntax: AppProtocol(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AppProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

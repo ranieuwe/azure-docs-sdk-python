@@ -11,8 +11,7 @@ summary: 'The type of managed identity used. The type ''SystemAssigned, UserAssi
   any identities.'
 module: azure.mgmt.appconfiguration.v2022_05_01.models
 constructor:
-  syntax: IdentityType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: IdentityType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -6,8 +6,7 @@ summary: The status of the rendering session. Terminal states are 'Error', 'Expi
   and 'Stopped'.
 module: azure.mixedreality.remoterendering
 constructor:
-  syntax: RenderingSessionStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RenderingSessionStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

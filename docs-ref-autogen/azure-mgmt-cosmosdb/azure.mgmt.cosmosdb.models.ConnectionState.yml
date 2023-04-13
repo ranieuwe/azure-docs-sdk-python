@@ -5,8 +5,7 @@ fullName: azure.mgmt.cosmosdb.models.ConnectionState
 summary: The kind of connection error that occurred.
 module: azure.mgmt.cosmosdb.models
 constructor:
-  syntax: ConnectionState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConnectionState(value)
 inheritances:
 - builtins.str
 - enum.Enum

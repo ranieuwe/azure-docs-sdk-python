@@ -5,8 +5,7 @@ fullName: azure.mgmt.appplatform.v2022_05_01_preview.models.ApiPortalProvisionin
 summary: State of the API portal.
 module: azure.mgmt.appplatform.v2022_05_01_preview.models
 constructor:
-  syntax: ApiPortalProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ApiPortalProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

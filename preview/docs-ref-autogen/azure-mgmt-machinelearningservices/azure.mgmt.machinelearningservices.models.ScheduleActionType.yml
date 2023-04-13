@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.ScheduleActionType
 summary: ScheduleActionType.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: ScheduleActionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ScheduleActionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

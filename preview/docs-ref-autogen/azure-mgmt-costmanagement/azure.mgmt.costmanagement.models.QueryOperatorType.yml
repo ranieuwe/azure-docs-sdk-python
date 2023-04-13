@@ -5,8 +5,7 @@ fullName: azure.mgmt.costmanagement.models.QueryOperatorType
 summary: The operator to use for comparison.
 module: azure.mgmt.costmanagement.models
 constructor:
-  syntax: QueryOperatorType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: QueryOperatorType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.JobStatus
 summary: Status of the job.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: JobStatus(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: JobStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

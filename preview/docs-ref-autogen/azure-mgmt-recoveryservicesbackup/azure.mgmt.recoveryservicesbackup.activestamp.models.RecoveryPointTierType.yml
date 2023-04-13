@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.RecoveryPointTier
 summary: Recovery point tier type.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: RecoveryPointTierType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RecoveryPointTierType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.StreamStatus
 summary: Defines the possible status of audio data stream.
 module: azure.cognitiveservices.speech
 constructor:
-  syntax: StreamStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: StreamStatus(value)
 inheritances:
 - enum.Enum
 fields:

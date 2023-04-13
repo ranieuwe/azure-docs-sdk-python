@@ -5,8 +5,7 @@ fullName: azure.ai.ml.constants.ImageClassificationModelNames
 summary: Model names that are supported for Image Classification tasks.
 module: azure.ai.ml.constants
 constructor:
-  syntax: ImageClassificationModelNames(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ImageClassificationModelNames(value)
 inheritances:
 - enum.Enum
 fields:

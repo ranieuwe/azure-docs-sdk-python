@@ -5,8 +5,7 @@ fullName: azure.healthinsights.clinicalmatching.models.GeoJsonPropertiesSubType
 summary: '`GeoJSON` object sub-type.'
 module: azure.healthinsights.clinicalmatching.models
 constructor:
-  syntax: GeoJsonPropertiesSubType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: GeoJsonPropertiesSubType(value)
 inheritances:
 - builtins.str
 - enum.Enum

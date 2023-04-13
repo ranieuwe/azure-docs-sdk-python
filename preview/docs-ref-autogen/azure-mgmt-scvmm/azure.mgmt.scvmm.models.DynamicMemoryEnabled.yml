@@ -5,8 +5,7 @@ fullName: azure.mgmt.scvmm.models.DynamicMemoryEnabled
 summary: Gets or sets a value indicating whether to enable dynamic memory or not.
 module: azure.mgmt.scvmm.models
 constructor:
-  syntax: DynamicMemoryEnabled(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DynamicMemoryEnabled(value)
 inheritances:
 - builtins.str
 - enum.Enum

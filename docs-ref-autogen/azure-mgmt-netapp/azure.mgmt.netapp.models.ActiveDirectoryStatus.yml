@@ -5,8 +5,7 @@ fullName: azure.mgmt.netapp.models.ActiveDirectoryStatus
 summary: Status of the Active Directory
 module: azure.mgmt.netapp.models
 constructor:
-  syntax: ActiveDirectoryStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ActiveDirectoryStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

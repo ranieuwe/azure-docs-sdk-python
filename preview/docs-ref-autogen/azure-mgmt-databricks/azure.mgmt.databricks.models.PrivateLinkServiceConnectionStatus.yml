@@ -5,8 +5,7 @@ fullName: azure.mgmt.databricks.models.PrivateLinkServiceConnectionStatus
 summary: The status of a private endpoint connection.
 module: azure.mgmt.databricks.models
 constructor:
-  syntax: PrivateLinkServiceConnectionStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: PrivateLinkServiceConnectionStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

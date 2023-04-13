@@ -5,8 +5,7 @@ fullName: azure.maps.render.models.MapTileSize
 summary: MapTileSize.
 module: azure.maps.render.models
 constructor:
-  syntax: MapTileSize(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MapTileSize(value)
 inheritances:
 - builtins.str
 - enum.Enum

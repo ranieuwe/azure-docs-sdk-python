@@ -15,12 +15,13 @@ summary: 'Base class for sweep node, used for command component version
 
   create from builder function: sweep.'
 constructor:
-  syntax: 'Sweep(*, trial: CommandComponent | str = None, compute: str = None, limits:
-    SweepJobLimits = None, sampling_algorithm: str | SamplingAlgorithm = None, objective:
-    Objective = None, early_termination: EarlyTerminationPolicy = None, search_space:
-    Dict[str, SweepDistribution] = None, inputs: Dict[str, int | str | float | bool
-    | Input] = None, outputs: Dict[str, str | Output] = None, identity: ManagedIdentity
-    | AmlToken | UserIdentity = None, **kwargs)'
+  syntax: 'Sweep(*, trial: CommandComponent | str | None = None, compute: str | None
+    = None, limits: SweepJobLimits | None = None, sampling_algorithm: str | SamplingAlgorithm
+    | None = None, objective: Objective | None = None, early_termination: EarlyTerminationPolicy
+    | None = None, search_space: Dict[str, SweepDistribution] | None = None, inputs:
+    Dict[str, int | str | float | bool | Input] | None = None, outputs: Dict[str,
+    str | Output] | None = None, identity: ManagedIdentity | AmlToken | UserIdentity
+    | None = None, **kwargs)'
   parameters:
   - name: trial
     description: Id or instance of the command component/job to be run for the step

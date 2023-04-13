@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2021_02_01.models.EndpointType
 summary: The endpoint type.
 module: azure.mgmt.network.v2021_02_01.models
 constructor:
-  syntax: EndpointType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EndpointType(value)
 inheritances:
 - builtins.str
 - enum.Enum

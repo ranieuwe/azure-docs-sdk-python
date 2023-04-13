@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2022_05_01.models.ScopeConnectionState
 summary: The current scope connection state.
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: ScopeConnectionState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ScopeConnectionState(value)
 inheritances:
 - builtins.str
 - enum.Enum

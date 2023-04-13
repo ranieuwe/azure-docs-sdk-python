@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.OutputFormat
 summary: Output format.
 module: azure.cognitiveservices.speech
 constructor:
-  syntax: OutputFormat(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OutputFormat(value)
 inheritances:
 - enum.Enum
 fields:

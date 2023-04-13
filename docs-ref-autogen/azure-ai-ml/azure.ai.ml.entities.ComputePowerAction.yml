@@ -5,8 +5,7 @@ fullName: azure.ai.ml.entities.ComputePowerAction
 summary: '[Required] The compute power action.'
 module: azure.ai.ml.entities
 constructor:
-  syntax: ComputePowerAction(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ComputePowerAction(value)
 inheritances:
 - builtins.str
 - enum.Enum

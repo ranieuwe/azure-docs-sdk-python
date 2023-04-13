@@ -8,8 +8,7 @@ summary: 'Specifies the assignment type and execution of the configuration. Poss
   DeployAndAutoCorrect, ApplyAndAutoCorrect and ApplyAndMonitor.'
 module: azure.mgmt.guestconfig.models
 constructor:
-  syntax: AssignmentType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AssignmentType(value)
 inheritances:
 - builtins.str
 - enum.Enum

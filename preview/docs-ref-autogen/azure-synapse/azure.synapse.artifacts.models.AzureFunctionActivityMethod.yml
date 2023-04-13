@@ -5,8 +5,7 @@ fullName: azure.synapse.artifacts.models.AzureFunctionActivityMethod
 summary: The list of HTTP methods supported by a AzureFunctionActivity.
 module: azure.synapse.artifacts.models
 constructor:
-  syntax: AzureFunctionActivityMethod(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AzureFunctionActivityMethod(value)
 inheritances:
 - builtins.str
 - enum.Enum

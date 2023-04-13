@@ -5,8 +5,7 @@ fullName: azure.mgmt.guestconfig.models.Type
 summary: Type of report, Consistency or Initial.
 module: azure.mgmt.guestconfig.models
 constructor:
-  syntax: Type(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Type(value)
 inheritances:
 - builtins.str
 - enum.Enum

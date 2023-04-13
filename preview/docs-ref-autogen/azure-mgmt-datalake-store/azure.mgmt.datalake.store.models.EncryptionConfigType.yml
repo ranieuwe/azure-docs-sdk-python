@@ -8,8 +8,7 @@ summary: 'The type of encryption configuration being used. Currently the only su
   ''UserManaged'' and ''ServiceManaged''.'
 module: azure.mgmt.datalake.store.models
 constructor:
-  syntax: EncryptionConfigType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EncryptionConfigType(value)
 inheritances:
 - builtins.str
 - enum.Enum

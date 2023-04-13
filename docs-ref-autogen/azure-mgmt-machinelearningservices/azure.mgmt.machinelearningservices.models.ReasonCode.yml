@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.ReasonCode
 summary: The reason for the restriction.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: ReasonCode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ReasonCode(value)
 inheritances:
 - builtins.str
 - enum.Enum

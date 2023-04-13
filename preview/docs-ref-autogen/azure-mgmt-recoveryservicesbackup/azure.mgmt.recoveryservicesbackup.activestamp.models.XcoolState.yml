@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.XcoolState
 summary: Vault x-cool state.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: XcoolState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: XcoolState(value)
 inheritances:
 - builtins.str
 - enum.Enum

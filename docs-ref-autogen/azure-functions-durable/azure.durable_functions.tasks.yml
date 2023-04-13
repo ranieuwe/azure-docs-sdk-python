@@ -9,7 +9,7 @@ functions:
   name: call_activity_task
   summary: Determine the state of Scheduling an activity for execution.
   signature: 'call_activity_task(state: List[HistoryEvent], name: str, input_: Any
-    = None) -> Task'
+    | None = None) -> Task'
   parameters:
   - name: state
     description: The list of history events to search to determine the current state
@@ -39,7 +39,7 @@ functions:
   summary: Determine the state of scheduling an activity for execution with retry
     options.
   signature: 'call_activity_with_retry_task(state: List[HistoryEvent], retry_options:
-    RetryOptions, name: str, input_: Any = None) -> Task'
+    RetryOptions, name: str, input_: Any | None = None) -> Task'
   parameters:
   - name: state
     description: The list of history events to search to determine the current state
@@ -75,8 +75,8 @@ functions:
   name: call_http
   summary: Get task used to schedule a durable HTTP call to the specified endpoint.
   signature: 'call_http(state: List[HistoryEvent], method: str, uri: str, content:
-    str | None = None, headers: Dict[str, str] = None, token_source: TokenSource |
-    None = None) -> Task'
+    str | None = None, headers: Dict[str, str] | None = None, token_source: TokenSource
+    | None = None) -> Task'
   parameters:
   - name: state
     description: 'The list of events that have been processed to determine the state
@@ -205,7 +205,7 @@ functions:
 - uid: azure.durable_functions.tasks.continue_as_new
   name: continue_as_new
   summary: Create a new continue as new action.
-  signature: 'continue_as_new(context, input_: Any = None)'
+  signature: 'continue_as_new(context, input_: Any | None = None)'
   parameters:
   - name: input
     description: The JSON-serializable input to pass to the activity function.
@@ -328,8 +328,8 @@ functions:
   name: call_http
   summary: Get task used to schedule a durable HTTP call to the specified endpoint.
   signature: 'call_http(state: List[HistoryEvent], method: str, uri: str, content:
-    str | None = None, headers: Dict[str, str] = None, token_source: TokenSource |
-    None = None) -> Task'
+    str | None = None, headers: Dict[str, str] | None = None, token_source: TokenSource
+    | None = None) -> Task'
   parameters:
   - name: state
     description: 'The list of events that have been processed to determine the state
@@ -371,7 +371,7 @@ functions:
 - uid: azure.durable_functions.tasks.continue_as_new
   name: continue_as_new
   summary: Create a new continue as new action.
-  signature: 'continue_as_new(context, input_: Any = None)'
+  signature: 'continue_as_new(context, input_: Any | None = None)'
   parameters:
   - name: input
     description: The JSON-serializable input to pass to the activity function.

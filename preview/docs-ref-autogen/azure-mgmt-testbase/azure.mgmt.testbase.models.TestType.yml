@@ -5,8 +5,7 @@ fullName: azure.mgmt.testbase.models.TestType
 summary: The test type.
 module: azure.mgmt.testbase.models
 constructor:
-  syntax: TestType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: TestType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -8,8 +8,7 @@ summary: 'When matchVariable is a collection, operate on the selector to specify
   collection this exclusion applies to.'
 module: azure.mgmt.network.v2020_11_01.models
 constructor:
-  syntax: OwaspCrsExclusionEntrySelectorMatchOperator(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: OwaspCrsExclusionEntrySelectorMatchOperator(value)
 inheritances:
 - builtins.str
 - enum.Enum

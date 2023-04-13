@@ -10,8 +10,8 @@ summary: 'This object is returned from a successful Search calls.
 
   Variables are only populated by the server, and will be ignored when sending a request.'
 constructor:
-  syntax: 'SearchAddressResult(summary: SearchSummary = None, results: List[SearchAddressResultItem]
-    = None)'
+  syntax: 'SearchAddressResult(summary: SearchSummary | None = None, results: List[SearchAddressResultItem]
+    | None = None)'
   parameters:
   - name: summary
     description: Summary object for a Search API response.

@@ -5,8 +5,7 @@ fullName: azure.mgmt.appcomplianceautomation.models.ResourceStatus
 summary: Indicates the resource status.
 module: azure.mgmt.appcomplianceautomation.models
 constructor:
-  syntax: ResourceStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ResourceStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

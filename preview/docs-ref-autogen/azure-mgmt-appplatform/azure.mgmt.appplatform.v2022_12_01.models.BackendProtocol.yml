@@ -5,8 +5,7 @@ fullName: azure.mgmt.appplatform.v2022_12_01.models.BackendProtocol
 summary: How ingress should communicate with this app backend service.
 module: azure.mgmt.appplatform.v2022_12_01.models
 constructor:
-  syntax: BackendProtocol(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: BackendProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

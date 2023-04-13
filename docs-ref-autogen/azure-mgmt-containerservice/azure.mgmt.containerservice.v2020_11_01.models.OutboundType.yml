@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerservice.v2020_11_01.models.OutboundType
 summary: The outbound (egress) routing method.
 module: azure.mgmt.containerservice.v2020_11_01.models
 constructor:
-  syntax: OutboundType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OutboundType(value)
 inheritances:
 - builtins.str
 - enum.Enum

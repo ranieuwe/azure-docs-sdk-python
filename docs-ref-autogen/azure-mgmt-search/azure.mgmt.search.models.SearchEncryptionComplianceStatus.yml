@@ -11,8 +11,7 @@ summary: 'Describes whether the search service is compliant or not with respect 
   ''Enforcement'' is ''enabled'' then the service will be marked as ''nonCompliant''.'
 module: azure.mgmt.search.models
 constructor:
-  syntax: SearchEncryptionComplianceStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SearchEncryptionComplianceStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

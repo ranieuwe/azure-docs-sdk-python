@@ -5,8 +5,7 @@ fullName: azure.mgmt.billingbenefits.models.CommitmentGrain
 summary: Commitment grain.
 module: azure.mgmt.billingbenefits.models
 constructor:
-  syntax: CommitmentGrain(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: CommitmentGrain(value)
 inheritances:
 - builtins.str
 - enum.Enum

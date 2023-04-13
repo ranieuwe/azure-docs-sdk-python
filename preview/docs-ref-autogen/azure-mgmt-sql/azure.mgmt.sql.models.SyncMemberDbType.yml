@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.SyncMemberDbType
 summary: Type of the sync agent linked database.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: SyncMemberDbType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SyncMemberDbType(value)
 inheritances:
 - builtins.str
 - enum.Enum

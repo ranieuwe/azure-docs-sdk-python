@@ -5,8 +5,7 @@ fullName: azure.mgmt.media.models.FilterTrackPropertyCompareOperation
 summary: The track property condition operation.
 module: azure.mgmt.media.models
 constructor:
-  syntax: FilterTrackPropertyCompareOperation(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: FilterTrackPropertyCompareOperation(value)
 inheritances:
 - builtins.str
 - enum.Enum

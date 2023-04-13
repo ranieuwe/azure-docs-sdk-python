@@ -5,8 +5,7 @@ fullName: azure.mgmt.scheduler.models.JobActionType
 summary: Gets or sets the job action type.
 module: azure.mgmt.scheduler.models
 constructor:
-  syntax: JobActionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JobActionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

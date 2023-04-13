@@ -5,8 +5,7 @@ fullName: azure.mgmt.datamigration.models.ResourceType
 summary: ResourceType.
 module: azure.mgmt.datamigration.models
 constructor:
-  syntax: ResourceType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ResourceType(value)
 inheritances:
 - builtins.str
 - enum.Enum

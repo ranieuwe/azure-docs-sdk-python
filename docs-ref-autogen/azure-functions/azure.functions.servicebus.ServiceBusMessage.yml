@@ -7,14 +7,14 @@ inheritances:
 - azure.functions._servicebus.ServiceBusMessage
 summary: An HTTP response object.
 constructor:
-  syntax: 'ServiceBusMessage(*, body: bytes, trigger_metadata: Mapping[str, Any] =
-    None, content_type: str | None = None, correlation_id: str | None = None, delivery_count:
-    int | None = 0, enqueued_time_utc: datetime | None = None, expiration_time: datetime
-    | None = None, expires_at_utc: datetime | None = None, label: str | None = None,
-    message_id: str, partition_key: str | None = None, reply_to: str | None = None,
-    reply_to_session_id: str | None = None, scheduled_enqueue_time: datetime | None
-    = None, session_id: str | None = None, time_to_live: timedelta | None = None,
-    to: str | None = None, user_properties: Dict[str, object])'
+  syntax: 'ServiceBusMessage(*, body: bytes, trigger_metadata: Mapping[str, Any] |
+    None = None, content_type: str | None = None, correlation_id: str | None = None,
+    delivery_count: int | None = 0, enqueued_time_utc: datetime | None = None, expiration_time:
+    datetime | None = None, expires_at_utc: datetime | None = None, label: str | None
+    = None, message_id: str, partition_key: str | None = None, reply_to: str | None
+    = None, reply_to_session_id: str | None = None, scheduled_enqueue_time: datetime
+    | None = None, session_id: str | None = None, time_to_live: timedelta | None =
+    None, to: str | None = None, user_properties: Dict[str, object])'
 methods:
 - uid: azure.functions.servicebus.ServiceBusMessage.get_body
   name: get_body

@@ -8,8 +8,7 @@ summary: 'This is a required field. This field specifies the scope of the invent
   blob or container level.'
 module: azure.mgmt.storage.v2021_06_01.models
 constructor:
-  syntax: ObjectType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ObjectType(value)
 inheritances:
 - builtins.str
 - enum.Enum

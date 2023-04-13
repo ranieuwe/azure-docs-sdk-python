@@ -5,8 +5,7 @@ fullName: azure.mgmt.app.models.SourceControlOperationState
 summary: Current provisioning State of the operation
 module: azure.mgmt.app.models
 constructor:
-  syntax: SourceControlOperationState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: SourceControlOperationState(value)
 inheritances:
 - builtins.str
 - enum.Enum

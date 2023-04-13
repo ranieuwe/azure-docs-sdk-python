@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.enums.Intent.EntityGreed
 summary: Used to define the greediness of the entity.
 module: azure.cognitiveservices.speech.enums.Intent
 constructor:
-  syntax: EntityGreed(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EntityGreed(value)
 inheritances:
 - enum.Enum
 fields:

@@ -8,8 +8,7 @@ summary: 'Optional: requires clients to use a specified TLS version (or higher) 
   ''1.1'', ''1.2'').'
 module: azure.mgmt.redis.models
 constructor:
-  syntax: TlsVersion(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: TlsVersion(value)
 inheritances:
 - builtins.str
 - enum.Enum

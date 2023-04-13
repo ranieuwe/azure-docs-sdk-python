@@ -7,9 +7,10 @@ inheritances:
 - azure.mgmt.datalake.analytics.catalog.models.catalog_item_py3.CatalogItem
 summary: A Data Lake Analytics catalog U-SQL table item.
 constructor:
-  syntax: 'USqlTable(*, compute_account_name: str = None, version: str = None, database_name:
-    str = None, schema_name: str = None, name: str = None, column_list=None, index_list=None,
-    partition_key_list=None, external_table=None, distribution_info=None, **kwargs)'
+  syntax: 'USqlTable(*, compute_account_name: str | None = None, version: str | None
+    = None, database_name: str | None = None, schema_name: str | None = None, name:
+    str | None = None, column_list=None, index_list=None, partition_key_list=None,
+    external_table=None, distribution_info=None, **kwargs)'
   parameters:
   - name: compute_account_name
     description: the name of the Data Lake Analytics account.

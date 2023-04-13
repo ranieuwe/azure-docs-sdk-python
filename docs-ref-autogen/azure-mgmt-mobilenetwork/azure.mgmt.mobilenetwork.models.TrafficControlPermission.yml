@@ -5,8 +5,7 @@ fullName: azure.mgmt.mobilenetwork.models.TrafficControlPermission
 summary: Traffic control permission.
 module: azure.mgmt.mobilenetwork.models
 constructor:
-  syntax: TrafficControlPermission(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: TrafficControlPermission(value)
 inheritances:
 - builtins.str
 - enum.Enum

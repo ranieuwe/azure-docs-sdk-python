@@ -5,8 +5,7 @@ fullName: azure.mgmt.resource.subscriptions.v2021_01_01.models.TenantCategory
 summary: Category of the tenant.
 module: azure.mgmt.resource.subscriptions.v2021_01_01.models
 constructor:
-  syntax: TenantCategory(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: TenantCategory(value)
 inheritances:
 - builtins.str
 - enum.Enum

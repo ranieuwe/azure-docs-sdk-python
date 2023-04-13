@@ -5,8 +5,7 @@ fullName: azure.mgmt.voiceservices.models.TestLinePurpose
 summary: The purpose of the TestLine resource.
 module: azure.mgmt.voiceservices.models
 constructor:
-  syntax: TestLinePurpose(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: TestLinePurpose(value)
 inheritances:
 - builtins.str
 - enum.Enum

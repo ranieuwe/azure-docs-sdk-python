@@ -8,8 +8,7 @@ summary: 'Recommendation status. When the recommendation status is disabled reco
   generated.'
 module: azure.mgmt.security.v2019_08_01.models
 constructor:
-  syntax: RecommendationConfigStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RecommendationConfigStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.ai.textanalytics.SpeedUnit
 summary: The speed Unit of measurement.
 module: azure.ai.textanalytics
 constructor:
-  syntax: SpeedUnit(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SpeedUnit(value)
 inheritances:
 - builtins.str
 - enum.Enum

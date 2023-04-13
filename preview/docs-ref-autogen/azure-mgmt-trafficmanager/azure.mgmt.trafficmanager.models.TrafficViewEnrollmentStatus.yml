@@ -11,8 +11,7 @@ summary: 'Indicates whether Traffic View is ''Enabled'' or ''Disabled'' for the 
   profile.'
 module: azure.mgmt.trafficmanager.models
 constructor:
-  syntax: TrafficViewEnrollmentStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: TrafficViewEnrollmentStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

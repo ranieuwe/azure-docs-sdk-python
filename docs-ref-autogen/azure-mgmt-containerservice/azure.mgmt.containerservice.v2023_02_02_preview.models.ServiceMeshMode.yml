@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerservice.v2023_02_02_preview.models.ServiceMeshMode
 summary: Mode of the service mesh.
 module: azure.mgmt.containerservice.v2023_02_02_preview.models
 constructor:
-  syntax: ServiceMeshMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ServiceMeshMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

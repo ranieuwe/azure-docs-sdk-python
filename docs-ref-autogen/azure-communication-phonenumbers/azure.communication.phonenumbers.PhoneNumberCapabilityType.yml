@@ -5,8 +5,7 @@ fullName: azure.communication.phonenumbers.PhoneNumberCapabilityType
 summary: Capability value for calling.
 module: azure.communication.phonenumbers
 constructor:
-  syntax: PhoneNumberCapabilityType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: PhoneNumberCapabilityType(value)
 inheritances:
 - builtins.str
 - enum.Enum

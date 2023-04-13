@@ -5,8 +5,7 @@ fullName: azure.mgmt.peering.models.PeeringLocationsKind
 summary: PeeringLocationsKind.
 module: azure.mgmt.peering.models
 constructor:
-  syntax: PeeringLocationsKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PeeringLocationsKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

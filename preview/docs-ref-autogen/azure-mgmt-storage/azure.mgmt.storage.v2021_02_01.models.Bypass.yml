@@ -11,8 +11,7 @@ summary: 'Specifies whether traffic is bypassed for Logging/Metrics/AzureService
   bypass none of those traffics.'
 module: azure.mgmt.storage.v2021_02_01.models
 constructor:
-  syntax: Bypass(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Bypass(value)
 inheritances:
 - builtins.str
 - enum.Enum

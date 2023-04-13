@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.ReadOnlyEndpointFailoverPolicy
 summary: Failover policy of the read-only endpoint for the failover group.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: ReadOnlyEndpointFailoverPolicy(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ReadOnlyEndpointFailoverPolicy(value)
 inheritances:
 - builtins.str
 - enum.Enum

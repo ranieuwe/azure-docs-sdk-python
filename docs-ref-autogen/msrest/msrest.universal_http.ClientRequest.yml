@@ -16,8 +16,8 @@ summary: 'Represents a HTTP request.
 
   Instance can be created without files, to be added later using "add_formdata"'
 constructor:
-  syntax: 'ClientRequest(method: str, url: str, headers: Mapping[str, str] = None,
-    files: Any = None, data: Any = None)'
+  syntax: 'ClientRequest(method: str, url: str, headers: Mapping[str, str] | None
+    = None, files: Any | None = None, data: Any | None = None)'
   parameters:
   - name: method
     description: HTTP method (GET, HEAD, etc.)

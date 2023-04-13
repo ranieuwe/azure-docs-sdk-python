@@ -5,8 +5,7 @@ fullName: azure.mgmt.appplatform.v2022_05_01_preview.models.BuildServiceProvisio
 summary: Provisioning state of the KPack build result
 module: azure.mgmt.appplatform.v2022_05_01_preview.models
 constructor:
-  syntax: BuildServiceProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: BuildServiceProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

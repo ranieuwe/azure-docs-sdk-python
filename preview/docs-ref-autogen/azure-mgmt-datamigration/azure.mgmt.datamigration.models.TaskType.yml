@@ -5,8 +5,7 @@ fullName: azure.mgmt.datamigration.models.TaskType
 summary: Task type.
 module: azure.mgmt.datamigration.models
 constructor:
-  syntax: TaskType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: TaskType(value)
 inheritances:
 - builtins.str
 - enum.Enum

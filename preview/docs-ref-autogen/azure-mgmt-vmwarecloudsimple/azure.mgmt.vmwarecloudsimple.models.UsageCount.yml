@@ -5,8 +5,7 @@ fullName: azure.mgmt.vmwarecloudsimple.models.UsageCount
 summary: The usages' unit.
 module: azure.mgmt.vmwarecloudsimple.models
 constructor:
-  syntax: UsageCount(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: UsageCount(value)
 inheritances:
 - builtins.str
 - enum.Enum

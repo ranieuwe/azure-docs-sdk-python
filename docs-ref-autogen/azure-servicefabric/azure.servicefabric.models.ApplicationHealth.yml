@@ -12,7 +12,7 @@ summary: 'Represents the health of the application. Contains the application
   states.'
 constructor:
   syntax: 'ApplicationHealth(*, aggregated_health_state=None, health_events=None,
-    unhealthy_evaluations=None, health_statistics=None, name: str = None, service_health_states=None,
+    unhealthy_evaluations=None, health_statistics=None, name: str | None = None, service_health_states=None,
     deployed_application_health_states=None, **kwargs)'
   parameters:
   - name: aggregated_health_state

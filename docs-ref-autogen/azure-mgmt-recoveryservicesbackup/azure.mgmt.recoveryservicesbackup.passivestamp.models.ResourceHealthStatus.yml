@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.passivestamp.models.ResourceHealthSt
 summary: Resource Health Status.
 module: azure.mgmt.recoveryservicesbackup.passivestamp.models
 constructor:
-  syntax: ResourceHealthStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ResourceHealthStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicessiterecovery.models.AlternateLocationRecove
 summary: The ALR option.
 module: azure.mgmt.recoveryservicessiterecovery.models
 constructor:
-  syntax: AlternateLocationRecoveryOption(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AlternateLocationRecoveryOption(value)
 inheritances:
 - builtins.str
 - enum.Enum

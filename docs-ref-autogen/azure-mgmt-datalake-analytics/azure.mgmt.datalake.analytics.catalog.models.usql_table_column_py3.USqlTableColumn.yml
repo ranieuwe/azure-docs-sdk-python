@@ -7,7 +7,7 @@ inheritances:
 - msrest.serialization.Model
 summary: A Data Lake Analytics catalog U-SQL table column item.
 constructor:
-  syntax: 'USqlTableColumn(*, name: str = None, type: str = None, column_name=None,
+  syntax: 'USqlTableColumn(*, name: str | None = None, type: str | None = None, column_name=None,
     data_type=None, **kwargs)'
   parameters:
   - name: name

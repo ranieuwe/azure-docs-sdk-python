@@ -11,7 +11,7 @@ constructor:
   syntax: 'CommandComponent(*, name: str | None = None, version: str | None = None,
     description: str | None = None, tags: Dict | None = None, display_name: str |
     None = None, command: str | None = None, code: str | None = None, environment:
-    Environment | str | None = None, distribution: PyTorchDistribution | MpiDistribution
+    str | Environment | None = None, distribution: PyTorchDistribution | MpiDistribution
     | TensorFlowDistribution | None = None, resources: JobResourceConfiguration |
     None = None, inputs: Dict | None = None, outputs: Dict | None = None, instance_count:
     int | None = None, is_deterministic: bool = True, properties: Dict | None = None,

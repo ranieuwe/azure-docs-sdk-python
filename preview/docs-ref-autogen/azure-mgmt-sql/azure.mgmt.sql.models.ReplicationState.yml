@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.ReplicationState
 summary: Replication state (PENDING, SEEDING, CATCHUP, SUSPENDED).
 module: azure.mgmt.sql.models
 constructor:
-  syntax: ReplicationState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ReplicationState(value)
 inheritances:
 - builtins.str
 - enum.Enum

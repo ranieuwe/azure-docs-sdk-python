@@ -13,8 +13,8 @@ summary: "Class that defines configurations for translation with speech input.\n
 constructor:
   syntax: 'SpeechTranslationConfig(subscription: str | None = None, region: str |
     None = None, endpoint: str | None = None, host: str | None = None, auth_token:
-    str | None = None, target_languages: Iterable[str] = None, voice_name: str = '''',
-    speech_recognition_language: str = '''')'
+    str | None = None, target_languages: Iterable[str] | None = None, voice_name:
+    str = '''', speech_recognition_language: str = '''')'
   parameters:
   - name: subscription
     description: The subscription key.

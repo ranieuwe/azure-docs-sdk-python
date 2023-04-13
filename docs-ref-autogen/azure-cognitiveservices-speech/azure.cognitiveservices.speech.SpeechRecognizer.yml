@@ -13,8 +13,9 @@ summary: 'A speech recognizer.
   language, source_language_config or auto_detect_source_language_config.'
 constructor:
   syntax: 'SpeechRecognizer(speech_config: SpeechConfig, audio_config: AudioConfig
-    = None, language: str = None, source_language_config: SourceLanguageConfig = None,
-    auto_detect_source_language_config: AutoDetectSourceLanguageConfig = None)'
+    | None = None, language: str | None = None, source_language_config: SourceLanguageConfig
+    | None = None, auto_detect_source_language_config: AutoDetectSourceLanguageConfig
+    | None = None)'
   parameters:
   - name: speech_config
     description: The config for the speech recognizer

@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2020_08_01.models.ExpressRouteLinkMacSecSciState
 summary: Sci mode enabled/disabled.
 module: azure.mgmt.network.v2020_08_01.models
 constructor:
-  syntax: ExpressRouteLinkMacSecSciState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ExpressRouteLinkMacSecSciState(value)
 inheritances:
 - builtins.str
 - enum.Enum

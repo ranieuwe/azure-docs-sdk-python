@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.LogRankingMetric
 summary: LogRankingMetric.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: LogRankingMetric(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LogRankingMetric(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.TargetRollingWindowSizeMode
 summary: Target rolling windows size mode.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: TargetRollingWindowSizeMode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: TargetRollingWindowSizeMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

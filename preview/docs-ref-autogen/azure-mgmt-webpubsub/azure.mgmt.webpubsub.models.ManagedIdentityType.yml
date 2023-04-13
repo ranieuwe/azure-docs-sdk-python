@@ -5,8 +5,7 @@ fullName: azure.mgmt.webpubsub.models.ManagedIdentityType
 summary: 'Represents the identity type: systemAssigned, userAssigned, None.'
 module: azure.mgmt.webpubsub.models
 constructor:
-  syntax: ManagedIdentityType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ManagedIdentityType(value)
 inheritances:
 - builtins.str
 - enum.Enum

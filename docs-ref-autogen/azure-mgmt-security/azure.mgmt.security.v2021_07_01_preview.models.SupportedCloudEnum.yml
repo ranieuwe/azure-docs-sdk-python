@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2021_07_01_preview.models.SupportedCloudEnum
 summary: Relevant cloud for the custom assessment automation.
 module: azure.mgmt.security.v2021_07_01_preview.models
 constructor:
-  syntax: SupportedCloudEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SupportedCloudEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

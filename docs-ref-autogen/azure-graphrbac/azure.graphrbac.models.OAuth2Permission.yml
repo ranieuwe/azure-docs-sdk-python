@@ -18,9 +18,10 @@ summary: 'Represents an OAuth 2.0 delegated permission scope. The specified OAut
 
   OAuth2Permission.'
 constructor:
-  syntax: 'OAuth2Permission(*, admin_consent_description: str = None, admin_consent_display_name:
-    str = None, id: str = None, is_enabled: bool = None, type: str = None, user_consent_description:
-    str = None, user_consent_display_name: str = None, value: str = None, **kwargs)'
+  syntax: 'OAuth2Permission(*, admin_consent_description: str | None = None, admin_consent_display_name:
+    str | None = None, id: str | None = None, is_enabled: bool | None = None, type:
+    str | None = None, user_consent_description: str | None = None, user_consent_display_name:
+    str | None = None, value: str | None = None, **kwargs)'
   parameters:
   - name: admin_consent_description
     description: 'Permission help text that appears in the

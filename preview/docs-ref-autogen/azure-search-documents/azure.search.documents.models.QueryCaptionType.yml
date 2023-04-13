@@ -16,8 +16,7 @@ summary: 'This parameter is only valid if the query type is ''semantic''. If set
   ''extractive|highlight-true''. Defaults to ''None''.'
 module: azure.search.documents.models
 constructor:
-  syntax: QueryCaptionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: QueryCaptionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

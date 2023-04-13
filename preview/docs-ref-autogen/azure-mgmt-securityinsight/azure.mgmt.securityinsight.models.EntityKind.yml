@@ -5,8 +5,7 @@ fullName: azure.mgmt.securityinsight.models.EntityKind
 summary: The kind of the entity.
 module: azure.mgmt.securityinsight.models
 constructor:
-  syntax: EntityKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EntityKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

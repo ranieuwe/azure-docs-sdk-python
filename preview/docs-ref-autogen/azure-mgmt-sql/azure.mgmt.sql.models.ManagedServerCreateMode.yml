@@ -14,8 +14,7 @@ summary: 'Specifies the mode of database creation.
   RestorePointInTime and SourceManagedInstanceId must be specified.'
 module: azure.mgmt.sql.models
 constructor:
-  syntax: ManagedServerCreateMode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ManagedServerCreateMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

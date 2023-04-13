@@ -10,8 +10,8 @@ summary: 'Azure Data Lake aka Gen 1 datastore that is linked to an Azure ML
   workspace.'
 constructor:
   syntax: 'AzureDataLakeGen1Datastore(*, name: str, store_name: str, description:
-    str = None, tags: Dict = None, properties: Dict = None, credentials: ServicePrincipalCredentials
-    | CertificateCredentials = None, **kwargs)'
+    str | None = None, tags: Dict | None = None, properties: Dict | None = None, credentials:
+    ServicePrincipalCredentials | CertificateCredentials | None = None, **kwargs)'
   parameters:
   - name: name
     description: Name of the datastore.

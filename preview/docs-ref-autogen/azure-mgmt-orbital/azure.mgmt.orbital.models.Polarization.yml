@@ -5,8 +5,7 @@ fullName: azure.mgmt.orbital.models.Polarization
 summary: Polarization. e.g. (RHCP, LHCP).
 module: azure.mgmt.orbital.models
 constructor:
-  syntax: Polarization(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: Polarization(value)
 inheritances:
 - builtins.str
 - enum.Enum

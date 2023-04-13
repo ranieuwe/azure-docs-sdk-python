@@ -5,8 +5,7 @@ fullName: azure.mgmt.datafactory.models.ZendeskAuthenticationType
 summary: The authentication type to use.
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: ZendeskAuthenticationType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ZendeskAuthenticationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

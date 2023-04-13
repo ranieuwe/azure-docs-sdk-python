@@ -5,8 +5,7 @@ fullName: azure.mgmt.botservice.models.MsaAppType
 summary: Microsoft App Type for the bot.
 module: azure.mgmt.botservice.models
 constructor:
-  syntax: MsaAppType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MsaAppType(value)
 inheritances:
 - builtins.str
 - enum.Enum

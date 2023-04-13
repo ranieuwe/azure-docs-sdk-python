@@ -10,8 +10,8 @@ summary: 'Request body for find similar operation.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'FindSimilarRequest(*, face_id: str, face_list_id: str = None, large_face_list_id:
-    str = None, face_ids=None, max_num_of_candidates_returned: int = 20, mode=''matchPerson'',
+  syntax: 'FindSimilarRequest(*, face_id: str, face_list_id: str | None = None, large_face_list_id:
+    str | None = None, face_ids=None, max_num_of_candidates_returned: int = 20, mode=''matchPerson'',
     **kwargs)'
   parameters:
   - name: face_id

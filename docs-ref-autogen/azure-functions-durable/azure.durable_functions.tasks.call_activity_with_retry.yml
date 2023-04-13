@@ -8,7 +8,7 @@ functions:
   summary: Determine the state of scheduling an activity for execution with retry
     options.
   signature: 'call_activity_with_retry_task(state: List[HistoryEvent], retry_options:
-    RetryOptions, name: str, input_: Any = None) -> Task'
+    RetryOptions, name: str, input_: Any | None = None) -> Task'
   parameters:
   - name: state
     description: The list of history events to search to determine the current state

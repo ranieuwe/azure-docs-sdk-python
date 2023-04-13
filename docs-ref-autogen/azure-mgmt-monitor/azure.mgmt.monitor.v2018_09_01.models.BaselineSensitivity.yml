@@ -5,8 +5,7 @@ fullName: azure.mgmt.monitor.v2018_09_01.models.BaselineSensitivity
 summary: the sensitivity of the baseline.
 module: azure.mgmt.monitor.v2018_09_01.models
 constructor:
-  syntax: BaselineSensitivity(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: BaselineSensitivity(value)
 inheritances:
 - builtins.str
 - enum.Enum

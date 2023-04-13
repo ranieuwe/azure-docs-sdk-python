@@ -8,8 +8,7 @@ summary: 'Gets the method in which this recommended action can be manually imple
   AzurePowerShell.'
 module: azure.mgmt.sql.models
 constructor:
-  syntax: ImplementationMethod(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ImplementationMethod(value)
 inheritances:
 - builtins.str
 - enum.Enum

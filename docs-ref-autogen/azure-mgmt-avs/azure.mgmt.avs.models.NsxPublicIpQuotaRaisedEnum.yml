@@ -8,8 +8,7 @@ summary: 'Flag to indicate whether the private cloud has the quota for provision
   raised from 64 to 1024.'
 module: azure.mgmt.avs.models
 constructor:
-  syntax: NsxPublicIpQuotaRaisedEnum(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: NsxPublicIpQuotaRaisedEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

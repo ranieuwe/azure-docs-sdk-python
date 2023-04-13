@@ -5,8 +5,7 @@ fullName: azure.mgmt.rdbms.mariadb.models.PrivateLinkServiceConnectionStateStatu
 summary: The private link service connection status.
 module: azure.mgmt.rdbms.mariadb.models
 constructor:
-  syntax: PrivateLinkServiceConnectionStateStatus(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: PrivateLinkServiceConnectionStateStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

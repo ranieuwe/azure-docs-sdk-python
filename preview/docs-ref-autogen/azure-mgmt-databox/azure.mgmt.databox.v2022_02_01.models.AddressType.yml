@@ -5,8 +5,7 @@ fullName: azure.mgmt.databox.v2022_02_01.models.AddressType
 summary: Type of address.
 module: azure.mgmt.databox.v2022_02_01.models
 constructor:
-  syntax: AddressType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AddressType(value)
 inheritances:
 - builtins.str
 - enum.Enum

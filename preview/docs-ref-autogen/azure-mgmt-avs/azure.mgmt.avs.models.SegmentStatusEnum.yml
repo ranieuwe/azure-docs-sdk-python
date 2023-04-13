@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.SegmentStatusEnum
 summary: Segment status.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: SegmentStatusEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SegmentStatusEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

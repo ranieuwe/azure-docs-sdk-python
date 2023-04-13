@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicessiterecovery.models.VmEncryptionType
 summary: The encryption type of the VM.
 module: azure.mgmt.recoveryservicessiterecovery.models
 constructor:
-  syntax: VmEncryptionType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VmEncryptionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

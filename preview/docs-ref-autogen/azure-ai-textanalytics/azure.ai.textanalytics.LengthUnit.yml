@@ -5,8 +5,7 @@ fullName: azure.ai.textanalytics.LengthUnit
 summary: The length Unit of measurement.
 module: azure.ai.textanalytics
 constructor:
-  syntax: LengthUnit(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: LengthUnit(value)
 inheritances:
 - builtins.str
 - enum.Enum

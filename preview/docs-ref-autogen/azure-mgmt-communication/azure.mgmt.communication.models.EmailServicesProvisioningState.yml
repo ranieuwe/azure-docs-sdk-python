@@ -5,8 +5,7 @@ fullName: azure.mgmt.communication.models.EmailServicesProvisioningState
 summary: Provisioning state of the resource.
 module: azure.mgmt.communication.models
 constructor:
-  syntax: EmailServicesProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: EmailServicesProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

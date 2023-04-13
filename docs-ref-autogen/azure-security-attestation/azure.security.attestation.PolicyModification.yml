@@ -5,8 +5,7 @@ fullName: azure.security.attestation.PolicyModification
 summary: The result of the operation
 module: azure.security.attestation
 constructor:
-  syntax: PolicyModification(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PolicyModification(value)
 inheritances:
 - builtins.str
 - enum.Enum

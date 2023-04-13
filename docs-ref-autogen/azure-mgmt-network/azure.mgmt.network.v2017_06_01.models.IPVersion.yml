@@ -11,8 +11,7 @@ summary: 'Available from Api-Version 2016-03-30 onwards, it represents whether t
   ''IPv6''.'
 module: azure.mgmt.network.v2017_06_01.models
 constructor:
-  syntax: IPVersion(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: IPVersion(value)
 inheritances:
 - builtins.str
 - enum.Enum

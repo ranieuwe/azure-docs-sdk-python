@@ -5,8 +5,7 @@ fullName: azure.mgmt.vmwarecloudsimple.models.NICType
 summary: NIC type.
 module: azure.mgmt.vmwarecloudsimple.models
 constructor:
-  syntax: NICType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: NICType(value)
 inheritances:
 - builtins.str
 - enum.Enum

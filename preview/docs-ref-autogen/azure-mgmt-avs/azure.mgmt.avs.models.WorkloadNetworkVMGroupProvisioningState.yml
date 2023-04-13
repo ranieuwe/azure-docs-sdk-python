@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.WorkloadNetworkVMGroupProvisioningState
 summary: The provisioning state.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: WorkloadNetworkVMGroupProvisioningState(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: WorkloadNetworkVMGroupProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -6,8 +6,7 @@ summary: Required for storage accounts where kind = BlobStorage. The access tier
   for billing.
 module: azure.mgmt.storage.v2018_11_01.models
 constructor:
-  syntax: AccessTier(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AccessTier(value)
 inheritances:
 - builtins.str
 - enum.Enum

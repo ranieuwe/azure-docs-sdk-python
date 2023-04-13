@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2023_02_01_preview.models.RuleType
 summary: The rule type.
 module: azure.mgmt.security.v2023_02_01_preview.models
 constructor:
-  syntax: RuleType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: RuleType(value)
 inheritances:
 - builtins.str
 - enum.Enum

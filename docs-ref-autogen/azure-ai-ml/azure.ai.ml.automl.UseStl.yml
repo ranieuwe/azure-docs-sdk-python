@@ -5,8 +5,7 @@ fullName: azure.ai.ml.automl.UseStl
 summary: Configure STL Decomposition of the time-series target column.
 module: azure.ai.ml.automl
 constructor:
-  syntax: UseStl(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: UseStl(value)
 inheritances:
 - builtins.str
 - enum.Enum

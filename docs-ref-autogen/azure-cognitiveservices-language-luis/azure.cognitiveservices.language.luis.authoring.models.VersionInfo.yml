@@ -12,8 +12,9 @@ summary: 'Object model of an application version.
 constructor:
   syntax: 'VersionInfo(*, version: str, training_status, created_date_time=None, last_modified_date_time=None,
     last_trained_date_time=None, last_published_date_time=None, endpoint_url: str
-    = None, assigned_endpoint_key=None, external_api_keys=None, intents_count: int
-    = None, entities_count: int = None, endpoint_hits_count: int = None, **kwargs)'
+    | None = None, assigned_endpoint_key=None, external_api_keys=None, intents_count:
+    int | None = None, entities_count: int | None = None, endpoint_hits_count: int
+    | None = None, **kwargs)'
   parameters:
   - name: version
     description: 'Required. The version ID. E.g.: "0.1"'

@@ -8,5 +8,5 @@ inheritances:
 summary: Managed service identity (system assigned and/or user assigned identities).
 constructor:
   syntax: 'ManagedServiceIdentity(*, type: str | ManagedServiceIdentityType, principal_id:
-    str = None, tenant_id: str = None, user_assigned_identities: Dict[str, UserAssignedIdentity]
-    | None = None)'
+    str | None = None, tenant_id: str | None = None, user_assigned_identities: Dict[str,
+    UserAssignedIdentity] | None = None)'

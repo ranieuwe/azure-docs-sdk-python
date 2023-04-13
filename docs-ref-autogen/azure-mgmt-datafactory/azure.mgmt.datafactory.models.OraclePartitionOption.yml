@@ -5,8 +5,7 @@ fullName: azure.mgmt.datafactory.models.OraclePartitionOption
 summary: The partition mechanism that will be used for Oracle read in parallel.
 module: azure.mgmt.datafactory.models
 constructor:
-  syntax: OraclePartitionOption(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: OraclePartitionOption(value)
 inheritances:
 - builtins.str
 - enum.Enum

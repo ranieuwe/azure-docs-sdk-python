@@ -11,8 +11,7 @@ summary: 'True if there is a firmware update ready to install on this Cache. The
   upgrade operation.'
 module: azure.mgmt.storagecache.models
 constructor:
-  syntax: FirmwareStatusType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: FirmwareStatusType(value)
 inheritances:
 - builtins.str
 - enum.Enum

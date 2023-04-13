@@ -8,8 +8,7 @@ summary: 'Indication for database routing information from the data connection, 
   routing information is allowed.'
 module: azure.mgmt.kusto.models
 constructor:
-  syntax: DatabaseRouting(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DatabaseRouting(value)
 inheritances:
 - builtins.str
 - enum.Enum

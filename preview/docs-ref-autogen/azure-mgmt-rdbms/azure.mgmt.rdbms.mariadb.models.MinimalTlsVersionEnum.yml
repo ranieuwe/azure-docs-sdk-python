@@ -5,8 +5,7 @@ fullName: azure.mgmt.rdbms.mariadb.models.MinimalTlsVersionEnum
 summary: Enforce a minimal Tls version for the server.
 module: azure.mgmt.rdbms.mariadb.models
 constructor:
-  syntax: MinimalTlsVersionEnum(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MinimalTlsVersionEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -7,8 +7,8 @@ functions:
   name: call_http
   summary: Get task used to schedule a durable HTTP call to the specified endpoint.
   signature: 'call_http(state: List[HistoryEvent], method: str, uri: str, content:
-    str | None = None, headers: Dict[str, str] = None, token_source: TokenSource |
-    None = None) -> Task'
+    str | None = None, headers: Dict[str, str] | None = None, token_source: TokenSource
+    | None = None) -> Task'
   parameters:
   - name: state
     description: 'The list of events that have been processed to determine the state

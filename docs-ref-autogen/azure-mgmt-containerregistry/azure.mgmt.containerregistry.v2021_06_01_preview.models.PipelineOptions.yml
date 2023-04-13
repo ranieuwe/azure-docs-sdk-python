@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerregistry.v2021_06_01_preview.models.PipelineOption
 summary: PipelineOptions.
 module: azure.mgmt.containerregistry.v2021_06_01_preview.models
 constructor:
-  syntax: PipelineOptions(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PipelineOptions(value)
 inheritances:
 - builtins.str
 - enum.Enum

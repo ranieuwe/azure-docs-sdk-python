@@ -5,8 +5,7 @@ fullName: azure.confidentialledger.TransactionState
 summary: Indicates the status of a transaction.
 module: azure.confidentialledger
 constructor:
-  syntax: TransactionState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: TransactionState(value)
 inheritances:
 - enum.Enum
 fields:

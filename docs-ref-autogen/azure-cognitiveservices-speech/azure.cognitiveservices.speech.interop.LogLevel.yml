@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.interop.LogLevel
 summary: Defines different log levels
 module: azure.cognitiveservices.speech.interop
 constructor:
-  syntax: LogLevel(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: LogLevel(value)
 inheritances:
 - enum.Enum
 fields:

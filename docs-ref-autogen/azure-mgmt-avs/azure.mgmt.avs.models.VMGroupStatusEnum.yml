@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.VMGroupStatusEnum
 summary: VM Group status.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: VMGroupStatusEnum(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VMGroupStatusEnum(value)
 inheritances:
 - builtins.str
 - enum.Enum

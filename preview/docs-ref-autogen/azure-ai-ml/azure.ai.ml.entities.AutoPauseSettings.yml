@@ -10,7 +10,8 @@ summary: 'Auto pause settings for synapse spark compute
 
   Auto pause settings for synapse spark compute'
 constructor:
-  syntax: 'AutoPauseSettings(*, delay_in_minutes: int = None, enabled: bool = None)'
+  syntax: 'AutoPauseSettings(*, delay_in_minutes: int | None = None, enabled: bool
+    | None = None)'
   parameters:
   - name: delay_in_minutes
     description: ideal time delay in minutes before pause cluster

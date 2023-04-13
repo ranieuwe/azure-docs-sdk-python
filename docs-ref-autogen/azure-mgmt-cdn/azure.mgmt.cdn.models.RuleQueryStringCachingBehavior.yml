@@ -11,8 +11,7 @@ summary: 'Defines how Frontdoor caches requests that include query strings. You 
   cache specific query strings.'
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: RuleQueryStringCachingBehavior(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RuleQueryStringCachingBehavior(value)
 inheritances:
 - builtins.str
 - enum.Enum

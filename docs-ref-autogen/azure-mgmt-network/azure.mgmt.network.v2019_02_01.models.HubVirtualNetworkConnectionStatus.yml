@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2019_02_01.models.HubVirtualNetworkConnectionStatu
 summary: The current state of the VirtualHub to vnet connection.
 module: azure.mgmt.network.v2019_02_01.models
 constructor:
-  syntax: HubVirtualNetworkConnectionStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: HubVirtualNetworkConnectionStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

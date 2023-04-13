@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.QueryStringMatchConditionParametersTypeName
 summary: QueryStringMatchConditionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: QueryStringMatchConditionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: QueryStringMatchConditionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

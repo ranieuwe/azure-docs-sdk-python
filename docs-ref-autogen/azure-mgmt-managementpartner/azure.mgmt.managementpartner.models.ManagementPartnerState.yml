@@ -5,8 +5,7 @@ fullName: azure.mgmt.managementpartner.models.ManagementPartnerState
 summary: 'this is the management partner state: Active or Deleted'
 module: azure.mgmt.managementpartner.models
 constructor:
-  syntax: ManagementPartnerState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ManagementPartnerState(value)
 inheritances:
 - builtins.str
 - enum.Enum

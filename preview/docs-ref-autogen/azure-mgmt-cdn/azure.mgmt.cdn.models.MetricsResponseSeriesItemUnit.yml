@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.MetricsResponseSeriesItemUnit
 summary: MetricsResponseSeriesItemUnit.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: MetricsResponseSeriesItemUnit(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MetricsResponseSeriesItemUnit(value)
 inheritances:
 - builtins.str
 - enum.Enum

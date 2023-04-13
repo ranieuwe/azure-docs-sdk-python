@@ -6,8 +6,7 @@ summary: Field indicating sync type e.g. to sync only in case of failure or in a
   cases.
 module: azure.mgmt.dataprotection.models
 constructor:
-  syntax: SyncType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: SyncType(value)
 inheritances:
 - builtins.str
 - enum.Enum

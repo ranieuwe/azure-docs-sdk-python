@@ -6,8 +6,7 @@ summary: Indicates whether the local volume is the source or destination for the
   Replication
 module: azure.mgmt.netapp.models
 constructor:
-  syntax: EndpointType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EndpointType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.ClientPortMatchConditionParametersTypeName
 summary: ClientPortMatchConditionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: ClientPortMatchConditionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: ClientPortMatchConditionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

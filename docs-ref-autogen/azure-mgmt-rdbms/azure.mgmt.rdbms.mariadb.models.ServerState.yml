@@ -5,8 +5,7 @@ fullName: azure.mgmt.rdbms.mariadb.models.ServerState
 summary: A state of a server that is visible to user.
 module: azure.mgmt.rdbms.mariadb.models
 constructor:
-  syntax: ServerState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ServerState(value)
 inheritances:
 - builtins.str
 - enum.Enum

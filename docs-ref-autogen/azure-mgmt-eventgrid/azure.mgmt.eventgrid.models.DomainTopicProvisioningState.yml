@@ -5,8 +5,7 @@ fullName: azure.mgmt.eventgrid.models.DomainTopicProvisioningState
 summary: Provisioning state of the domain topic.
 module: azure.mgmt.eventgrid.models
 constructor:
-  syntax: DomainTopicProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DomainTopicProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

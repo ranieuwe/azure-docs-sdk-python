@@ -5,8 +5,7 @@ fullName: azure.cognitiveservices.speech.AudioStreamWaveFormat
 summary: Represents the format specified inside WAV container.
 module: azure.cognitiveservices.speech
 constructor:
-  syntax: AudioStreamWaveFormat(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AudioStreamWaveFormat(value)
 inheritances:
 - enum.Enum
 fields:

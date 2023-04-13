@@ -5,8 +5,7 @@ fullName: azure.ai.formrecognizer.DocumentAnalysisApiVersion
 summary: Form Recognizer API versions supported by DocumentAnalysisClient and DocumentModelAdministrationClient.
 module: azure.ai.formrecognizer
 constructor:
-  syntax: DocumentAnalysisApiVersion(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DocumentAnalysisApiVersion(value)
 inheritances:
 - builtins.str
 - enum.Enum

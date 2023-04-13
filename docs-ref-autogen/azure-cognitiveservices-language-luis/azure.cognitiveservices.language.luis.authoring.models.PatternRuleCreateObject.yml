@@ -7,7 +7,8 @@ inheritances:
 - msrest.serialization.Model
 summary: Object model for creating a pattern.
 constructor:
-  syntax: 'PatternRuleCreateObject(*, pattern: str = None, intent: str = None, **kwargs)'
+  syntax: 'PatternRuleCreateObject(*, pattern: str | None = None, intent: str | None
+    = None, **kwargs)'
   parameters:
   - name: pattern
     description: The pattern text.

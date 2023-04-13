@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.RequestMethodMatchConditionParametersTypeName
 summary: RequestMethodMatchConditionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: RequestMethodMatchConditionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: RequestMethodMatchConditionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

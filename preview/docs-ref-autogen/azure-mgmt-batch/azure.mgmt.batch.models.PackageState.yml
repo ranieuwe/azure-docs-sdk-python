@@ -5,8 +5,7 @@ fullName: azure.mgmt.batch.models.PackageState
 summary: The current state of the application package.
 module: azure.mgmt.batch.models
 constructor:
-  syntax: PackageState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PackageState(value)
 inheritances:
 - builtins.str
 - enum.Enum

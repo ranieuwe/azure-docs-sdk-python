@@ -10,7 +10,7 @@ functions:
 
     Used to dynamically add the value of the attribute if the value is present.'
   signature: 'add_attrib(json_dict: Dict[str, Any], object_, attribute_name: str,
-    alt_name: str = None)'
+    alt_name: str | None = None)'
   parameters:
   - name: json_dict
     isRequired: true
@@ -34,7 +34,7 @@ functions:
   summary: Add the value of the attribute from the object to the dictionary converted
     into a string.
   signature: 'add_datetime_attrib(json_dict: Dict[str, Any], object_, attribute_name:
-    str, alt_name: str = None)'
+    str, alt_name: str | None = None)'
   parameters:
   - name: json_dict
     isRequired: true
@@ -62,7 +62,7 @@ functions:
     Used to dynamically add the JSON converted value of the attribute if the value
     is present.'
   signature: 'add_json_attrib(json_dict: Dict[str, Any], object_, attribute_name:
-    str, alt_name: str = None)'
+    str, alt_name: str | None = None)'
   parameters:
   - name: json_dict
     isRequired: true

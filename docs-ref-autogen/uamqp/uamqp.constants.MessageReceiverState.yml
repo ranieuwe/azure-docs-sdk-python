@@ -2,10 +2,10 @@
 uid: uamqp.constants.MessageReceiverState
 name: MessageReceiverState
 fullName: uamqp.constants.MessageReceiverState
+summary: An enumeration.
 module: uamqp.constants
 constructor:
-  syntax: MessageReceiverState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MessageReceiverState(value)
 inheritances:
 - enum.Enum
 fields:

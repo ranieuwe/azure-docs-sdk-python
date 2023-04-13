@@ -5,8 +5,7 @@ fullName: azure.keyvault.certificates.ApiVersion
 summary: Key Vault API versions supported by this package
 module: azure.keyvault.certificates
 constructor:
-  syntax: ApiVersion(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ApiVersion(value)
 inheritances:
 - builtins.str
 - enum.Enum

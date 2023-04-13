@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.MonthOfYear
 summary: MonthOfYear.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: MonthOfYear(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MonthOfYear(value)
 inheritances:
 - builtins.str
 - enum.Enum

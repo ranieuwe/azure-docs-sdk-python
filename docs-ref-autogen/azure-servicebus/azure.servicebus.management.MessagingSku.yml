@@ -5,8 +5,7 @@ fullName: azure.servicebus.management.MessagingSku
 summary: The SKU for the messaging entity.
 module: azure.servicebus.management
 constructor:
-  syntax: MessagingSku(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MessagingSku(value)
 inheritances:
 - builtins.str
 - enum.Enum

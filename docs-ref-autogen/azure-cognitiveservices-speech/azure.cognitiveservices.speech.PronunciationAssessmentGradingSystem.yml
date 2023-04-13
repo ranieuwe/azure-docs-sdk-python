@@ -6,8 +6,7 @@ summary: Defines the point system for pronunciation score calibration; default v
   is FivePoint.
 module: azure.cognitiveservices.speech
 constructor:
-  syntax: PronunciationAssessmentGradingSystem(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: PronunciationAssessmentGradingSystem(value)
 inheritances:
 - enum.Enum
 fields:

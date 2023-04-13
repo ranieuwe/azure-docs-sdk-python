@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.VmPriority
 summary: Virtual Machine priority.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: VmPriority(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VmPriority(value)
 inheritances:
 - builtins.str
 - enum.Enum

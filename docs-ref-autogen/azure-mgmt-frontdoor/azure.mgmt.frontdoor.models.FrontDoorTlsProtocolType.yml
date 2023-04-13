@@ -5,8 +5,7 @@ fullName: azure.mgmt.frontdoor.models.FrontDoorTlsProtocolType
 summary: Defines the TLS extension protocol that is used for secure delivery
 module: azure.mgmt.frontdoor.models
 constructor:
-  syntax: FrontDoorTlsProtocolType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: FrontDoorTlsProtocolType(value)
 inheritances:
 - builtins.str
 - enum.Enum

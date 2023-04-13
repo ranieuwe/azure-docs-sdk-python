@@ -6,8 +6,7 @@ summary: The upgrade mode of the cluster when new Service Fabric runtime version
   available.
 module: azure.mgmt.servicefabricmanagedclusters.models
 constructor:
-  syntax: ClusterUpgradeMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ClusterUpgradeMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

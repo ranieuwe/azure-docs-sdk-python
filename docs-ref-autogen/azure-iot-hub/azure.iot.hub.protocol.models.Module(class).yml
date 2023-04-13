@@ -7,10 +7,10 @@ inheritances:
 - msrest.serialization.Model
 summary: The module identity on a device.
 constructor:
-  syntax: 'Module(*, module_id: str = None, managed_by: str = None, device_id: str
-    = None, generation_id: str = None, etag: str = None, connection_state=None, connection_state_updated_time=None,
-    last_activity_time=None, cloud_to_device_message_count: int = None, authentication=None,
-    **kwargs)'
+  syntax: 'Module(*, module_id: str | None = None, managed_by: str | None = None,
+    device_id: str | None = None, generation_id: str | None = None, etag: str | None
+    = None, connection_state=None, connection_state_updated_time=None, last_activity_time=None,
+    cloud_to_device_message_count: int | None = None, authentication=None, **kwargs)'
   parameters:
   - name: module_id
     description: The unique identifier of the module.

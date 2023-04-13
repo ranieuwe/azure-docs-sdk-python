@@ -5,8 +5,7 @@ fullName: azure.mgmt.dynatrace.models.SendAadLogsStatus
 summary: Indicates whether AAD logs are being sent.
 module: azure.mgmt.dynatrace.models
 constructor:
-  syntax: SendAadLogsStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SendAadLogsStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

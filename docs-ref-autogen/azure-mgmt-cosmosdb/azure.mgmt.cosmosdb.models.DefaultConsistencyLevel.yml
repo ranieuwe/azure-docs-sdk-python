@@ -6,8 +6,7 @@ summary: The default consistency level and configuration settings of the Cosmos 
   account.
 module: azure.mgmt.cosmosdb.models
 constructor:
-  syntax: DefaultConsistencyLevel(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DefaultConsistencyLevel(value)
 inheritances:
 - builtins.str
 - enum.Enum

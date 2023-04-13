@@ -6,8 +6,7 @@ summary: The secondary type of the database if it is a secondary.  Valid values 
   Geo and Named.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: SecondaryType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SecondaryType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.datamigration.models.ProjectTargetPlatform
 summary: Target platform of the project
 module: azure.mgmt.datamigration.models
 constructor:
-  syntax: ProjectTargetPlatform(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ProjectTargetPlatform(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -6,8 +6,7 @@ summary: The operator type used for filtering, e.g., NumberIn, StringContains, B
   and others.
 module: azure.mgmt.eventgrid.models
 constructor:
-  syntax: AdvancedFilterOperatorType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: AdvancedFilterOperatorType(value)
 inheritances:
 - builtins.str
 - enum.Enum

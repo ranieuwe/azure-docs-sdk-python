@@ -5,8 +5,7 @@ fullName: azure.mgmt.hybridcompute.models.PatchModeTypes
 summary: Specifies the patch mode.
 module: azure.mgmt.hybridcompute.models
 constructor:
-  syntax: PatchModeTypes(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PatchModeTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

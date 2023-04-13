@@ -7,15 +7,16 @@ inheritances:
 - azure.ai.ml.entities._deployment.online_deployment.OnlineDeployment
 summary: Managed Online endpoint deployment entity.
 constructor:
-  syntax: 'ManagedOnlineDeployment(*, name: str, endpoint_name: str = None, tags:
-    Dict[str, Any] = None, properties: Dict[str, Any] = None, description: str = None,
-    model: str | Model = None, code_configuration: CodeConfiguration = None, environment:
-    str | Environment = None, app_insights_enabled: bool = False, scale_settings:
-    DefaultScaleSettings | TargetUtilizationScaleSettings = None, request_settings:
-    OnlineRequestSettings = None, liveness_probe: ProbeSettings = None, readiness_probe:
-    ProbeSettings = None, environment_variables: Dict[str, str] = None, instance_type:
-    str = None, instance_count: int = None, code_path: str | PathLike = None, scoring_script:
-    str | PathLike = None, egress_public_network_access=None, **kwargs)'
+  syntax: 'ManagedOnlineDeployment(*, name: str, endpoint_name: str | None = None,
+    tags: Dict[str, Any] | None = None, properties: Dict[str, Any] | None = None,
+    description: str | None = None, model: str | Model | None = None, code_configuration:
+    CodeConfiguration | None = None, environment: str | Environment | None = None,
+    app_insights_enabled: bool = False, scale_settings: DefaultScaleSettings | TargetUtilizationScaleSettings
+    | None = None, request_settings: OnlineRequestSettings | None = None, liveness_probe:
+    ProbeSettings | None = None, readiness_probe: ProbeSettings | None = None, environment_variables:
+    Dict[str, str] | None = None, instance_type: str | None = None, instance_count:
+    int | None = None, code_path: PathLike | str | None = None, scoring_script: PathLike
+    | str | None = None, egress_public_network_access=None, **kwargs)'
   parameters:
   - name: name
     description: Name of the resource.

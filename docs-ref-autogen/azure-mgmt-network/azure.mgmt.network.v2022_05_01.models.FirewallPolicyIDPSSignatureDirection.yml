@@ -8,8 +8,7 @@ summary: 'Describes in which direction signature is being enforced: 0 - Inbound,
   Bidirectional.'
 module: azure.mgmt.network.v2022_05_01.models
 constructor:
-  syntax: FirewallPolicyIDPSSignatureDirection(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: FirewallPolicyIDPSSignatureDirection(value)
 inheritances:
 - builtins.int
 - enum.Enum

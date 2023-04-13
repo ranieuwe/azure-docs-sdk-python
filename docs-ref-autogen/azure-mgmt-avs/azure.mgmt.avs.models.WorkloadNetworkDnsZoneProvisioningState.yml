@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.WorkloadNetworkDnsZoneProvisioningState
 summary: The provisioning state.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: WorkloadNetworkDnsZoneProvisioningState(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: WorkloadNetworkDnsZoneProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.OperationType
 summary: Re-Do Operation.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: OperationType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: OperationType(value)
 inheritances:
 - builtins.str
 - enum.Enum

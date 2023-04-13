@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningcompute.models.SystemServiceType
 summary: The system service type.
 module: azure.mgmt.machinelearningcompute.models
 constructor:
-  syntax: SystemServiceType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SystemServiceType(value)
 inheritances:
 - builtins.str
 - enum.Enum

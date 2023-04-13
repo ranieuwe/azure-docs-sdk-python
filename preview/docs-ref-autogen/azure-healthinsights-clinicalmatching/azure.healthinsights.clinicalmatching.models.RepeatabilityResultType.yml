@@ -5,8 +5,7 @@ fullName: azure.healthinsights.clinicalmatching.models.RepeatabilityResultType
 summary: Type of RepeatabilityResultType.
 module: azure.healthinsights.clinicalmatching.models
 constructor:
-  syntax: RepeatabilityResultType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RepeatabilityResultType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.servicefabricmanagedclusters.models.PartitionScheme
 summary: Enumerates the ways that a service can be partitioned.
 module: azure.mgmt.servicefabricmanagedclusters.models
 constructor:
-  syntax: PartitionScheme(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: PartitionScheme(value)
 inheritances:
 - builtins.str
 - enum.Enum

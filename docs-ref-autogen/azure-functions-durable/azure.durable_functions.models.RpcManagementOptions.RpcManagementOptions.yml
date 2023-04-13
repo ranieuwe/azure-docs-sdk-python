@@ -7,10 +7,11 @@ inheritances:
 - builtins.object
 summary: Class used to collect the options for getting orchestration status.
 constructor:
-  syntax: 'RpcManagementOptions(instance_id: str = None, task_hub_name: str = None,
-    connection_name: str = None, show_history: bool = None, show_history_output: bool
-    = None, created_time_from: datetime = None, created_time_to: datetime = None,
-    runtime_status: List[OrchestrationRuntimeStatus] = None, show_input: bool = None)'
+  syntax: 'RpcManagementOptions(instance_id: str | None = None, task_hub_name: str
+    | None = None, connection_name: str | None = None, show_history: bool | None =
+    None, show_history_output: bool | None = None, created_time_from: datetime | None
+    = None, created_time_to: datetime | None = None, runtime_status: List[OrchestrationRuntimeStatus]
+    | None = None, show_input: bool | None = None)'
   parameters:
   - name: instance_id
     defaultValue: None

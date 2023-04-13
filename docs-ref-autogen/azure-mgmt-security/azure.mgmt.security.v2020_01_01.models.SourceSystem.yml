@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2020_01_01.models.SourceSystem
 summary: The source type of the machine group.
 module: azure.mgmt.security.v2020_01_01.models
 constructor:
-  syntax: SourceSystem(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SourceSystem(value)
 inheritances:
 - builtins.str
 - enum.Enum

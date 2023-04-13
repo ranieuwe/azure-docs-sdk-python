@@ -5,8 +5,7 @@ fullName: azure.mgmt.sql.models.GeoBackupPolicyState
 summary: The state of the geo backup policy.
 module: azure.mgmt.sql.models
 constructor:
-  syntax: GeoBackupPolicyState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: GeoBackupPolicyState(value)
 inheritances:
 - builtins.str
 - enum.Enum

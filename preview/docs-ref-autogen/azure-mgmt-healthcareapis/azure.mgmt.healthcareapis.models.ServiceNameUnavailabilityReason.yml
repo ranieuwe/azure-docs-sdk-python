@@ -5,8 +5,7 @@ fullName: azure.mgmt.healthcareapis.models.ServiceNameUnavailabilityReason
 summary: The reason for unavailability.
 module: azure.mgmt.healthcareapis.models
 constructor:
-  syntax: ServiceNameUnavailabilityReason(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ServiceNameUnavailabilityReason(value)
 inheritances:
 - builtins.str
 - enum.Enum

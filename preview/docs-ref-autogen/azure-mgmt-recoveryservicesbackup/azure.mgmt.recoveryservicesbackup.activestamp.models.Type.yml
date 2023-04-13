@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.Type
 summary: Backup management type for this container.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: Type(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: Type(value)
 inheritances:
 - builtins.str
 - enum.Enum

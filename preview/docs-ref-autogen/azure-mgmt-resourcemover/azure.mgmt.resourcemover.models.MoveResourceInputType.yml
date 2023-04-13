@@ -5,8 +5,7 @@ fullName: azure.mgmt.resourcemover.models.MoveResourceInputType
 summary: Defines the move resource input type.
 module: azure.mgmt.resourcemover.models
 constructor:
-  syntax: MoveResourceInputType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MoveResourceInputType(value)
 inheritances:
 - builtins.str
 - enum.Enum

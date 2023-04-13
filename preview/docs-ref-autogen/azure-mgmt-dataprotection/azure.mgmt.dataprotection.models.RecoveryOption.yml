@@ -5,8 +5,7 @@ fullName: azure.mgmt.dataprotection.models.RecoveryOption
 summary: Recovery Option.
 module: azure.mgmt.dataprotection.models
 constructor:
-  syntax: RecoveryOption(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecoveryOption(value)
 inheritances:
 - builtins.str
 - enum.Enum

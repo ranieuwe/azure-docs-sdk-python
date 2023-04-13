@@ -5,8 +5,7 @@ fullName: azure.mgmt.applicationinsights.v2015_05_01.models.ItemType
 summary: Enum indicating the type of the Analytics item.
 module: azure.mgmt.applicationinsights.v2015_05_01.models
 constructor:
-  syntax: ItemType(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: ItemType(value)
 inheritances:
 - builtins.str
 - enum.Enum

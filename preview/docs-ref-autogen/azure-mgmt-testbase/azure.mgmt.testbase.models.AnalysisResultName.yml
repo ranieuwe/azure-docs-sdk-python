@@ -5,8 +5,7 @@ fullName: azure.mgmt.testbase.models.AnalysisResultName
 summary: AnalysisResultName.
 module: azure.mgmt.testbase.models
 constructor:
-  syntax: AnalysisResultName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AnalysisResultName(value)
 inheritances:
 - builtins.str
 - enum.Enum

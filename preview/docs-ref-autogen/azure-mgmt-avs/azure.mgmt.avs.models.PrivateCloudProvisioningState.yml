@@ -5,8 +5,7 @@ fullName: azure.mgmt.avs.models.PrivateCloudProvisioningState
 summary: The provisioning state.
 module: azure.mgmt.avs.models
 constructor:
-  syntax: PrivateCloudProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: PrivateCloudProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

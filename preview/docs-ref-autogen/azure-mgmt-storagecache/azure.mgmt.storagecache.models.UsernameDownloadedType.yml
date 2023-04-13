@@ -6,8 +6,7 @@ summary: Indicates whether or not the HPC Cache has performed the username downl
   successfully.
 module: azure.mgmt.storagecache.models
 constructor:
-  syntax: UsernameDownloadedType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: UsernameDownloadedType(value)
 inheritances:
 - builtins.str
 - enum.Enum

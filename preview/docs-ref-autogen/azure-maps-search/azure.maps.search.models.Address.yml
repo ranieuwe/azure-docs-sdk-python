@@ -7,14 +7,16 @@ inheritances:
 - builtins.object
 summary: The address of the result.
 constructor:
-  syntax: 'Address(*, building_number: str = None, street: str = None, cross_street:
-    str = None, street_number: str = None, route_numbers: List[int] = None, street_name:
-    str = None, street_name_and_number: str = None, municipality: str = None, municipality_subdivision:
-    str = None, country_tertiary_subdivision: str = None, country_secondary_subdivision:
-    str = None, country_subdivision: str = None, postal_code: str = None, extended_postal_code:
-    str = None, country_code: str = None, country: str = None, country_code_iso3:
-    str = None, freeform_address: str = None, country_subdivision_name: str = None,
-    local_name: str = None, bounding_box: BoundingBox = None)'
+  syntax: 'Address(*, building_number: str | None = None, street: str | None = None,
+    cross_street: str | None = None, street_number: str | None = None, route_numbers:
+    List[int] | None = None, street_name: str | None = None, street_name_and_number:
+    str | None = None, municipality: str | None = None, municipality_subdivision:
+    str | None = None, country_tertiary_subdivision: str | None = None, country_secondary_subdivision:
+    str | None = None, country_subdivision: str | None = None, postal_code: str |
+    None = None, extended_postal_code: str | None = None, country_code: str | None
+    = None, country: str | None = None, country_code_iso3: str | None = None, freeform_address:
+    str | None = None, country_subdivision_name: str | None = None, local_name: str
+    | None = None, bounding_box: BoundingBox | None = None)'
   parameters:
   - name: building_number
     description: The building number on the street.

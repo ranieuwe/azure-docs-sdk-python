@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.activestamp.models.TargetDiskNetwork
 summary: Network access settings to be used for restored disks.
 module: azure.mgmt.recoveryservicesbackup.activestamp.models
 constructor:
-  syntax: TargetDiskNetworkAccessOption(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: TargetDiskNetworkAccessOption(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.security.attestation.CertificateModification
 summary: The result of the operation
 module: azure.security.attestation
 constructor:
-  syntax: CertificateModification(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CertificateModification(value)
 inheritances:
 - builtins.str
 - enum.Enum

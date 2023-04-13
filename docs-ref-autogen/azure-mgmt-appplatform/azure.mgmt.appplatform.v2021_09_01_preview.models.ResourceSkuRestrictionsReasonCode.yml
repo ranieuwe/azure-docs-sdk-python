@@ -7,8 +7,7 @@ summary: 'Gets the reason for restriction. Possible values include: ''QuotaId'',
   ''NotAvailableForSubscription'''
 module: azure.mgmt.appplatform.v2021_09_01_preview.models
 constructor:
-  syntax: ResourceSkuRestrictionsReasonCode(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ResourceSkuRestrictionsReasonCode(value)
 inheritances:
 - builtins.str
 - enum.Enum

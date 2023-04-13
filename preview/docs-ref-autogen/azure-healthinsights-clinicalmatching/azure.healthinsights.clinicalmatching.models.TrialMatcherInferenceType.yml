@@ -5,8 +5,7 @@ fullName: azure.healthinsights.clinicalmatching.models.TrialMatcherInferenceType
 summary: The type of the Trial Matcher inference.
 module: azure.healthinsights.clinicalmatching.models
 constructor:
-  syntax: TrialMatcherInferenceType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: TrialMatcherInferenceType(value)
 inheritances:
 - builtins.str
 - enum.Enum

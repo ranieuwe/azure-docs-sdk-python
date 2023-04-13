@@ -7,11 +7,12 @@ inheritances:
 - msrest.serialization.Model
 summary: ServiceBusBrokeredMessageProperties.
 constructor:
-  syntax: 'ServiceBusBrokeredMessageProperties(*, content_type: str = None, correlation_id:
-    str = None, force_persistence: bool = None, label: str = None, message_id: str
-    = None, partition_key: str = None, reply_to: str = None, reply_to_session_id:
-    str = None, scheduled_enqueue_time_utc=None, session_id: str = None, time_to_live=None,
-    to: str = None, via_partition_key: str = None, **kwargs)'
+  syntax: 'ServiceBusBrokeredMessageProperties(*, content_type: str | None = None,
+    correlation_id: str | None = None, force_persistence: bool | None = None, label:
+    str | None = None, message_id: str | None = None, partition_key: str | None =
+    None, reply_to: str | None = None, reply_to_session_id: str | None = None, scheduled_enqueue_time_utc=None,
+    session_id: str | None = None, time_to_live=None, to: str | None = None, via_partition_key:
+    str | None = None, **kwargs)'
   parameters:
   - name: content_type
     description: Gets or sets the content type.

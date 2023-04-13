@@ -5,8 +5,7 @@ fullName: azure.mgmt.dashboard.models.DeterministicOutboundIP
 summary: DeterministicOutboundIP.
 module: azure.mgmt.dashboard.models
 constructor:
-  syntax: DeterministicOutboundIP(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DeterministicOutboundIP(value)
 inheritances:
 - builtins.str
 - enum.Enum

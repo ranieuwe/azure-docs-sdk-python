@@ -10,9 +10,10 @@ summary: 'Properties describing facial emotion in form of confidence ranging fro
 
   to 1.'
 constructor:
-  syntax: 'Emotion(*, anger: float = None, contempt: float = None, disgust: float
-    = None, fear: float = None, happiness: float = None, neutral: float = None, sadness:
-    float = None, surprise: float = None, **kwargs)'
+  syntax: 'Emotion(*, anger: float | None = None, contempt: float | None = None, disgust:
+    float | None = None, fear: float | None = None, happiness: float | None = None,
+    neutral: float | None = None, sadness: float | None = None, surprise: float |
+    None = None, **kwargs)'
   parameters:
   - name: anger
     isRequired: true

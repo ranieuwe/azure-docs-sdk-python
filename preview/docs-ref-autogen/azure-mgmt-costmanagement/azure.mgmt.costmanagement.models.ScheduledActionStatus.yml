@@ -5,8 +5,7 @@ fullName: azure.mgmt.costmanagement.models.ScheduledActionStatus
 summary: Status of the scheduled action.
 module: azure.mgmt.costmanagement.models
 constructor:
-  syntax: ScheduledActionStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ScheduledActionStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

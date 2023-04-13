@@ -5,8 +5,7 @@ fullName: azure.mgmt.resourcehealth.v2018_07_01.models.EventStatusValues
 summary: Current status of event.
 module: azure.mgmt.resourcehealth.v2018_07_01.models
 constructor:
-  syntax: EventStatusValues(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EventStatusValues(value)
 inheritances:
 - builtins.str
 - enum.Enum

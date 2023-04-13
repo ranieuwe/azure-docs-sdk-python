@@ -10,9 +10,9 @@ summary: 'Command component that contains the training command and supporting
   parameters for the command.'
 constructor:
   syntax: 'ParameterizedCommand(command: str = '''', resources: dict | JobResourceConfiguration
-    = None, code: str = None, environment_variables: Dict = None, distribution: dict
-    | MpiDistribution | TensorFlowDistribution | PyTorchDistribution = None, environment:
-    Environment | str = None, **kwargs)'
+    | None = None, code: str | None = None, environment_variables: Dict | None = None,
+    distribution: dict | MpiDistribution | TensorFlowDistribution | PyTorchDistribution
+    | None = None, environment: str | Environment | None = None, **kwargs)'
   parameters:
   - name: command
     description: Command to be executed in training.

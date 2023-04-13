@@ -8,8 +8,7 @@ summary: 'Create mode to indicate recovery of existing soft deleted data source 
   source.'
 module: azure.mgmt.recoveryservicesbackup.passivestamp.models
 constructor:
-  syntax: CreateMode(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: CreateMode(value)
 inheritances:
 - builtins.str
 - enum.Enum

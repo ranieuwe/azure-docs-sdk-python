@@ -5,8 +5,7 @@ fullName: azure.mgmt.batchai.models.VmPriority
 summary: 'VM priority. Allowed values are: dedicated (default) and lowpriority.'
 module: azure.mgmt.batchai.models
 constructor:
-  syntax: VmPriority(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: VmPriority(value)
 inheritances:
 - builtins.str
 - enum.Enum

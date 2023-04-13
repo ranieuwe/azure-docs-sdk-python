@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2020_04_01.models.ConnectionMonitorSourceStatus
 summary: Status of connection monitor source.
 module: azure.mgmt.network.v2020_04_01.models
 constructor:
-  syntax: ConnectionMonitorSourceStatus(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ConnectionMonitorSourceStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

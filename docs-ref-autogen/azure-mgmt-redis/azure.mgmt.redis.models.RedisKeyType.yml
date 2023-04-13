@@ -5,8 +5,7 @@ fullName: azure.mgmt.redis.models.RedisKeyType
 summary: The Redis access key to regenerate.
 module: azure.mgmt.redis.models
 constructor:
-  syntax: RedisKeyType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RedisKeyType(value)
 inheritances:
 - builtins.str
 - enum.Enum

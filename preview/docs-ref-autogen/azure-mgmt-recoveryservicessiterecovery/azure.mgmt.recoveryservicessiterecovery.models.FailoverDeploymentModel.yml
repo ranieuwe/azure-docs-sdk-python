@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicessiterecovery.models.FailoverDeploymentModel
 summary: The failover deployment model.
 module: azure.mgmt.recoveryservicessiterecovery.models
 constructor:
-  syntax: FailoverDeploymentModel(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: FailoverDeploymentModel(value)
 inheritances:
 - builtins.str
 - enum.Enum

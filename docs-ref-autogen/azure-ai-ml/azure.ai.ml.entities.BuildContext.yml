@@ -7,7 +7,7 @@ inheritances:
 - builtins.object
 summary: Docker build context for Environment.
 constructor:
-  syntax: 'BuildContext(*, dockerfile_path: str | None = None, path: str | PathLike
+  syntax: 'BuildContext(*, dockerfile_path: str | None = None, path: PathLike | str
     | None = None)'
   parameters:
   - name: path

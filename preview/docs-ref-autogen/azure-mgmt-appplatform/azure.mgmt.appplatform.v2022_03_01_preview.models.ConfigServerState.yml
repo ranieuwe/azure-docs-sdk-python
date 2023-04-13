@@ -5,8 +5,7 @@ fullName: azure.mgmt.appplatform.v2022_03_01_preview.models.ConfigServerState
 summary: State of the config server.
 module: azure.mgmt.appplatform.v2022_03_01_preview.models
 constructor:
-  syntax: ConfigServerState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ConfigServerState(value)
 inheritances:
 - builtins.str
 - enum.Enum

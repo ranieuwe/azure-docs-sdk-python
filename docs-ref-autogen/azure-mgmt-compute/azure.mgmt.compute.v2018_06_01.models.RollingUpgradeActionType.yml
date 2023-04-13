@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2018_06_01.models.RollingUpgradeActionType
 summary: The last action performed on the rolling upgrade.
 module: azure.mgmt.compute.v2018_06_01.models
 constructor:
-  syntax: RollingUpgradeActionType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RollingUpgradeActionType(value)
 inheritances:
 - builtins.str
 - enum.Enum

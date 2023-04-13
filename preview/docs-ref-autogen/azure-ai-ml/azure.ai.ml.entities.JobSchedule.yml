@@ -12,8 +12,8 @@ inheritances:
 summary: JobSchedule object.
 constructor:
   syntax: 'JobSchedule(*, name: str, trigger: CronTrigger | RecurrenceTrigger, create_job:
-    Job, display_name: str = None, description: str = None, tags: Dict = None, properties:
-    Dict = None, **kwargs)'
+    Job, display_name: str | None = None, description: str | None = None, tags: Dict
+    | None = None, properties: Dict | None = None, **kwargs)'
   parameters:
   - name: name
     description: Name of the schedule.

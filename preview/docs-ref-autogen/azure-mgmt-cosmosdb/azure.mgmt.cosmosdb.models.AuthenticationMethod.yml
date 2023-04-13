@@ -11,8 +11,7 @@ summary: 'Which authentication method Cassandra should use to authenticate clien
   password based authentication. The default is ''Cassandra''. ''Ldap'' is in preview.'
 module: azure.mgmt.cosmosdb.models
 constructor:
-  syntax: AuthenticationMethod(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AuthenticationMethod(value)
 inheritances:
 - builtins.str
 - enum.Enum

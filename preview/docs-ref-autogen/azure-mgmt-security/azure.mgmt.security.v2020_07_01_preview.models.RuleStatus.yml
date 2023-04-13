@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2020_07_01_preview.models.RuleStatus
 summary: The rule result status.
 module: azure.mgmt.security.v2020_07_01_preview.models
 constructor:
-  syntax: RuleStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RuleStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

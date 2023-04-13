@@ -2,10 +2,10 @@
 uid: uamqp.constants.ManagementLinkState
 name: ManagementLinkState
 fullName: uamqp.constants.ManagementLinkState
+summary: An enumeration.
 module: uamqp.constants
 constructor:
-  syntax: ManagementLinkState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ManagementLinkState(value)
 inheritances:
 - enum.Enum
 fields:

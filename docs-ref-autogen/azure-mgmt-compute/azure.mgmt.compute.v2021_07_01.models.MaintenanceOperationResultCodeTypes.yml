@@ -5,8 +5,7 @@ fullName: azure.mgmt.compute.v2021_07_01.models.MaintenanceOperationResultCodeTy
 summary: The Last Maintenance Operation Result Code.
 module: azure.mgmt.compute.v2021_07_01.models
 constructor:
-  syntax: MaintenanceOperationResultCodeTypes(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: MaintenanceOperationResultCodeTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

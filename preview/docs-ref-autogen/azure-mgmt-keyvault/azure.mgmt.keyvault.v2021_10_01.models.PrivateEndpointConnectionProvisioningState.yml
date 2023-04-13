@@ -5,8 +5,7 @@ fullName: azure.mgmt.keyvault.v2021_10_01.models.PrivateEndpointConnectionProvis
 summary: The current provisioning state.
 module: azure.mgmt.keyvault.v2021_10_01.models
 constructor:
-  syntax: PrivateEndpointConnectionProvisioningState(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: PrivateEndpointConnectionProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

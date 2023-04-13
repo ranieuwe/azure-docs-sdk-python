@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.SslProtocolOperator
 summary: Describes operator to be matched
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: SslProtocolOperator(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SslProtocolOperator(value)
 inheritances:
 - builtins.str
 - enum.Enum

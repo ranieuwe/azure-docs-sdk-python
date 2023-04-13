@@ -14,8 +14,7 @@ summary: 'The rule state. Used to delete a rule. To delete an existing rule, spe
   the provided value of ruleState.'
 module: azure.mgmt.synapse.models
 constructor:
-  syntax: DataMaskingRuleState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DataMaskingRuleState(value)
 inheritances:
 - builtins.str
 - enum.Enum

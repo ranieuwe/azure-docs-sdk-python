@@ -13,8 +13,7 @@ summary: 'The Azure VM size of the agent VM nodes. This cannot be changed once t
   sizes.'
 module: azure.mgmt.machinelearningcompute.models
 constructor:
-  syntax: AgentVMSizeTypes(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: AgentVMSizeTypes(value)
 inheritances:
 - builtins.str
 - enum.Enum

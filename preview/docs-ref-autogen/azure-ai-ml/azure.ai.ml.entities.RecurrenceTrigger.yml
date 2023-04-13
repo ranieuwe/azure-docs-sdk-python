@@ -8,8 +8,8 @@ inheritances:
 summary: Recurrence trigger
 constructor:
   syntax: 'RecurrenceTrigger(*, frequency: str, interval: int, schedule: RecurrencePattern
-    = None, start_time: str | datetime = None, end_time: str | datetime = None, time_zone:
-    str | TimeZone = TimeZone.UTC)'
+    | None = None, start_time: str | datetime | None = None, end_time: str | datetime
+    | None = None, time_zone: str | TimeZone = TimeZone.UTC)'
   parameters:
   - name: start_time
     description: Specifies start time of schedule in ISO 8601 format.

@@ -5,8 +5,7 @@ fullName: azure.mgmt.security.v2019_01_01_preview.models.RuleState
 summary: Possible states of the rule.
 module: azure.mgmt.security.v2019_01_01_preview.models
 constructor:
-  syntax: RuleState(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: RuleState(value)
 inheritances:
 - builtins.str
 - enum.Enum

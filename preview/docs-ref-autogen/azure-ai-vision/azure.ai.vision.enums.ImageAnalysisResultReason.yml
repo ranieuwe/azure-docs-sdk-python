@@ -5,8 +5,7 @@ fullName: azure.ai.vision.enums.ImageAnalysisResultReason
 summary: Represents the reasons why an Image Analysis operation concluded.
 module: azure.ai.vision.enums
 constructor:
-  syntax: ImageAnalysisResultReason(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: ImageAnalysisResultReason(value)
 inheritances:
 - enum.Enum
 fields:

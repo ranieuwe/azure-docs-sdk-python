@@ -20,8 +20,7 @@ summary: 'Provisioning state of the File Server. Possible values: creating - The
   creation has succeeded.'
 module: azure.mgmt.batchai.models
 constructor:
-  syntax: FileServerProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: FileServerProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

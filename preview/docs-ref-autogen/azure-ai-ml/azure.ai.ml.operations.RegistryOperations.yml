@@ -15,8 +15,8 @@ summary: 'RegistryOperations.
   attaches it as an attribute.'
 constructor:
   syntax: 'RegistryOperations(operation_scope: OperationScope, service_client: AzureMachineLearningWorkspaces,
-    all_operations: OperationsContainer, credentials: TokenCredential = None, **kwargs:
-    Dict)'
+    all_operations: OperationsContainer, credentials: TokenCredential | None = None,
+    **kwargs: Dict)'
   parameters:
   - name: operation_scope
   - name: service_client

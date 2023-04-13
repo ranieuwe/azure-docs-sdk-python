@@ -5,8 +5,7 @@ fullName: azure.mgmt.newrelicobservability.models.SendMetricsStatus
 summary: Indicates whether metrics are being sent.
 module: azure.mgmt.newrelicobservability.models
 constructor:
-  syntax: SendMetricsStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SendMetricsStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

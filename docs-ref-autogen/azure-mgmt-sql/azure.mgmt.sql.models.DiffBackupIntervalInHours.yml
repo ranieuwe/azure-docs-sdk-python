@@ -11,8 +11,7 @@ summary: 'The differential backup interval in hours. This is how many interval h
   dropped databases.'
 module: azure.mgmt.sql.models
 constructor:
-  syntax: DiffBackupIntervalInHours(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: DiffBackupIntervalInHours(value)
 inheritances:
 - builtins.int
 - enum.Enum

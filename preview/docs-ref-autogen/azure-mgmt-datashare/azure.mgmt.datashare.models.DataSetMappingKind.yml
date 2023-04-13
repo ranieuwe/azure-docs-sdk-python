@@ -5,8 +5,7 @@ fullName: azure.mgmt.datashare.models.DataSetMappingKind
 summary: Kind of data set mapping.
 module: azure.mgmt.datashare.models
 constructor:
-  syntax: DataSetMappingKind(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: DataSetMappingKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

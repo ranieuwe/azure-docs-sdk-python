@@ -15,8 +15,7 @@ summary: 'Communication Identifier Kind.
   as it could become a new or existing distinct type in the future.'
 module: azure.communication.identity
 constructor:
-  syntax: CommunicationIdentifierKind(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CommunicationIdentifierKind(value)
 inheritances:
 - builtins.str
 - enum.Enum

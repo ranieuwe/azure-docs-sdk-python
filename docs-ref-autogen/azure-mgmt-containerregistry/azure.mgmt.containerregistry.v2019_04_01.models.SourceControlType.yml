@@ -5,8 +5,7 @@ fullName: azure.mgmt.containerregistry.v2019_04_01.models.SourceControlType
 summary: The type of source control service.
 module: azure.mgmt.containerregistry.v2019_04_01.models
 constructor:
-  syntax: SourceControlType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: SourceControlType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.machinelearningservices.models.RegressionModels
 summary: Enum for all Regression models supported by AutoML.
 module: azure.mgmt.machinelearningservices.models
 constructor:
-  syntax: RegressionModels(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RegressionModels(value)
 inheritances:
 - builtins.str
 - enum.Enum

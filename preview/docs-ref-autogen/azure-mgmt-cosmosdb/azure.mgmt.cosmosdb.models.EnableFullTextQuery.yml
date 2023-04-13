@@ -5,8 +5,7 @@ fullName: azure.mgmt.cosmosdb.models.EnableFullTextQuery
 summary: Describe the level of detail with which queries are to be logged.
 module: azure.mgmt.cosmosdb.models
 constructor:
-  syntax: EnableFullTextQuery(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: EnableFullTextQuery(value)
 inheritances:
 - builtins.str
 - enum.Enum

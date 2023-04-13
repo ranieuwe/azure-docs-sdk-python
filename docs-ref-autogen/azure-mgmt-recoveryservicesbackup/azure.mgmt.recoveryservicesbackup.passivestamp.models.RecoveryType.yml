@@ -5,8 +5,7 @@ fullName: azure.mgmt.recoveryservicesbackup.passivestamp.models.RecoveryType
 summary: Type of this recovery.
 module: azure.mgmt.recoveryservicesbackup.passivestamp.models
 constructor:
-  syntax: RecoveryType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecoveryType(value)
 inheritances:
 - builtins.str
 - enum.Enum

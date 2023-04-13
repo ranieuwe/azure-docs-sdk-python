@@ -11,7 +11,7 @@ constructor:
   syntax: 'ParameterizedCommand(command: str = '''', resources: dict | JobResourceConfiguration
     | None = None, code: str | None = None, environment_variables: Dict | None = None,
     distribution: dict | MpiDistribution | TensorFlowDistribution | PyTorchDistribution
-    | None = None, environment: Environment | str | None = None, queue_settings: QueueSettings
+    | None = None, environment: str | Environment | None = None, queue_settings: QueueSettings
     | None = None, **kwargs)'
   parameters:
   - name: command

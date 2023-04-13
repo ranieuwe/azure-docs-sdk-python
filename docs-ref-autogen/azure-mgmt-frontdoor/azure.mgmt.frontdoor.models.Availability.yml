@@ -5,8 +5,7 @@ fullName: azure.mgmt.frontdoor.models.Availability
 summary: Indicates whether the name is available.
 module: azure.mgmt.frontdoor.models
 constructor:
-  syntax: Availability(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: Availability(value)
 inheritances:
 - builtins.str
 - enum.Enum

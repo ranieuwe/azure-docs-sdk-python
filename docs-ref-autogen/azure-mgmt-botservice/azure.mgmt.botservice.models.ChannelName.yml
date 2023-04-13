@@ -5,8 +5,7 @@ fullName: azure.mgmt.botservice.models.ChannelName
 summary: ChannelName.
 module: azure.mgmt.botservice.models
 constructor:
-  syntax: ChannelName(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ChannelName(value)
 inheritances:
 - builtins.str
 - enum.Enum

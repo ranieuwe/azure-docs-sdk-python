@@ -8,8 +8,7 @@ summary: 'Type of cluster manager: Windows Server Failover Cluster (WSFC), impli
   the group and the OS type.'
 module: azure.mgmt.sqlvirtualmachine.models
 constructor:
-  syntax: ClusterManagerType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ClusterManagerType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -14,8 +14,7 @@ summary: 'Specifies whether or not to record twin / relationship property and it
   an additional column in the property events table in ADX.'
 module: azure.mgmt.digitaltwins.v2023_01_31.models
 constructor:
-  syntax: RecordPropertyAndItemRemovals(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: RecordPropertyAndItemRemovals(value)
 inheritances:
 - builtins.str
 - enum.Enum

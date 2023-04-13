@@ -5,8 +5,7 @@ fullName: azure.containerregistry.ArtifactTagOrder
 summary: Sort options for ordering tags in a collection.
 module: azure.containerregistry
 constructor:
-  syntax: ArtifactTagOrder(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ArtifactTagOrder(value)
 inheritances:
 - builtins.str
 - enum.Enum

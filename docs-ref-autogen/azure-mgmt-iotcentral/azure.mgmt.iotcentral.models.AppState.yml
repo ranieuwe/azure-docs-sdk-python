@@ -5,8 +5,7 @@ fullName: azure.mgmt.iotcentral.models.AppState
 summary: The current state of the application.
 module: azure.mgmt.iotcentral.models
 constructor:
-  syntax: AppState(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: AppState(value)
 inheritances:
 - builtins.str
 - enum.Enum

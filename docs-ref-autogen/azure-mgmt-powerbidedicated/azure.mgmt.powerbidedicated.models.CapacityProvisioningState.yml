@@ -8,8 +8,7 @@ summary: 'The current deployment state of PowerBI Dedicated resource. The provis
   indicate states for resource provisioning.'
 module: azure.mgmt.powerbidedicated.models
 constructor:
-  syntax: CapacityProvisioningState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: CapacityProvisioningState(value)
 inheritances:
 - builtins.str
 - enum.Enum

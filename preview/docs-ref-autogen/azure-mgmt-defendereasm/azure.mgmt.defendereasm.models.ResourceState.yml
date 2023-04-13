@@ -5,8 +5,7 @@ fullName: azure.mgmt.defendereasm.models.ResourceState
 summary: Resources provisioning states.
 module: azure.mgmt.defendereasm.models
 constructor:
-  syntax: ResourceState(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ResourceState(value)
 inheritances:
 - builtins.str
 - enum.Enum

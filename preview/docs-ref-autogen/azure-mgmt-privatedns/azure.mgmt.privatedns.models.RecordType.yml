@@ -5,8 +5,7 @@ fullName: azure.mgmt.privatedns.models.RecordType
 summary: RecordType.
 module: azure.mgmt.privatedns.models
 constructor:
-  syntax: RecordType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecordType(value)
 inheritances:
 - builtins.str
 - enum.Enum

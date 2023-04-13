@@ -2,10 +2,10 @@
 uid: azure.cognitiveservices.search.visualsearch.models.ItemAvailability
 name: ItemAvailability
 fullName: azure.cognitiveservices.search.visualsearch.models.ItemAvailability
+summary: An enumeration.
 module: azure.cognitiveservices.search.visualsearch.models
 constructor:
-  syntax: ItemAvailability(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ItemAvailability(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -10,7 +10,7 @@ summary: 'Information about the current in-progress upgrade domain. Not applicab
 
   node-by-node upgrades.'
 constructor:
-  syntax: 'CurrentUpgradeDomainProgressInfo(*, domain_name: str = None, node_upgrade_progress_list=None,
+  syntax: 'CurrentUpgradeDomainProgressInfo(*, domain_name: str | None = None, node_upgrade_progress_list=None,
     **kwargs)'
   parameters:
   - name: domain_name

@@ -10,8 +10,9 @@ summary: 'Result object for a Search Address Reverse response.
 
   Variables are only populated by the server, and will be ignored when sending a request.'
 constructor:
-  syntax: 'ReverseSearchAddressResultItem(*, address: Address = None, position: LatLon
-    = None, road_use: List[str] = None, match_type: str = None)'
+  syntax: 'ReverseSearchAddressResultItem(*, address: Address | None = None, position:
+    LatLon | None = None, road_use: List[str] | None = None, match_type: str | None
+    = None)'
   parameters:
   - name: address
     description: The address of the result.

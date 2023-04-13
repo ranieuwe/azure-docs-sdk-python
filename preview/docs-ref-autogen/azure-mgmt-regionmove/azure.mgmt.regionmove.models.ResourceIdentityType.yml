@@ -5,8 +5,7 @@ fullName: azure.mgmt.regionmove.models.ResourceIdentityType
 summary: The type of identity used for the region move service.
 module: azure.mgmt.regionmove.models
 constructor:
-  syntax: ResourceIdentityType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: ResourceIdentityType(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -11,8 +11,7 @@ summary: 'This imposes restrictions on which nodes can be assigned to the pool. 
   specified, this value defaults to ''Disabled''.'
 module: azure.mgmt.batch.models
 constructor:
-  syntax: InterNodeCommunicationState(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: InterNodeCommunicationState(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.education.models.JoinRequestStatus
 summary: Join request status.
 module: azure.mgmt.education.models
 constructor:
-  syntax: JoinRequestStatus(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: JoinRequestStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

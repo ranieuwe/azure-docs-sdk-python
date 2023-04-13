@@ -5,8 +5,7 @@ fullName: azure.mgmt.cdn.models.SocketAddrMatchConditionParametersTypeName
 summary: SocketAddrMatchConditionParametersTypeName.
 module: azure.mgmt.cdn.models
 constructor:
-  syntax: SocketAddrMatchConditionParametersTypeName(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: SocketAddrMatchConditionParametersTypeName(value)
 inheritances:
 - builtins.str
 - enum.Enum

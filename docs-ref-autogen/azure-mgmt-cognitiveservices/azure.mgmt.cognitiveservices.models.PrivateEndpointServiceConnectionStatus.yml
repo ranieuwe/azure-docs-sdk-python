@@ -5,8 +5,7 @@ fullName: azure.mgmt.cognitiveservices.models.PrivateEndpointServiceConnectionSt
 summary: The private endpoint connection status.
 module: azure.mgmt.cognitiveservices.models
 constructor:
-  syntax: PrivateEndpointServiceConnectionStatus(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: PrivateEndpointServiceConnectionStatus(value)
 inheritances:
 - builtins.str
 - enum.Enum

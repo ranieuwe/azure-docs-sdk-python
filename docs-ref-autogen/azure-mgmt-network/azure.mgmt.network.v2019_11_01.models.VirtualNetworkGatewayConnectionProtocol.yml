@@ -5,8 +5,7 @@ fullName: azure.mgmt.network.v2019_11_01.models.VirtualNetworkGatewayConnectionP
 summary: Gateway connection protocol.
 module: azure.mgmt.network.v2019_11_01.models
 constructor:
-  syntax: VirtualNetworkGatewayConnectionProtocol(value, names=None, *, module=None,
-    qualname=None, type=None, start=1, boundary=None)
+  syntax: VirtualNetworkGatewayConnectionProtocol(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -5,8 +5,7 @@ fullName: azure.mgmt.dns.v2016_04_01.models.RecordType
 summary: RecordType.
 module: azure.mgmt.dns.v2016_04_01.models
 constructor:
-  syntax: RecordType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecordType(value)
 inheritances:
 - builtins.str
 - enum.Enum

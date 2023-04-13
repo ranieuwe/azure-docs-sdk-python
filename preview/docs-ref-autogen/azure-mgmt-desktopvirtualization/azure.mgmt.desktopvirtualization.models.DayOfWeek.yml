@@ -5,8 +5,7 @@ fullName: azure.mgmt.desktopvirtualization.models.DayOfWeek
 summary: Day of the week.
 module: azure.mgmt.desktopvirtualization.models
 constructor:
-  syntax: DayOfWeek(value, names=None, *, module=None, qualname=None, type=None, start=1,
-    boundary=None)
+  syntax: DayOfWeek(value)
 inheritances:
 - builtins.str
 - enum.Enum

@@ -6,8 +6,7 @@ summary: Gets or sets the frequency of recurrence (second, minute, hour, day, we
   month).
 module: azure.mgmt.scheduler.models
 constructor:
-  syntax: RecurrenceFrequency(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: RecurrenceFrequency(value)
 inheritances:
 - builtins.str
 - enum.Enum

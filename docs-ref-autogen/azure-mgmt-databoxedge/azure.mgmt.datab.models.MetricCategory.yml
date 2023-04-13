@@ -5,8 +5,7 @@ fullName: azure.mgmt.datab.models.MetricCategory
 summary: Metric category.
 module: azure.mgmt.datab.models
 constructor:
-  syntax: MetricCategory(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: MetricCategory(value)
 inheritances:
 - builtins.str
 - enum.Enum

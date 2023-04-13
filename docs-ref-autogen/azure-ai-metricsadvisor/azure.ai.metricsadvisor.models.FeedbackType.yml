@@ -5,8 +5,7 @@ fullName: azure.ai.metricsadvisor.models.FeedbackType
 summary: feedback type
 module: azure.ai.metricsadvisor.models
 constructor:
-  syntax: FeedbackType(value, names=None, *, module=None, qualname=None, type=None,
-    start=1, boundary=None)
+  syntax: FeedbackType(value)
 inheritances:
 - builtins.str
 - enum.Enum
