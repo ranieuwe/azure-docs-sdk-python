@@ -1,0 +1,14 @@
+{
+  "Name": "azure-ai-personalizer",
+  "Version": "1.0.0a20230413001",
+  "DevVersion": "1.0.0a20230413001",
+  "DirectoryPath": "sdk/personalizer/azure-ai-personalizer",
+  "ServiceDirectory": "personalizer",
+  "ReadMePath": "sdk/personalizer/azure-ai-personalizer/README.md",
+  "ChangeLogPath": "sdk/personalizer/azure-ai-personalizer/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-personalizer",
+  "ReleaseStatus": "Unreleased"
+}
