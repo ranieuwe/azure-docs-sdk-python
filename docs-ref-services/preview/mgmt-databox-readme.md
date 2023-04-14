@@ -3,12 +3,11 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-databox, databox
 author: lmazuel
 ms.author: lmazuel
-ms.date: 02/13/2023
+ms.date: 04/14/2023
 ms.topic: reference
 ms.devlang: python
 ms.service: databox
 ---
-
 # Microsoft Azure SDK for Python
 
 This is the Microsoft Azure Data Box Management Client Library.
